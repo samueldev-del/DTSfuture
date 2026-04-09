@@ -36,6 +36,11 @@ function getLocalizedMeta(locale: Locale, route: RouteKey) {
         title: meta.bolo237Title,
         description: meta.bolo237Description,
       };
+    case "storyPage":
+      return {
+        title: meta.storyTitle,
+        description: meta.storyDescription,
+      };
     case "privacy":
       return {
         title: meta.privacyTitle,

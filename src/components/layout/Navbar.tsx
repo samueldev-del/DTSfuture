@@ -13,7 +13,6 @@ import { getLocalizedPath, getRouteFromPathname } from "@/src/i18n/routing";
 
 const sectionLinks = [
   { href: "/#adn", id: "adn", labelKey: "dna" },
-  { href: "/#histoire", id: "histoire", labelKey: "story" },
 ] as const;
 
 type HomeSectionId = "accueil" | (typeof sectionLinks)[number]["id"];
@@ -27,6 +26,7 @@ export function Navbar() {
   const homePath = getLocalizedPath(locale, "home");
   const currentRoute = getRouteFromPathname(pathname);
   const productsActive = currentRoute === "products" || currentRoute === "bolo237";
+  const storyActive = currentRoute === "storyPage";
 
   useEffect(() => {
     function onScroll() {
@@ -130,6 +130,18 @@ export function Navbar() {
             );
           })}
 
+          <Link
+            href={getLocalizedPath(locale, "storyPage")}
+            className={[
+              "rounded-full px-4 py-2 transition-all duration-300",
+              storyActive
+                ? "bg-ouest/10 text-ouest"
+                : "hover:bg-littoral/5 hover:text-littoral",
+            ].join(" ")}
+          >
+            {copy.common.story}
+          </Link>
+
           <LanguageToggle className="ml-3" />
 
           <a
@@ -172,6 +184,13 @@ export function Navbar() {
                 {copy.common[item.labelKey]}
               </Link>
             ))}
+            <Link
+              href={getLocalizedPath(locale, "storyPage")}
+              onClick={() => setMobileOpen(false)}
+              className="rounded-2xl px-5 py-4 text-lg font-medium text-littoral transition-colors hover:bg-littoral/5"
+            >
+              {copy.common.story}
+            </Link>
             <a
               href={siteContactLinks.email}
               className="mt-4 inline-flex items-center justify-center rounded-full bg-ouest px-6 py-4 text-base font-semibold text-white"

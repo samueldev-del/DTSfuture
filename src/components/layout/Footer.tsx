@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 
 import { Logo } from "@/src/components/ui/Logo";
+import { pressDownloadAssets } from "@/src/config/press-assets";
 import { formatAddress, siteConfig, siteContactLinks } from "@/src/config/site";
 import { useLocale } from "@/src/i18n/locale-provider";
 import { getLocalizedPath, type RouteKey } from "@/src/i18n/routing";
@@ -27,6 +28,7 @@ type InternalFooterLink = {
 type ExternalFooterLink = {
   label: string;
   href: string;
+  downloadFileName?: string;
   external: true;
 };
 
@@ -40,23 +42,12 @@ const navigation = {
     { label: "impressum", route: "impressum", external: false },
     { label: "privacy", route: "privacy", external: false },
   ],
-  pressAssets: [
-    {
-      label: "kit",
-      href: "/press/dtsfuture-media-kit.zip",
-      external: true,
-    },
-    {
-      label: "wordmark",
-      href: "/press/dtsfuture-wordmark-dark.svg",
-      external: true,
-    },
-    {
-      label: "mark",
-      href: "/press/dtsfuture-mark-color.svg",
-      external: true,
-    },
-  ],
+  pressAssets: pressDownloadAssets.map((asset) => ({
+    label: asset.key,
+    href: asset.href,
+    downloadFileName: asset.downloadFileName,
+    external: true,
+  })),
 } satisfies {
   produits: Array<ExternalFooterLink | InternalFooterLink>;
   legal: InternalFooterLink[];
@@ -72,7 +63,7 @@ export function Footer() {
     <footer className="border-t border-littoral/8 bg-[radial-gradient(circle_at_top_left,rgba(192,57,43,0.06),transparent_30%),linear-gradient(180deg,#ffffff_0%,#f8f6f0_100%)]">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.08fr_0.92fr_1fr]">
-          <div className="rounded-[2rem] border border-littoral/10 bg-white p-7 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.35)]">
+          <div className="rounded-4xl border border-littoral/10 bg-white p-7 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.35)]">
             <Link
               href={getLocalizedPath(locale, "home", "accueil")}
               aria-label={copy.common.homeAriaLabel}
@@ -96,7 +87,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="rounded-[2rem] border border-littoral/10 bg-white p-7 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.35)]">
+          <div className="rounded-4xl border border-littoral/10 bg-white p-7 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.35)]">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-littoral/40">
               {copy.footer.contactHeading}
             </p>
@@ -136,7 +127,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[2rem] bg-littoral p-7 text-savane shadow-[0_32px_100px_-56px_rgba(26,23,21,0.7)]">
+          <div className="relative overflow-hidden rounded-4xl bg-littoral p-7 text-savane shadow-[0_32px_100px_-56px_rgba(26,23,21,0.7)]">
             <div aria-hidden="true" className="absolute -right-12 -top-12 h-36 w-36 rounded-full bg-ouest/18 blur-3xl" />
             <div aria-hidden="true" className="absolute -bottom-16 right-10 h-32 w-32 rounded-full bg-foret/18 blur-3xl" />
             <div className="relative">
@@ -169,8 +160,7 @@ export function Footer() {
                     <a
                       key={item.label}
                       href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      download={item.downloadFileName}
                       className="rounded-2xl border border-white/10 bg-white/6 px-4 py-3 text-sm text-savane/78 transition-all hover:-translate-y-0.5 hover:bg-white/10"
                     >
                       <div className="flex items-center gap-2">
@@ -224,8 +214,10 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="self-end rounded-2xl bg-white px-5 py-4 text-sm leading-7 text-littoral/55 ring-1 ring-littoral/8 lg:max-w-xs">
-            {copy.common.footerBottomLine}
+          <div className="self-end rounded-[1.8rem] bg-littoral px-5 py-5 text-savane shadow-[0_24px_70px_-48px_rgba(26,23,21,0.55)] ring-1 ring-black/6 lg:max-w-sm">
+            <p className="font-display text-xl font-semibold leading-[1.1] tracking-[-0.05em] text-white sm:text-2xl">
+              {copy.common.footerBottomLine}
+            </p>
           </div>
         </div>
 

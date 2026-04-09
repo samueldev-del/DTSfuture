@@ -1,0 +1,6 @@
+Contact: mailto:contact@dtsfuture.com
+Canonical: https://www.dtsfuture.com/.well-known/security.txt
+Preferred-Languages: fr, en
+Expires: 2027-04-10T23:59:59.000Z
+Policy: https://www.dtsfuture.com/en/privacy-policy
+Hiring: https://www.dtsfuture.com/en/products

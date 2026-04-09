@@ -156,6 +156,15 @@ export function ImpressumContent() {
 
       <section>
         <h2 className="font-display text-2xl font-semibold tracking-[-0.04em] text-littoral">
+          {copy.legal.impressum.headings.legalScope}
+        </h2>
+        <p className="mt-3 text-base leading-8 text-littoral/70">
+          {copy.legal.impressum.legalScopeText}
+        </p>
+      </section>
+
+      <section>
+        <h2 className="font-display text-2xl font-semibold tracking-[-0.04em] text-littoral">
           {copy.legal.impressum.headings.intellectualProperty}
         </h2>
         <p className="mt-3 text-base leading-8 text-littoral/70">

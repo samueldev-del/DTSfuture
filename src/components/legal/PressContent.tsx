@@ -6,23 +6,9 @@ import { Footer } from "@/src/components/layout/Footer";
 import { Navbar } from "@/src/components/layout/Navbar";
 import { Logo } from "@/src/components/ui/Logo";
 import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
+import { pressDownloadAssets } from "@/src/config/press-assets";
 import { siteConfig, siteContactLinks } from "@/src/config/site";
 import { useLocale } from "@/src/i18n/locale-provider";
-
-const pressAssets = [
-  {
-    key: "kit",
-    href: "/press/dtsfuture-media-kit.zip",
-  },
-  {
-    key: "wordmark",
-    href: "/press/dtsfuture-wordmark-dark.svg",
-  },
-  {
-    key: "mark",
-    href: "/press/dtsfuture-mark-color.svg",
-  },
-] as const;
 
 export function PressContent() {
   const { copy, locale } = useLocale();
@@ -44,8 +30,8 @@ export function PressContent() {
       <main>
         <section className="relative isolate overflow-hidden py-18 sm:py-24">
           <div aria-hidden="true" className="absolute inset-0 -z-10">
-            <div className="absolute left-1/2 top-6 h-96 w-96 -translate-x-[28rem] rounded-full bg-ouest/12 blur-[110px]" />
-            <div className="absolute right-1/2 top-12 h-88 w-88 translate-x-[24rem] rounded-full bg-foret/12 blur-[110px]" />
+            <div className="absolute left-1/2 top-6 h-96 w-96 -translate-x-112 rounded-full bg-ouest/12 blur-[110px]" />
+            <div className="absolute right-1/2 top-12 h-88 w-88 translate-x-96 rounded-full bg-foret/12 blur-[110px]" />
             <div className="hero-surface-grid absolute inset-x-0 top-0 h-80 opacity-45" />
           </div>
 
@@ -70,6 +56,7 @@ export function PressContent() {
                   <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
                     <a
                       href="/press/dtsfuture-media-kit.zip"
+                      download="dtsfuture-media-kit.zip"
                       className="inline-flex items-center justify-center gap-3 rounded-full bg-ouest px-7 py-4 text-sm font-semibold text-white shadow-lg shadow-ouest/20 transition-all hover:-translate-y-0.5 hover:bg-ouest/90"
                     >
                       <FileArchive className="h-4 w-4" />
@@ -208,7 +195,7 @@ export function PressContent() {
                   </p>
 
                   <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2">
-                    <div className="rounded-[2rem] border border-littoral/10 bg-white p-6 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.32)]">
+                    <div className="rounded-4xl border border-littoral/10 bg-white p-6 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.32)]">
                       <div className="rounded-[1.6rem] bg-savane px-5 py-8 ring-1 ring-littoral/8">
                         <Logo height={42} />
                       </div>
@@ -216,7 +203,7 @@ export function PressContent() {
                       <p className="mt-2 text-sm leading-7 text-littoral/58">{pressCopy.downloads.wordmark.description}</p>
                     </div>
 
-                    <div className="rounded-[2rem] border border-littoral/10 bg-littoral p-6 text-savane shadow-[0_24px_70px_-48px_rgba(26,23,21,0.55)]">
+                    <div className="rounded-4xl border border-littoral/10 bg-littoral p-6 text-savane shadow-[0_24px_70px_-48px_rgba(26,23,21,0.55)]">
                       <div className="flex items-center justify-center rounded-[1.6rem] bg-white px-5 py-6 ring-1 ring-black/4">
                         <Logo variant="mark" height={76} />
                       </div>
@@ -236,7 +223,7 @@ export function PressContent() {
                     {pressCopy.assetsDescription}
                   </p>
                   <div className="mt-8 space-y-4">
-                    {pressAssets.map((asset) => {
+                    {pressDownloadAssets.map((asset) => {
                       const assetCopy = pressCopy.downloads[asset.key];
                       const Icon = asset.key === "kit" ? FileArchive : Download;
 
@@ -244,9 +231,8 @@ export function PressContent() {
                         <a
                           key={asset.key}
                           href={asset.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="group block rounded-[2rem] border border-littoral/10 bg-white p-6 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_34px_90px_-54px_rgba(192,57,43,0.36)]"
+                          download={asset.downloadFileName}
+                          className="group block rounded-4xl border border-littoral/10 bg-white p-6 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_34px_90px_-54px_rgba(192,57,43,0.36)]"
                         >
                           <div className="flex items-start gap-4">
                             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-ouest/10 text-ouest ring-1 ring-ouest/10 transition-transform duration-300 group-hover:scale-105">

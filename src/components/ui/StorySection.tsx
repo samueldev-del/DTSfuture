@@ -1,12 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
+import { getLocalizedPath } from "@/src/i18n/routing";
 import { useLocale } from "@/src/i18n/locale-provider";
 
 export function StorySection() {
-  const { copy } = useLocale();
+  const { copy, locale } = useLocale();
 
   return (
     <section id="histoire" className="py-24 sm:py-32">
@@ -35,6 +37,14 @@ export function StorySection() {
                   <p className="text-xs text-littoral/50">{copy.story.calloutText}</p>
                 </div>
               </div>
+
+              <Link
+                href={getLocalizedPath(locale, "storyPage")}
+                className="mt-8 inline-flex items-center gap-2 rounded-full bg-littoral px-5 py-3 text-sm font-semibold text-savane transition-all hover:-translate-y-0.5 hover:bg-littoral/88"
+              >
+                {copy.story.pageCta}
+                <ArrowUpRight className="h-4 w-4" />
+              </Link>
             </div>
           </RevealOnScroll>
 
