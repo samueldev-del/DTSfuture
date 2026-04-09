@@ -24,7 +24,6 @@ function DetailList({ items }: { items: Array<{ label: string; value: ReactNode 
 export function ImpressumContent() {
   const { copy, locale } = useLocale();
   const localizedAddress = formatAddress(copy.common.country);
-  const placeholder = locale === "fr" ? "À compléter" : "To be completed";
 
   const publisherDetails = [
     { label: copy.legal.impressum.details.projectName, value: siteConfig.name },
@@ -66,9 +65,45 @@ export function ImpressumContent() {
   ];
 
   const hostingDetails = [
-    { label: copy.legal.impressum.details.host, value: placeholder },
-    { label: copy.legal.impressum.details.hostAddress, value: placeholder },
-    { label: copy.legal.impressum.details.hostContact, value: placeholder },
+    {
+      label: copy.legal.impressum.details.host,
+      value: (
+        <a
+          className="transition-colors hover:text-ouest"
+          href={siteConfig.infrastructure.hostingUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {siteConfig.infrastructure.hostingProvider}
+        </a>
+      ),
+    },
+    {
+      label: copy.legal.impressum.details.hostAddress,
+      value:
+        locale === "fr"
+          ? siteConfig.infrastructure.hostingDescriptionFr
+          : siteConfig.infrastructure.hostingDescriptionEn,
+    },
+    {
+      label: copy.legal.impressum.details.hostContact,
+      value: (
+        <span>
+          <a
+            className="transition-colors hover:text-ouest"
+            href={siteConfig.infrastructure.domainUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {siteConfig.infrastructure.domainProvider}
+          </a>{" "}
+          ·{" "}
+          {locale === "fr"
+            ? siteConfig.infrastructure.domainDescriptionFr
+            : siteConfig.infrastructure.domainDescriptionEn}
+        </span>
+      ),
+    },
   ];
 
   return (

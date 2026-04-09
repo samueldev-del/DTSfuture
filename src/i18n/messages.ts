@@ -288,7 +288,7 @@ export const messages = {
         intro:
           "Le site dtsfuture.com est un site personnel et non commercial. Cette page présente les informations d'éditeur et de contact actuellement disponibles pour le projet privé DTSfuture.",
         disclaimer:
-          "Les informations d'éditeur et de contact ont été renseignées. Les informations d'hébergement doivent encore être complétées si le site est déployé publiquement.",
+          "Les informations d'editeur, de domaine et d'hebergement ci-dessous correspondent a la configuration actuellement utilisee pour le site public.",
         headings: {
           editor: "Éditeur du site",
           publication: "Responsable de la publication",
@@ -304,9 +304,9 @@ export const messages = {
           email: "Email de contact",
           phone: "Téléphone",
           website: "Site web",
-          host: "Hébergeur",
-          hostAddress: "Adresse",
-          hostContact: "Contact",
+          host: "Plateforme d'hebergement",
+          hostAddress: "Infrastructure",
+          hostContact: "Domaine et DNS",
         },
         editorText:
           "Le présent site est édité par DTSfuture. Il s'agit d'un projet privé, personnel et non commercial publié depuis l'Allemagne.",
@@ -314,7 +314,7 @@ export const messages = {
         publicationBetween: "Il peut être contacté via",
         publicationPhoneLead: "ou au",
         hostingText:
-          "Le site est hébergé par un prestataire technique tiers. Les coordonnées exactes de cet hébergeur doivent être publiées ci-dessous.",
+          "Le site est deployee sur Vercel. Le nom de domaine dtsfuture.com a ete achete chez Hostinger et son DNS pointe vers l'infrastructure Vercel.",
         intellectualPropertyText:
           "L'ensemble des contenus présents sur ce site, notamment les textes, éléments visuels, logos, interfaces, composants graphiques et éléments de marque, est protégé par les règles relatives à la propriété intellectuelle. Toute reproduction, représentation, adaptation ou exploitation, totale ou partielle, sans autorisation préalable écrite, est interdite.",
         contactLead: "Pour toute question relative au site ou à son exploitation, vous pouvez écrire à",
@@ -654,7 +654,7 @@ export const messages = {
         intro:
           "The website dtsfuture.com is a personal, non-commercial website. This page presents the currently available publisher and contact information for the private DTSfuture project.",
         disclaimer:
-          "Publisher and contact information have been filled in. Hosting information still needs to be completed if the site is publicly deployed.",
+          "The publisher, domain and hosting details below reflect the configuration currently used for the public website.",
         headings: {
           editor: "Site publisher",
           publication: "Publication manager",
@@ -670,9 +670,9 @@ export const messages = {
           email: "Contact email",
           phone: "Phone",
           website: "Website",
-          host: "Hosting provider",
-          hostAddress: "Address",
-          hostContact: "Contact",
+          host: "Hosting platform",
+          hostAddress: "Infrastructure",
+          hostContact: "Domain and DNS",
         },
         editorText:
           "This website is published by DTSfuture. It is a private, personal and non-commercial project published from Germany.",
@@ -680,7 +680,7 @@ export const messages = {
         publicationBetween: "He can be reached at",
         publicationPhoneLead: "or by phone at",
         hostingText:
-          "The site is hosted by a third-party technical provider. The exact details of that hosting provider should be listed below.",
+          "The site is deployed on Vercel. The dtsfuture.com domain name was purchased through Hostinger and its DNS points to the Vercel infrastructure.",
         intellectualPropertyText:
           "All content on this website, including text, visual assets, logos, interfaces, graphic components and brand elements, is protected by intellectual property rules. Any reproduction, representation, adaptation or exploitation, in whole or in part, without prior written authorization is prohibited.",
         contactLead: "For any question regarding the website or its operation, you can write to",
