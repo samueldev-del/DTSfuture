@@ -26,6 +26,16 @@ function getLocalizedMeta(locale: Locale, route: RouteKey) {
         title: meta.pressTitle,
         description: meta.pressDescription,
       };
+    case "products":
+      return {
+        title: meta.productsTitle,
+        description: meta.productsDescription,
+      };
+    case "bolo237":
+      return {
+        title: meta.bolo237Title,
+        description: meta.bolo237Description,
+      };
     case "privacy":
       return {
         title: meta.privacyTitle,

@@ -8,6 +8,12 @@ export const messages = {
       homeTitle: "DTSfuture - Studio Technologique",
       homeDescription:
         "DTSfuture conçoit des produits numériques ambitieux pour le Cameroun, avec une exécution rigoureuse, une esthétique premium et une obsession pour l'utilité réelle.",
+      productsTitle: "Nos Produits | DTSfuture",
+      productsDescription:
+        "Produits et cas DTSfuture: Bolo237, methodes de travail, execution produit et preuves de livraison de A a Z.",
+      bolo237Title: "Bolo237 | DTSfuture",
+      bolo237Description:
+        "Cas produit Bolo237: defi initial, solution apportee, execution produit et technologies visibles derriere la plateforme.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Informations d'éditeur et de contact du projet privé DTSfuture, site personnel et non commercial.",
@@ -28,6 +34,7 @@ export const messages = {
         fr: "FR",
         en: "EN",
       },
+      productsMenu: "Nos Produits",
       products: "Produits",
       dna: "Notre ADN",
       story: "Notre Histoire",
@@ -145,7 +152,7 @@ export const messages = {
       featuredTags: ["Mobile-first", "Temps réel", "Profils vérifiés", "10 régions"],
       proofDescription:
         "Des captures réelles de Bolo237 sont intégrées à la vitrine pour montrer une exécution déjà tangible, déjà visible et déjà assez sérieuse pour inspirer confiance.",
-      exploreCta: "Découvrir Bolo237",
+      exploreCta: "Voir l'etude Bolo237",
       secondaryTagline: "Le covoiturage réinventé pour le Cameroun",
       secondaryDescription:
         "Carlite prépare une expérience de mobilité pensée pour les réalités du transport local: plus lisible, plus sûre et réellement utile au quotidien.",
@@ -349,6 +356,12 @@ export const messages = {
       homeTitle: "DTSfuture - Technology Studio",
       homeDescription:
         "DTSfuture builds ambitious digital products for Cameroon with rigorous execution, premium product thinking and an obsession for real usefulness.",
+      productsTitle: "Our Products | DTSfuture",
+      productsDescription:
+        "DTSfuture products and case studies: Bolo237, delivery process and end-to-end product execution proof.",
+      bolo237Title: "Bolo237 | DTSfuture",
+      bolo237Description:
+        "Bolo237 product case: initial challenge, delivered solution and the visible technologies behind the platform.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Publisher and contact information for DTSfuture, a private personal non-commercial project.",
@@ -369,6 +382,7 @@ export const messages = {
         fr: "FR",
         en: "EN",
       },
+      productsMenu: "Our Products",
       products: "Products",
       dna: "Our DNA",
       story: "Our Story",
@@ -486,7 +500,7 @@ export const messages = {
       featuredTags: ["Mobile-first", "Real time", "Verified profiles", "10 regions"],
       proofDescription:
         "Real Bolo237 captures are embedded directly in the site to show an execution that is already tangible, already visible, and already serious enough to build confidence.",
-      exploreCta: "Explore Bolo237",
+      exploreCta: "See the Bolo237 case",
       secondaryTagline: "Ride sharing reimagined for Cameroon",
       secondaryDescription:
         "Carlite is preparing a mobility experience built for local transport realities: clearer, safer and genuinely useful every day.",

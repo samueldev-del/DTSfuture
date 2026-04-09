@@ -3,10 +3,12 @@ import { isLocale, type Locale, supportedLocales } from "@/src/i18n/messages";
 export const defaultLocale: Locale = "fr";
 export const localeCookieName = "dtsfuture-locale";
 
-export type RouteKey = "home" | "impressum" | "privacy" | "press";
+export type RouteKey = "home" | "products" | "bolo237" | "impressum" | "privacy" | "press";
 
 const routeSegments: Record<RouteKey, Record<Locale, string>> = {
   home: { fr: "", en: "" },
+  products: { fr: "projets", en: "products" },
+  bolo237: { fr: "projets/bolo237", en: "products/bolo237" },
   impressum: { fr: "impressum", en: "impressum" },
   privacy: {
     fr: "politique-de-confidentialite",
@@ -51,7 +53,6 @@ export function getRouteFromPathname(pathname: string): RouteKey {
     return "home";
   }
 
-  const locale = isLocale(segments[0]) ? segments[0] : defaultLocale;
   const pathSegments = isLocale(segments[0]) ? segments.slice(1) : segments;
   const routeSegment = pathSegments.join("/");
 
@@ -59,22 +60,15 @@ export function getRouteFromPathname(pathname: string): RouteKey {
     return "home";
   }
 
-  if (routeSegment === routeSegments.impressum[locale]) {
-    return "impressum";
-  }
+  const matchedRoute = (Object.entries(routeSegments) as Array<
+    [RouteKey, Record<Locale, string>]
+  >).find(
+    ([route, localizedSegments]) =>
+      route !== "home" && Object.values(localizedSegments).includes(routeSegment),
+  );
 
-  if (
-    routeSegment === routeSegments.privacy.fr ||
-    routeSegment === routeSegments.privacy.en
-  ) {
-    return "privacy";
-  }
-
-  if (
-    routeSegment === routeSegments.press.fr ||
-    routeSegment === routeSegments.press.en
-  ) {
-    return "press";
+  if (matchedRoute) {
+    return matchedRoute[0];
   }
 
   return "home";

@@ -9,10 +9,9 @@ import { LanguageToggle } from "@/src/components/ui/LanguageToggle";
 import { Logo } from "@/src/components/ui/Logo";
 import { siteContactLinks } from "@/src/config/site";
 import { useLocale } from "@/src/i18n/locale-provider";
-import { getLocalizedPath } from "@/src/i18n/routing";
+import { getLocalizedPath, getRouteFromPathname } from "@/src/i18n/routing";
 
 const sectionLinks = [
-  { href: "/#produits", id: "produits", labelKey: "products" },
   { href: "/#adn", id: "adn", labelKey: "dna" },
   { href: "/#histoire", id: "histoire", labelKey: "story" },
 ] as const;
@@ -26,6 +25,8 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const homePath = getLocalizedPath(locale, "home");
+  const currentRoute = getRouteFromPathname(pathname);
+  const productsActive = currentRoute === "products" || currentRoute === "bolo237";
 
   useEffect(() => {
     function onScroll() {
@@ -99,6 +100,18 @@ export function Navbar() {
           aria-label={copy.common.primaryNavAriaLabel}
           className="hidden items-center gap-1 text-sm font-medium text-littoral/70 md:flex"
         >
+          <Link
+            href={getLocalizedPath(locale, "products")}
+            className={[
+              "rounded-full px-4 py-2 transition-all duration-300",
+              productsActive
+                ? "bg-ouest/10 text-ouest"
+                : "hover:bg-littoral/5 hover:text-littoral",
+            ].join(" ")}
+          >
+            {copy.common.productsMenu}
+          </Link>
+
           {sectionLinks.map((item) => {
             const isActive = pathname === homePath && activeSection === item.id;
             return (
@@ -142,6 +155,13 @@ export function Navbar() {
         <div className="fixed inset-0 top-18 z-40 bg-savane/98 backdrop-blur-xl md:hidden">
           <nav className="flex flex-col gap-2 px-6 pt-8">
             <LanguageToggle className="mb-4 w-fit" />
+            <Link
+              href={getLocalizedPath(locale, "products")}
+              onClick={() => setMobileOpen(false)}
+              className="rounded-2xl px-5 py-4 text-lg font-medium text-littoral transition-colors hover:bg-littoral/5"
+            >
+              {copy.common.productsMenu}
+            </Link>
             {sectionLinks.map((item) => (
               <Link
                 key={item.href}

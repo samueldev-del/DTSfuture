@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: number;
   }> = [
     { route: "home", changeFrequency: "monthly", priority: 1 },
+    { route: "products", changeFrequency: "monthly", priority: 0.8 },
+    { route: "bolo237", changeFrequency: "monthly", priority: 0.7 },
     { route: "press", changeFrequency: "monthly", priority: 0.6 },
     { route: "impressum", changeFrequency: "yearly", priority: 0.4 },
     { route: "privacy", changeFrequency: "yearly", priority: 0.4 },

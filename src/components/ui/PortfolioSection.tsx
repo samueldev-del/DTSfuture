@@ -1,14 +1,16 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowUpRight, Briefcase, Car, FlaskConical } from "lucide-react";
 
 import { Bolo237Preview } from "@/src/components/ui/Bolo237Preview";
 import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
 import { useLocale } from "@/src/i18n/locale-provider";
+import { getLocalizedPath } from "@/src/i18n/routing";
 
 const featuredProduct = {
   name: "Bolo237",
-  url: "https://www.bolo237.com",
+  route: "bolo237" as const,
 };
 
 const secondaryProducts = [
@@ -19,7 +21,7 @@ const secondaryProducts = [
 ];
 
 export function PortfolioSection() {
-  const { copy } = useLocale();
+  const { copy, locale } = useLocale();
 
   return (
     <section id="produits" className="py-24 sm:py-32">
@@ -94,15 +96,13 @@ export function PortfolioSection() {
                   </p>
                 </div>
 
-                <a
-                  href={featuredProduct.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href={getLocalizedPath(locale, featuredProduct.route)}
                   className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-ouest transition-all duration-300 hover:gap-3 hover:text-ouest/80"
                 >
                   {copy.portfolio.exploreCta}
                   <ArrowUpRight className="h-4 w-4" />
-                </a>
+                </Link>
               </div>
 
               <Bolo237Preview />

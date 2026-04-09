@@ -32,9 +32,9 @@ type ExternalFooterLink = {
 
 const navigation = {
   produits: [
-    { label: "Bolo237", href: "https://www.bolo237.com", external: true },
-    { label: "Carlite", route: "home", hash: "produits", external: false },
-    { label: "lab", route: "home", hash: "produits", external: false },
+    { label: "Bolo237", route: "bolo237", external: false },
+    { label: "Carlite", route: "products", hash: "pipeline", external: false },
+    { label: "lab", route: "products", hash: "pipeline", external: false },
   ],
   legal: [
     { label: "impressum", route: "impressum", external: false },
@@ -87,7 +87,7 @@ export function Footer() {
               {navigation.produits.map((item) => (
                 <Link
                   key={item.label}
-                  href={item.external ? item.href : getLocalizedPath(locale, item.route, item.hash)}
+                  href={getLocalizedPath(locale, item.route, item.hash)}
                   className="rounded-full bg-savane px-3 py-1.5 text-xs font-semibold text-littoral/58 ring-1 ring-littoral/8 transition-colors hover:text-littoral"
                 >
                   {item.label === "lab" ? copy.footer.labLink : item.label}
@@ -195,23 +195,12 @@ export function Footer() {
             <ul className="mt-4 space-y-3">
               {navigation.produits.map((item) => (
                 <li key={item.label}>
-                  {item.external ? (
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-littoral/60 transition-colors hover:text-littoral"
-                    >
-                      {item.label}
-                    </a>
-                  ) : (
-                    <Link
-                      href={getLocalizedPath(locale, item.route, item.hash)}
-                      className="text-sm text-littoral/60 transition-colors hover:text-littoral"
-                    >
-                      {item.label === "lab" ? copy.footer.labLink : item.label}
-                    </Link>
-                  )}
+                  <Link
+                    href={getLocalizedPath(locale, item.route, item.hash)}
+                    className="text-sm text-littoral/60 transition-colors hover:text-littoral"
+                  >
+                    {item.label === "lab" ? copy.footer.labLink : item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
