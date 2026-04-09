@@ -24,6 +24,11 @@ export const metadata: Metadata = {
     title: siteConfig.name,
   },
   icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/pwa/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    shortcut: [{ url: "/favicon.ico" }],
     apple: [{ url: "/pwa/apple-touch-icon.png" }],
   },
   openGraph: {

@@ -32,7 +32,9 @@ export function LocaleProvider({
   locale: Locale;
 }) {
   useEffect(() => {
-    document.cookie = `${localeCookieName}=${locale}; path=/; max-age=31536000; samesite=lax`;
+    const secureAttribute = window.location.protocol === "https:" ? "; Secure" : "";
+
+    document.cookie = `${localeCookieName}=${locale}; Path=/; Max-Age=31536000; SameSite=Lax${secureAttribute}`;
   }, [locale]);
 
   const value = useMemo(

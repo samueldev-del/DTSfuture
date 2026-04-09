@@ -413,7 +413,7 @@ export const messages = {
           },
           {
             title: "Cookies et mesure d'audience",
-            text: "Le site ne doit déposer que les traceurs strictement nécessaires à son fonctionnement tant qu'aucun outil d'analyse ou de marketing supplémentaire n'est activé. En cas d'évolution, cette politique devra être mise à jour avec le détail des cookies utilisés et, si nécessaire, un mécanisme de consentement.",
+            text: "Dans la configuration actuellement publiée, le site n'embarque aucun outil de mesure d'audience, aucun pixel marketing et aucun cookie publicitaire. Le seul stockage navigateur intentionnel côté interface publique est le cookie fonctionnel dtsfuture-locale, conservé jusqu'à 12 mois pour mémoriser la langue choisie (fr ou en). Si des outils d'analyse, de personnalisation ou de marketing sont ajoutés plus tard, cette politique devra être mise à jour avec le détail des traceurs utilisés et, si nécessaire, un mécanisme de consentement préalable.",
           },
           {
             title: "Sécurité",
@@ -837,7 +837,7 @@ export const messages = {
           },
           {
             title: "Cookies and analytics",
-            text: "The site should only place strictly necessary trackers as long as no additional analytics or marketing tools are activated. If that changes, this policy must be updated with details of the cookies used and, where needed, a consent mechanism.",
+            text: "In the configuration currently published, the site embeds no audience measurement tool, no marketing pixel and no advertising cookie. The only intentional browser-side persistence used by the public interface is the functional dtsfuture-locale cookie, kept for up to 12 months to remember the selected language (fr or en). If analytics, personalization or marketing tools are added later, this policy must be updated with the details of the trackers used and, where required, a prior consent mechanism.",
           },
           {
             title: "Security",
