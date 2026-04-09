@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { Geist, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 
 import { siteStructuredData } from "@/src/config/site";
+import { PwaRegistrar } from "@/src/components/pwa/PwaRegistrar";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-heading",
@@ -31,6 +32,7 @@ export function DocumentShell({
       className={`${plusJakartaSans.variable} ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-savane font-sans text-littoral selection:bg-ouest selection:text-white">
+        <PwaRegistrar />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -44,7 +45,7 @@ export function Bolo237ProjectPage() {
             <div className="hero-surface-grid absolute inset-x-0 top-0 h-80 opacity-45" />
           </div>
 
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <div className="grid grid-cols-1 gap-10 xl:grid-cols-[0.9fr_1.1fr] xl:items-center">
               <RevealOnScroll>
                 <div>
@@ -52,12 +53,31 @@ export function Bolo237ProjectPage() {
                     <BadgeCheck className="h-4 w-4" />
                     {content.eyebrow}
                   </div>
-                  <h1 className="mt-8 font-display text-4xl font-bold tracking-[-0.05em] text-littoral sm:text-5xl lg:text-6xl">
-                    {content.title}
-                  </h1>
-                  <p className="mt-3 text-base font-semibold uppercase tracking-[0.18em] text-ouest/75">
-                    {content.tagline}
-                  </p>
+                  <div className="mt-7 flex items-center gap-4">
+                    <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-[1.45rem] border border-ouest/12 bg-white p-2 shadow-sm shadow-ouest/10 ring-1 ring-littoral/8">
+                      <Image
+                        src="/bolo237/icon-512.png"
+                        alt="Bolo237 app icon"
+                        width={64}
+                        height={64}
+                        className="h-12 w-12 rounded-[1.1rem]"
+                        sizes="64px"
+                      />
+                    </div>
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <h1 className="font-display text-3xl font-bold tracking-[-0.05em] text-littoral sm:text-5xl lg:text-6xl">
+                          {content.title}
+                        </h1>
+                        <span className="rounded-full bg-savane px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-littoral/48 ring-1 ring-littoral/10">
+                          www.bolo237.com
+                        </span>
+                      </div>
+                      <p className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] text-ouest/75 sm:text-base">
+                        {content.tagline}
+                      </p>
+                    </div>
+                  </div>
                   <p className="mt-6 max-w-2xl text-lg leading-8 text-littoral/65">{content.intro}</p>
                   <p className="mt-5 max-w-2xl text-sm leading-7 text-littoral/55">{content.note}</p>
 
@@ -106,7 +126,7 @@ export function Bolo237ProjectPage() {
         </section>
 
         <section className="pb-10 sm:pb-14">
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
               <RevealOnScroll>
                 <article className="rounded-[2rem] border border-littoral/10 bg-white p-7 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.3)] sm:p-9">
@@ -160,7 +180,7 @@ export function Bolo237ProjectPage() {
         </section>
 
         <section className="pb-10 sm:pb-14">
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <RevealOnScroll>
               <div className="rounded-[2.2rem] border border-littoral/10 bg-littoral px-8 py-10 text-savane shadow-[0_34px_100px_-56px_rgba(26,23,21,0.65)] sm:px-10 sm:py-12">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-[0.86fr_1.14fr] lg:items-start">
@@ -190,7 +210,7 @@ export function Bolo237ProjectPage() {
         </section>
 
         <section className="pb-10 sm:pb-14">
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <RevealOnScroll>
               <div className="max-w-3xl">
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-ouest">{content.stack.title}</p>
@@ -220,7 +240,7 @@ export function Bolo237ProjectPage() {
         </section>
 
         <section className="pb-24">
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <RevealOnScroll>
               <div className="rounded-[2.2rem] border border-littoral/10 bg-white p-8 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.28)] sm:p-10">
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-foret">{content.proof.title}</p>

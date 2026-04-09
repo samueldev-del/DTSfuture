@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 type ShareLocale = "fr" | "en";
-type ShareVariant = "site" | "press";
+type ShareVariant = "site" | "press" | "products" | "bolo237";
 
 export const shareImageSize = {
   width: 1200,
@@ -19,6 +19,7 @@ const shareCopy = {
         "Execution rigoureuse, design premium et obsession pour l'utilite reelle.",
       tags: ["Bolo237", "Carlite", "Cameroon-first"],
       footer: "www.dtsfuture.com",
+      highlight: "Build trust. Ship clearly. Move with intent.",
       alt: "Apercu social du site DTSfuture.",
     },
     press: {
@@ -28,7 +29,28 @@ const shareCopy = {
         "Contact media, boilerplate et assets de marque prets pour LinkedIn, X et Facebook.",
       tags: ["Press kit", "Brand assets", "Interview contact"],
       footer: "Media kit & presse",
+      highlight: "Build trust. Ship clearly. Move with intent.",
       alt: "Apercu social de l'espace presse DTSfuture.",
+    },
+    products: {
+      badge: "Nos produits",
+      title: "Des cas publics qui rassurent avant le premier appel.",
+      description:
+        "Bolo237 ouvre une bibliotheque de preuves produit: cadrage, design, developpement et mise en ligne visibles.",
+      tags: ["Bolo237", "Execution produit", "Preuve client"],
+      footer: "/fr/projets",
+      highlight: "Des cas montrables pour rassurer un prospect exigeant.",
+      alt: "Apercu social de la page produits DTSfuture.",
+    },
+    bolo237: {
+      badge: "Cas produit",
+      title: "Bolo237: une preuve d'execution de bout en bout.",
+      description:
+        "Defi initial, solution apportee et architecture visible pour montrer une execution produit deja publique.",
+      tags: ["Challenge", "Solution", "Technologies"],
+      footer: "/fr/projets/bolo237",
+      highlight: "Du besoin initial a la mise en ligne, execution visible et defendable.",
+      alt: "Apercu social du cas produit Bolo237.",
     },
   },
   en: {
@@ -39,6 +61,7 @@ const shareCopy = {
         "Rigorous execution, premium product thinking and an obsession for real usefulness.",
       tags: ["Bolo237", "Carlite", "Cameroon-first"],
       footer: "www.dtsfuture.com",
+      highlight: "Build trust. Ship clearly. Move with intent.",
       alt: "DTSfuture social share preview.",
     },
     press: {
@@ -48,7 +71,28 @@ const shareCopy = {
         "Media contact, company boilerplate and brand assets ready for LinkedIn, X and Facebook.",
       tags: ["Press kit", "Brand assets", "Interview contact"],
       footer: "Media kit & press",
+      highlight: "Build trust. Ship clearly. Move with intent.",
       alt: "DTSfuture press room social share preview.",
+    },
+    products: {
+      badge: "Our products",
+      title: "Public product cases that reassure before the first call.",
+      description:
+        "Bolo237 opens a library of product proof: scoping, design, development and delivery made visible.",
+      tags: ["Bolo237", "Product execution", "Client proof"],
+      footer: "/en/products",
+      highlight: "Visible cases for prospects who want proof, not promises.",
+      alt: "DTSfuture products page social share preview.",
+    },
+    bolo237: {
+      badge: "Product case",
+      title: "Bolo237: end-to-end execution, publicly visible.",
+      description:
+        "Initial challenge, delivered solution and observable architecture showing a product that already ships.",
+      tags: ["Challenge", "Solution", "Technology"],
+      footer: "/en/products/bolo237",
+      highlight: "From the initial need to public launch, the execution is already visible.",
+      alt: "Bolo237 case-study social share preview.",
     },
   },
 } as const;
@@ -262,7 +306,7 @@ export function createShareImage(locale: ShareLocale, variant: ShareVariant) {
                 Cameroon-first
               </div>
               <div style={{ fontSize: 28, lineHeight: 1.28, fontWeight: 600 }}>
-                Build trust. Ship clearly. Move with intent.
+                {copy.highlight}
               </div>
             </div>
           </div>

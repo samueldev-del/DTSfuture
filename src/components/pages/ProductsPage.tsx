@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, Briefcase, Car, FlaskConical, Layers3 } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Car, FlaskConical, Layers3 } from "lucide-react";
 
 import { Footer } from "@/src/components/layout/Footer";
 import { Navbar } from "@/src/components/layout/Navbar";
@@ -27,7 +27,7 @@ export function ProductsPage() {
             <div className="hero-surface-grid absolute inset-x-0 top-0 h-80 opacity-45" />
           </div>
 
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <div className="grid grid-cols-1 gap-10 xl:grid-cols-[0.96fr_1.04fr] xl:items-center">
               <RevealOnScroll>
                 <div>
@@ -82,13 +82,25 @@ export function ProductsPage() {
                         {content.featured.status}
                       </div>
                       <div className="mt-5 flex items-center gap-4">
-                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-ouest/10 text-ouest shadow-sm shadow-ouest/10">
-                          <Briefcase className="h-7 w-7" />
+                        <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-[1.4rem] border border-ouest/12 bg-ouest/8 p-2 shadow-sm shadow-ouest/10">
+                          <Image
+                            src="/bolo237/icon-512.png"
+                            alt="Bolo237 app icon"
+                            width={64}
+                            height={64}
+                            className="h-12 w-12 rounded-[1.1rem]"
+                            sizes="64px"
+                          />
                         </div>
-                        <div>
-                          <h2 className="font-display text-3xl font-bold tracking-[-0.04em] text-littoral sm:text-4xl">
-                            {content.featured.name}
-                          </h2>
+                        <div className="min-w-0">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <h2 className="font-display text-2xl font-bold tracking-[-0.04em] text-littoral sm:text-4xl">
+                              {content.featured.name}
+                            </h2>
+                            <span className="rounded-full bg-savane px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-littoral/48 ring-1 ring-littoral/10">
+                              www.bolo237.com
+                            </span>
+                          </div>
                           <p className="text-sm font-semibold text-ouest/75 sm:text-base">{content.featured.tagline}</p>
                         </div>
                       </div>
@@ -129,7 +141,15 @@ export function ProductsPage() {
                           <span className="h-2.5 w-2.5 rounded-full bg-ouest/75" />
                           <span className="h-2.5 w-2.5 rounded-full bg-foret/75" />
                           <span className="h-2.5 w-2.5 rounded-full bg-littoral/25" />
-                          <span className="ml-2 rounded-full bg-savane px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-littoral/45 ring-1 ring-littoral/10">
+                          <span className="ml-2 inline-flex items-center gap-2 rounded-full bg-savane px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-littoral/45 ring-1 ring-littoral/10">
+                            <Image
+                              src="/bolo237/icon-512.png"
+                              alt="Bolo237 app icon"
+                              width={16}
+                              height={16}
+                              className="h-4 w-4 rounded-lg"
+                              sizes="16px"
+                            />
                             www.bolo237.com
                           </span>
                         </div>
@@ -153,7 +173,7 @@ export function ProductsPage() {
         </section>
 
         <section id="pipeline" className="pb-24 sm:pb-28">
-          <div className="mx-auto max-w-6xl px-6">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
             <RevealOnScroll>
               <div className="max-w-3xl">
                 <p className="text-sm font-semibold uppercase tracking-[0.2em] text-foret">{content.pipelineTitle}</p>

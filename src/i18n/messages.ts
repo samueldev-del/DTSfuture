@@ -174,6 +174,24 @@ export const messages = {
       description:
         "Que vous soyez fondateur, investisseur ou porteur de vision, nous pouvons transformer une intuition locale en produit plus net, plus fort et plus crédible.",
     },
+    pwa: {
+      badge: "Installer",
+      title: "Ajouter DTSfuture à l'écran d'accueil",
+      description:
+        "Installez la vitrine comme une app mobile pour l'ouvrir plus vite, en plein écran et avec un accès direct depuis votre téléphone.",
+      iosDescription:
+        "Sur iPhone et iPad, l'installation passe par le menu de partage de Safari. Nous vous montrons les étapes en deux secondes.",
+      iosStepsTitle: "Sur iPhone / iPad",
+      iosSteps: [
+        "Touchez le bouton de partage dans Safari.",
+        "Choisissez \"Ajouter à l'écran d'accueil\".",
+        "Confirmez pour installer DTSfuture.",
+      ],
+      installCta: "Installer maintenant",
+      iosCta: "Voir comment",
+      dismissCta: "Plus tard",
+      closeAriaLabel: "Fermer la carte d'installation",
+    },
     footer: {
       brandBlurb:
         "Nous concevons des produits numériques ambitieux, utiles et crédibles pour le Cameroun, avec une exigence d'exécution qui ne se négocie pas.",
@@ -521,6 +539,24 @@ export const messages = {
       titleAccent: "Let's talk.",
       description:
         "Whether you are a founder, investor or operator, we can turn local intuition into a product that feels sharper, stronger and more credible.",
+    },
+    pwa: {
+      badge: "Install",
+      title: "Add DTSfuture to your home screen",
+      description:
+        "Install the site like a mobile app to launch it faster, open it fullscreen and keep it one tap away on your phone.",
+      iosDescription:
+        "On iPhone and iPad, installation goes through Safari's share menu. We can show the exact steps instantly.",
+      iosStepsTitle: "On iPhone / iPad",
+      iosSteps: [
+        "Tap the Safari share button.",
+        "Choose \"Add to Home Screen\".",
+        "Confirm to install DTSfuture.",
+      ],
+      installCta: "Install now",
+      iosCta: "Show steps",
+      dismissCta: "Later",
+      closeAriaLabel: "Close install card",
     },
     footer: {
       brandBlurb:

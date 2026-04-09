@@ -11,22 +11,22 @@ const productShowcaseContent = {
       titleLead: "Des cas produits qui montrent",
       titleAccent: "une execution de A a Z.",
       description:
-        "Nous ne voulons pas seulement dire que nous savons cadrer, designer, developper et mettre en ligne un produit. Nous voulons le prouver. Cette section documente les produits deja portes par DTSfuture et les prochaines creations qui viendront enrichir la vitrine.",
+        "Nous ne voulons pas seulement dire que nous savons cadrer, designer, developper et mettre en ligne un produit. Nous voulons le prouver avec des cas publics qui rassurent un prospect avant meme le premier appel. Cette section documente les produits deja portes par DTSfuture et les prochaines creations qui viendront enrichir la vitrine.",
       primaryCta: "Voir le cas Bolo237",
       secondaryCta: "Nous contacter",
       proofTitle: "Ce que cette section doit rassurer",
       proofItems: [
-        "Cadrage produit a partir d'un probleme reel",
-        "Design UX/UI pense pour inspirer confiance",
-        "Implementation web, logique metier et surfaces d'administration",
-        "Mise en ligne, SEO, performance et exploitation continue",
+        "Capacite a cadrer un produit a partir d'un probleme reel et non d'une simple idee vague",
+        "Design UX/UI pense pour inspirer confiance et reduire la friction des premiers usages",
+        "Implementation web, logique metier et surfaces d'administration visibles et coherentes",
+        "Mise en ligne, SEO, performance et exploitation continue sur un produit deja montrable",
       ],
       featured: {
         name: "Bolo237",
         status: "En ligne",
         tagline: "Marketplace emploi + artisans pour le Cameroun",
         summary:
-          "Bolo237 montre notre capacite a concevoir une plateforme utile, lisible et credible, depuis la promesse produit jusqu'a la mise en ligne d'un service exploitable par de vrais utilisateurs.",
+          "Bolo237 montre que nous savons transformer un besoin local complexe en un produit clair, credible et exploitable, depuis la promesse initiale jusqu'a la mise en ligne d'un service que de vrais utilisateurs peuvent parcourir, comprendre et utiliser.",
         detailCta: "Voir l'etude de cas",
         liveCta: "Voir le site live",
         tags: [
@@ -63,7 +63,7 @@ const productShowcaseContent = {
       intro:
         "Bolo237 n'avait pas besoin d'un simple site vitrine. Il fallait une plateforme qui rende le marche plus lisible, plus fiable et plus actionnable pour des candidats, des entreprises et des artisans avec des usages differents, souvent mobiles, parfois fragiles en connectivite.",
       note:
-        "Cette page presente ce que le produit permet d'observer publiquement aujourd'hui et ce que cela prouve en termes de maitrise du processus produit, du design jusqu'a la mise en ligne.",
+        "Cette page presente ce que le produit permet d'observer publiquement aujourd'hui et ce que cela prouve pour un futur client: capacite de cadrage, execution solide, arbitrages produit credibles et mise en ligne exploitable.",
       quickFacts: [
         { label: "Parcours couverts", value: "Candidats, entreprises, artisans" },
         { label: "Terrain cible", value: "10 regions du Cameroun" },
@@ -187,12 +187,12 @@ const productShowcaseContent = {
       proof: {
         title: "Ce que Bolo237 prouve a un client potentiel",
         description:
-          "Si un client veut savoir si DTSfuture peut aller au-dela d'une maquette ou d'une landing page, Bolo237 donne deja une reponse concrete.",
+          "Si un client veut savoir si DTSfuture peut aller au-dela d'une maquette, d'un Figma ou d'une landing page persuasive, Bolo237 donne deja une reponse concrete et visible en public.",
         items: [
-          "Nous savons transformer un besoin local en produit lisible et positionne clairement.",
-          "Nous savons concevoir une UX qui rassure, guide et convertit plusieurs types d'utilisateurs.",
-          "Nous savons relier design, logique metier, contenus, compte utilisateur et mise en production.",
-          "Nous savons livrer un produit public qui peut etre montre, critique, utilise et ameliore dans la duree.",
+          "Nous savons transformer un besoin local complexe en produit lisible, positionne et defendable commercialement.",
+          "Nous savons concevoir une UX qui rassure, guide et convertit plusieurs types d'utilisateurs sans perdre la clarte du parcours.",
+          "Nous savons relier design, logique metier, contenus, compte utilisateur, administration et mise en production dans une meme execution.",
+          "Nous savons livrer un produit public qui peut etre montre a des prospects, critique par des utilisateurs et ameliore dans la duree.",
         ],
       },
     },
@@ -203,22 +203,22 @@ const productShowcaseContent = {
       titleLead: "Product cases that show",
       titleAccent: "end-to-end execution.",
       description:
-        "We do not want to simply say that we can scope, design, build and ship products. We want to prove it. This section documents the products already carried by DTSfuture and the next releases that will expand the showcase.",
+        "We do not want to simply say that we can scope, design, build and ship products. We want to prove it with public cases that reassure a prospect before the first call. This section documents the products already carried by DTSfuture and the next releases that will expand the showcase.",
       primaryCta: "See the Bolo237 case",
       secondaryCta: "Get in touch",
       proofTitle: "What this section is meant to reassure",
       proofItems: [
-        "Product scoping from a real market problem",
-        "Trust-oriented UX/UI design",
-        "Web implementation, business logic and admin surfaces",
-        "Deployment, SEO, performance and ongoing operation",
+        "Product scoping from a real market problem instead of a vague feature list",
+        "Trust-oriented UX/UI design that reduces friction from the first visit",
+        "Web implementation, business logic and admin surfaces that can be observed publicly",
+        "Deployment, SEO, performance and ongoing operation on a product that already ships",
       ],
       featured: {
         name: "Bolo237",
         status: "Live",
         tagline: "Jobs and artisans marketplace for Cameroon",
         summary:
-          "Bolo237 demonstrates our ability to shape a useful, legible and credible platform, from the product promise to the launch of a live service that real users can act on.",
+          "Bolo237 demonstrates that we can turn a complex local need into a clear, credible and usable product, from the original product promise to the launch of a live service real users can navigate, understand and act on.",
         detailCta: "View case study",
         liveCta: "Visit live site",
         tags: [
@@ -255,7 +255,7 @@ const productShowcaseContent = {
       intro:
         "Bolo237 did not need a simple marketing website. It needed a platform that makes the market more legible, more trustworthy and more actionable for candidates, employers and artisans with different needs, mostly on mobile and often under imperfect connectivity conditions.",
       note:
-        "This page presents what the product already makes observable in public and what that proves about our ability to handle the full process, from design through deployment.",
+        "This page presents what the product already makes observable in public and what that proves to a future client: solid scoping, credible product decisions, strong execution and a live, usable delivery.",
       quickFacts: [
         { label: "User journeys", value: "Candidates, employers, artisans" },
         { label: "Market coverage", value: "10 regions of Cameroon" },
@@ -379,12 +379,12 @@ const productShowcaseContent = {
       proof: {
         title: "What Bolo237 proves to a potential client",
         description:
-          "If a client wants to know whether DTSfuture can go beyond a mockup or a marketing landing page, Bolo237 already provides a concrete answer.",
+          "If a client wants to know whether DTSfuture can go beyond a mockup, a Figma deck or a persuasive landing page, Bolo237 already provides a concrete public answer.",
         items: [
-          "We can turn a local market need into a product with a clear structure and a credible position.",
-          "We can design an experience that reassures, guides and converts several user profiles.",
-          "We can connect design, business logic, content, accounts and production delivery into one coherent product.",
-          "We can ship a public product that can be shown, critiqued, used and improved over time.",
+          "We can turn a complex local market need into a product with a clear structure and a commercially credible position.",
+          "We can design an experience that reassures, guides and converts several user profiles without losing clarity.",
+          "We can connect design, business logic, content, accounts, administration and production delivery into one coherent product.",
+          "We can ship a public product that can be shown to prospects, critiqued by users and improved over time.",
         ],
       },
     },
