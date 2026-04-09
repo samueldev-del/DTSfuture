@@ -7,7 +7,7 @@ export const siteConfig = {
   title: "DTSfuture - Studio Technologique",
   description:
     "DTSfuture conçoit des produits numériques ambitieux pour le Cameroun, avec une exécution rigoureuse et une obsession pour l'utilité réelle.",
-  url: "https://dtsfuture.com",
+  url: "https://www.dtsfuture.com",
   domain: "dtsfuture.com",
   email: "contact@dtsfuture.com",
   pressEmail: "contact@dtsfuture.com",

@@ -179,10 +179,11 @@ export const messages = {
       press: {
         heading: "Presse",
         blurb:
-          "Un point d'entrée clair pour les médias, les journalistes, les podcasts et les demandes d'interview autour de DTSfuture.",
-        pageLink: "Espace presse",
-        contactLink: "Contact presse",
+          "Media kit, contact journaliste et assets de marque prêts à être exploités dans un contexte éditorial.",
+        pageLink: "Media kit & presse",
+        contactLink: "Demande media",
         assetLabels: {
+          kit: "Press kit ZIP",
           wordmark: "Logo wordmark SVG",
           mark: "Icône couleur SVG",
         },
@@ -206,6 +207,7 @@ export const messages = {
           assets: "Assets téléchargeables",
           contact: "Contact média",
         },
+        quickFactsTitle: "Informations clés",
         boilerplate:
           "DTSfuture est un studio technologique indépendant qui conçoit des produits numériques ambitieux pour le Cameroun. Le projet relie une compréhension directe du terrain à une exécution disciplinée acquise en Allemagne, afin de lancer des services utiles, crédibles et solides dès leurs premières versions.",
         facts: {
@@ -217,7 +219,30 @@ export const messages = {
         },
         assetsDescription:
           "Les logos SVG ci-dessous sont fournis pour la presse et les usages éditoriaux. Merci de conserver les proportions et les couleurs de marque lors de leur utilisation.",
+        brandPreviewHeading: "Apercu de marque",
+        brandPreviewDescription:
+          "Le media kit rassemble une base propre: iconographie, wordmark, boilerplate et point de contact. L'objectif est simple: permettre a un media de reprendre DTSfuture proprement en quelques minutes.",
+        downloadKitCta: "Telecharger le press kit",
+        contactCta: "Contacter la presse",
+        includedItems: [
+          "Wordmark SVG",
+          "Icone couleur SVG",
+          "Boilerplate FR",
+          "Boilerplate EN",
+        ],
+        topicsHeading: "Angles editoriaux",
+        topics: [
+          "Tech produit pour le Cameroun",
+          "Execution entre Allemagne et Afrique",
+          "Bolo237 et le futur de l'emploi local",
+          "Design de confiance pour les usages terrain",
+          "Studios independants et lancement de produits",
+        ],
         downloads: {
+          kit: {
+            title: "DTSfuture Press Kit",
+            description: "Archive ZIP complete avec logos, boilerplate et elements de base pour article ou dossier media.",
+          },
           wordmark: {
             title: "Wordmark DTSfuture",
             description: "Version horizontale pour articles, dossiers de presse et visuels larges.",
@@ -495,10 +520,11 @@ export const messages = {
       press: {
         heading: "Press",
         blurb:
-          "A clear entry point for journalists, media outlets, podcasts and interview requests around DTSfuture.",
-        pageLink: "Press room",
-        contactLink: "Press contact",
+          "Media kit, journalist contact and clean brand assets ready for editorial use.",
+        pageLink: "Media kit & press",
+        contactLink: "Press inquiry",
         assetLabels: {
+          kit: "Press kit ZIP",
           wordmark: "Wordmark SVG",
           mark: "Color icon SVG",
         },
@@ -522,6 +548,7 @@ export const messages = {
           assets: "Downloadable assets",
           contact: "Media contact",
         },
+        quickFactsTitle: "Quick facts",
         boilerplate:
           "DTSfuture is an independent technology studio building ambitious digital products for Cameroon. The project combines direct local insight with execution discipline learned in Germany to launch services that are useful, credible and strong enough from their first versions.",
         facts: {
@@ -533,7 +560,30 @@ export const messages = {
         },
         assetsDescription:
           "The SVG logos below are provided for press and editorial use. Please preserve proportions and brand colors when using them.",
+        brandPreviewHeading: "Brand preview",
+        brandPreviewDescription:
+          "The media kit packages the clean essentials: iconography, wordmark, boilerplate and a direct press contact. The goal is simple: make DTSfuture easy to cover accurately in minutes.",
+        downloadKitCta: "Download press kit",
+        contactCta: "Contact press",
+        includedItems: [
+          "Wordmark SVG",
+          "Color icon SVG",
+          "French boilerplate",
+          "English boilerplate",
+        ],
+        topicsHeading: "Editorial angles",
+        topics: [
+          "Product technology for Cameroon",
+          "Execution between Germany and Africa",
+          "Bolo237 and the future of local jobs",
+          "Trust-centered design for real-world usage",
+          "Independent studios launching digital products",
+        ],
         downloads: {
+          kit: {
+            title: "DTSfuture Press Kit",
+            description: "Complete ZIP archive with logos, boilerplate and core assets for media coverage or press decks.",
+          },
           wordmark: {
             title: "DTSfuture wordmark",
             description: "Horizontal version for articles, media decks and wide editorial layouts.",
