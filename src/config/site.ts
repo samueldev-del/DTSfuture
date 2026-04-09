@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "DTSfuture",
   editorName: "Samuel DJOMMOU THENGHO",
+  founderRole: "Founder & Product Builder",
   projectLabel: "Projet privé",
   projectNature: "Site web personnel et non commercial",
   title: "DTSfuture - Studio Technologique",
@@ -9,6 +10,7 @@ export const siteConfig = {
   url: "https://dtsfuture.com",
   domain: "dtsfuture.com",
   email: "contact@dtsfuture.com",
+  pressEmail: "contact@dtsfuture.com",
   phone: "+4915124862693",
   phoneDisplay: "+49 1512 4862693",
   address: {
@@ -19,11 +21,17 @@ export const siteConfig = {
     addressCountryLabel: "Allemagne",
   },
   addressLine: "Berwiesen 8, 73312 Geislingen, Allemagne",
+  pressFacts: {
+    foundingYear: "2026",
+    focusMarkets: "Cameroon and cross-border African digital products",
+    flagshipProducts: ["Bolo237", "Carlite"],
+  },
 } as const;
 
 export const siteContactLinks = {
   email: `mailto:${siteConfig.email}`,
   phone: `tel:${siteConfig.phone}`,
+  press: `mailto:${siteConfig.pressEmail}?subject=${encodeURIComponent("Press inquiry - DTSfuture")}`,
 } as const;
 
 export function formatAddress(countryLabel: string) {
@@ -59,6 +67,13 @@ export const siteStructuredData = {
           "@type": "ContactPoint",
           contactType: "general inquiries",
           email: siteConfig.email,
+          telephone: siteConfig.phone,
+          availableLanguage: ["fr", "en"],
+        },
+        {
+          "@type": "ContactPoint",
+          contactType: "press inquiries",
+          email: siteConfig.pressEmail,
           telephone: siteConfig.phone,
           availableLanguage: ["fr", "en"],
         },

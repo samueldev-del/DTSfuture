@@ -3,7 +3,7 @@ import { isLocale, type Locale, supportedLocales } from "@/src/i18n/messages";
 export const defaultLocale: Locale = "fr";
 export const localeCookieName = "dtsfuture-locale";
 
-export type RouteKey = "home" | "impressum" | "privacy";
+export type RouteKey = "home" | "impressum" | "privacy" | "press";
 
 const routeSegments: Record<RouteKey, Record<Locale, string>> = {
   home: { fr: "", en: "" },
@@ -11,6 +11,10 @@ const routeSegments: Record<RouteKey, Record<Locale, string>> = {
   privacy: {
     fr: "politique-de-confidentialite",
     en: "privacy-policy",
+  },
+  press: {
+    fr: "presse",
+    en: "press",
   },
 };
 
@@ -64,6 +68,13 @@ export function getRouteFromPathname(pathname: string): RouteKey {
     routeSegment === routeSegments.privacy.en
   ) {
     return "privacy";
+  }
+
+  if (
+    routeSegment === routeSegments.press.fr ||
+    routeSegment === routeSegments.press.en
+  ) {
+    return "press";
   }
 
   return "home";

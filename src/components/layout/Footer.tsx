@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ArrowUpRight, Download, Newspaper } from "lucide-react";
 
 import { Logo } from "@/src/components/ui/Logo";
 import { formatAddress, siteConfig, siteContactLinks } from "@/src/config/site";
@@ -30,9 +31,22 @@ const navigation = {
     { label: "impressum", route: "impressum", external: false },
     { label: "privacy", route: "privacy", external: false },
   ],
+  pressAssets: [
+    {
+      label: "wordmark",
+      href: "/press/dtsfuture-wordmark-dark.svg",
+      external: true,
+    },
+    {
+      label: "mark",
+      href: "/press/dtsfuture-mark-color.svg",
+      external: true,
+    },
+  ],
 } satisfies {
   produits: Array<ExternalFooterLink | InternalFooterLink>;
   legal: InternalFooterLink[];
+  pressAssets: ExternalFooterLink[];
 };
 
 export function Footer() {
@@ -43,7 +57,7 @@ export function Footer() {
   return (
     <footer className="border-t border-littoral/8 bg-white">
       <div className="mx-auto max-w-6xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 xl:grid-cols-[1.2fr_repeat(4,minmax(0,1fr))]">
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href={getLocalizedPath(locale, "home", "accueil")} aria-label={copy.common.homeAriaLabel}>
@@ -118,6 +132,43 @@ export function Footer() {
               >
                 {localizedAddress}
               </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-littoral/40">
+              {copy.footer.press.heading}
+            </h3>
+            <p className="mt-4 max-w-xs text-sm leading-6 text-littoral/55">
+              {copy.footer.press.blurb}
+            </p>
+            <div className="mt-5 space-y-3 text-sm text-littoral/60">
+              <Link
+                href={getLocalizedPath(locale, "press")}
+                className="inline-flex items-center gap-2 transition-colors hover:text-littoral"
+              >
+                <Newspaper className="h-4 w-4 text-ouest" />
+                {copy.footer.press.pageLink}
+              </Link>
+              <a
+                href={siteContactLinks.press}
+                className="inline-flex items-center gap-2 transition-colors hover:text-littoral"
+              >
+                <ArrowUpRight className="h-4 w-4 text-ouest" />
+                {copy.footer.press.contactLink}
+              </a>
+              {navigation.pressAssets.map((item) => (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 transition-colors hover:text-littoral"
+                >
+                  <Download className="h-4 w-4 text-foret" />
+                  {copy.footer.press.assetLabels[item.label as keyof typeof copy.footer.press.assetLabels]}
+                </a>
+              ))}
             </div>
           </div>
 

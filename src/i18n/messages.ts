@@ -11,6 +11,9 @@ export const messages = {
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Informations d'éditeur et de contact du projet privé DTSfuture, site personnel et non commercial.",
+      pressTitle: "Presse | DTSfuture",
+      pressDescription:
+        "Espace presse DTSfuture: contact média, présentation courte, chiffres clés et assets téléchargeables.",
       privacyTitle: "Politique de confidentialité | DTSfuture",
       privacyDescription:
         "Politique de confidentialité de DTSfuture, en français et en anglais selon la préférence du visiteur.",
@@ -41,6 +44,7 @@ export const messages = {
       allRightsReserved: "Tous droits réservés.",
       footerBottomLine: "Construit avec rigueur. Pensé pour avoir un impact réel.",
       host: "Hébergeur",
+      press: "Presse",
       privacy: "Confidentialité",
       impressum: "Impressum",
       country: "Allemagne",
@@ -168,15 +172,66 @@ export const messages = {
         "Nous concevons des produits numériques ambitieux, utiles et crédibles pour le Cameroun, avec une exigence d'exécution qui ne se négocie pas.",
       productsHeading: "Produits",
       contactHeading: "Contact",
+      pressHeading: "Presse",
       legalHeading: "Légal",
       labLink: "Le Lab",
       addressLabel: "Voir l'adresse",
+      press: {
+        heading: "Presse",
+        blurb:
+          "Un point d'entrée clair pour les médias, les journalistes, les podcasts et les demandes d'interview autour de DTSfuture.",
+        pageLink: "Espace presse",
+        contactLink: "Contact presse",
+        assetLabels: {
+          wordmark: "Logo wordmark SVG",
+          mark: "Icône couleur SVG",
+        },
+      },
       legalLinks: {
         impressum: "Impressum",
         privacy: "Politique de confidentialité",
       },
     },
     legal: {
+      press: {
+        eyebrow: "Presse",
+        title: "Espace presse",
+        intro:
+          "Cet espace regroupe les informations essentielles pour la presse, les médias, les podcasts, les investisseurs et les partenaires qui souhaitent présenter DTSfuture avec des éléments fiables et directement exploitables.",
+        disclaimer:
+          "Les demandes média, interviews, citations et besoins en assets peuvent être centralisés via l'email de contact ci-dessous. Les éléments fournis ici sont pensés pour un usage éditorial et de présentation de la marque.",
+        headings: {
+          boilerplate: "Présentation courte",
+          facts: "Chiffres clés",
+          assets: "Assets téléchargeables",
+          contact: "Contact média",
+        },
+        boilerplate:
+          "DTSfuture est un studio technologique indépendant qui conçoit des produits numériques ambitieux pour le Cameroun. Le projet relie une compréhension directe du terrain à une exécution disciplinée acquise en Allemagne, afin de lancer des services utiles, crédibles et solides dès leurs premières versions.",
+        facts: {
+          foundedLabel: "Année de lancement",
+          marketLabel: "Terrain d'action",
+          productsLabel: "Produits portés",
+          languagesLabel: "Langues publiques",
+          languagesValue: "Français, English",
+        },
+        assetsDescription:
+          "Les logos SVG ci-dessous sont fournis pour la presse et les usages éditoriaux. Merci de conserver les proportions et les couleurs de marque lors de leur utilisation.",
+        downloads: {
+          wordmark: {
+            title: "Wordmark DTSfuture",
+            description: "Version horizontale pour articles, dossiers de presse et visuels larges.",
+          },
+          mark: {
+            title: "Icône DTSfuture",
+            description: "Version compacte pour favicon, avatar, vignettes et mentions rapides.",
+          },
+        },
+        contactLead:
+          "Pour toute demande d'interview, citation, dossier média, logo, prise de parole ou mise en relation, écrivez à",
+        contactRoleLabel: "Interlocuteur",
+        contactRoleValue: "Samuel DJOMMOU THENGHO · Founder & Product Builder",
+      },
       impressum: {
         eyebrow: "Impressum · Projet privé",
         title: "Impressum",
@@ -272,6 +327,9 @@ export const messages = {
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Publisher and contact information for DTSfuture, a private personal non-commercial project.",
+      pressTitle: "Press | DTSfuture",
+      pressDescription:
+        "DTSfuture press room: media contact, company boilerplate, key facts and downloadable brand assets.",
       privacyTitle: "Privacy Policy | DTSfuture",
       privacyDescription:
         "DTSfuture privacy policy, available in French and English based on the visitor's preference.",
@@ -302,6 +360,7 @@ export const messages = {
       allRightsReserved: "All rights reserved.",
       footerBottomLine: "Built with discipline. Meant to create real impact.",
       host: "Hosting provider",
+      press: "Press",
       privacy: "Privacy Policy",
       impressum: "Impressum",
       country: "Germany",
@@ -429,15 +488,66 @@ export const messages = {
         "We design digital products for Cameroon with ambition, usefulness and an execution standard that is not negotiable.",
       productsHeading: "Products",
       contactHeading: "Contact",
+      pressHeading: "Press",
       legalHeading: "Legal",
       labLink: "The Lab",
       addressLabel: "View address",
+      press: {
+        heading: "Press",
+        blurb:
+          "A clear entry point for journalists, media outlets, podcasts and interview requests around DTSfuture.",
+        pageLink: "Press room",
+        contactLink: "Press contact",
+        assetLabels: {
+          wordmark: "Wordmark SVG",
+          mark: "Color icon SVG",
+        },
+      },
       legalLinks: {
         impressum: "Impressum",
         privacy: "Privacy Policy",
       },
     },
     legal: {
+      press: {
+        eyebrow: "Press",
+        title: "Press room",
+        intro:
+          "This page gathers the essential information for journalists, media outlets, podcasts, investors and partners who need reliable materials to present DTSfuture accurately.",
+        disclaimer:
+          "Media requests, interviews, quotes and asset requests can be handled through the contact address below. The elements provided here are intended for editorial and brand presentation usage.",
+        headings: {
+          boilerplate: "Boilerplate",
+          facts: "Key facts",
+          assets: "Downloadable assets",
+          contact: "Media contact",
+        },
+        boilerplate:
+          "DTSfuture is an independent technology studio building ambitious digital products for Cameroon. The project combines direct local insight with execution discipline learned in Germany to launch services that are useful, credible and strong enough from their first versions.",
+        facts: {
+          foundedLabel: "Launch year",
+          marketLabel: "Primary focus",
+          productsLabel: "Products carried",
+          languagesLabel: "Public languages",
+          languagesValue: "French, English",
+        },
+        assetsDescription:
+          "The SVG logos below are provided for press and editorial use. Please preserve proportions and brand colors when using them.",
+        downloads: {
+          wordmark: {
+            title: "DTSfuture wordmark",
+            description: "Horizontal version for articles, media decks and wide editorial layouts.",
+          },
+          mark: {
+            title: "DTSfuture icon",
+            description: "Compact version for favicon, avatar, thumbnails and quick mentions.",
+          },
+        },
+        contactLead:
+          "For interviews, quotes, media decks, logos, speaking requests or any press-related inquiry, write to",
+        contactRoleLabel: "Spokesperson",
+        contactRoleValue: "Samuel DJOMMOU THENGHO · Founder & Product Builder",
+      },
       impressum: {
         eyebrow: "Impressum · Private project",
         title: "Impressum",
