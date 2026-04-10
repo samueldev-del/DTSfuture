@@ -10,10 +10,10 @@ export const messages = {
         "DTSfuture conçoit des produits numériques ambitieux pour le Cameroun, avec une exécution rigoureuse, une esthétique premium et une obsession pour l'utilité réelle.",
       productsTitle: "Nos Produits | DTSfuture",
       productsDescription:
-        "Produits et cas DTSfuture: Bolo237, methodes de travail, execution produit et preuves de livraison de A a Z.",
+        "Produits et cas DTSfuture : Bolo237, méthodes de travail, exécution produit et preuves de livraison de A à Z.",
       bolo237Title: "Bolo237 | DTSfuture",
       bolo237Description:
-        "Cas produit Bolo237: defi initial, solution apportee, execution produit et technologies visibles derriere la plateforme.",
+        "Cas produit Bolo237 : défi initial, solution apportée, exécution produit et technologies visibles derrière la plateforme.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Informations d'éditeur et de contact du projet privé DTSfuture, site personnel et non commercial.",
@@ -22,7 +22,7 @@ export const messages = {
         "Espace presse DTSfuture: contact média, présentation courte, chiffres clés et assets téléchargeables.",
       storyTitle: "Notre Histoire | DTSfuture",
       storyDescription:
-        "Le recit DTSfuture: du vecu au Cameroun, a la discipline acquise en Allemagne, jusqu'a la decision de construire des produits qui tiennent vraiment.",
+        "Le récit DTSfuture : du vécu au Cameroun à la discipline acquise en Allemagne, jusqu'à la décision de construire des produits qui tiennent vraiment.",
       privacyTitle: "Politique de confidentialité | DTSfuture",
       privacyDescription:
         "Politique de confidentialité de DTSfuture, en français et en anglais selon la préférence du visiteur.",
@@ -52,7 +52,7 @@ export const messages = {
       comingSoon: "Bientôt",
       productProof: "Preuve produit",
       allRightsReserved: "Tous droits réservés.",
-      footerBottomLine: "Nous ne decorons pas le futur. Nous le construisons pour qu'il tienne.",
+      footerBottomLine: "Nous ne décorons pas le futur. Nous le construisons pour qu'il tienne.",
       host: "Hébergeur",
       press: "Presse",
       privacy: "Confidentialité",
@@ -122,7 +122,7 @@ export const messages = {
       calloutTitle: "Du vécu à l'exécution",
       calloutText:
         "Le terrain donne l'intuition. La rigueur donne la vitesse juste. DTSfuture existe à l'endroit où les deux deviennent un produit crédible.",
-      pageCta: "Lire l'histoire complete",
+      pageCta: "Lire l'histoire complète",
       milestones: [
         {
           label: "Terrain",
@@ -147,43 +147,43 @@ export const messages = {
     storyPage: {
       eyebrow: "Notre Histoire",
       titleLead: "Avant DTSfuture, il y avait une frustration simple.",
-      titleAccent: "Voir trop de besoins reels rester sans reponse serieuse.",
+      titleAccent: "Voir trop de besoins réels rester sans réponse sérieuse.",
       intro:
-        "Le point de depart n'etait pas une mode, ni l'envie abstraite de lancer une startup de plus. Le point de depart, c'etait le cout humain de la friction: des heures perdues, une confiance usee, des services qui promettent beaucoup mais tiennent mal quand la vraie vie commence.",
+        "Le point de départ n'était pas une mode, ni l'envie abstraite de lancer une startup de plus. Le point de départ, c'était le coût humain de la friction : des heures perdues, une confiance usée, des services qui promettent beaucoup mais tiennent mal quand la vraie vie commence.",
       quote:
-        "Quand un produit manque de clarte, de fiabilite ou de respect pour le terrain, ce ne sont pas juste des pixels qui ratent. Ce sont des opportunites qui se ferment.",
+        "Quand un produit manque de clarté, de fiabilité ou de respect pour le terrain, ce ne sont pas seulement des pixels qui ratent. Ce sont des opportunités qui se ferment.",
       chapters: [
         {
           label: "Origine",
-          title: "Le Cameroun a donne l'urgence",
+          title: "Le Cameroun a donné l'urgence",
           text:
-            "Grandir avec les realites du Cameroun, c'est voir tres tot la difference entre une idee brillante sur le papier et un service qui aide vraiment quelqu'un a avancer. Quand la confiance est fragile, quand le mobile est la porte d'entree principale, quand chaque friction coute du temps ou de l'argent, la barre n'est pas esthetique. Elle est pratique, humaine et economique.",
+            "Grandir avec les réalités du Cameroun, c'est voir très tôt la différence entre une idée brillante sur le papier et un service qui aide vraiment quelqu'un à avancer. Quand la confiance est fragile, quand le mobile est la porte d'entrée principale, quand chaque friction coûte du temps ou de l'argent, la barre n'est pas esthétique. Elle est pratique, humaine et économique.",
         },
         {
           label: "Transformation",
-          title: "L'Allemagne a impose la discipline",
+          title: "L'Allemagne a imposé la discipline",
           text:
-            "L'experience allemande n'a pas efface cette realite. Elle l'a structuree. Rigueur technique, exigence produit, souci du detail, respect de la fiabilite, culture de la preuve: tout cela a donne un cadre plus solide a une intuition deja presente. DTSfuture s'est construit a cet endroit precis, entre le vecu et la methode.",
+            "L'expérience allemande n'a pas effacé cette réalité. Elle l'a structurée. Rigueur technique, exigence produit, souci du détail, respect de la fiabilité, culture de la preuve : tout cela a donné un cadre plus solide à une intuition déjà présente. DTSfuture s'est construit à cet endroit précis, entre le vécu et la méthode.",
         },
         {
-          label: "Decision",
-          title: "Construire seulement ce qui merite d'exister",
+          label: "Décision",
+          title: "Construire seulement ce qui mérite d'exister",
           text:
-            "Le projet n'a donc pas vocation a produire du bruit. Il sert a construire des produits assez clairs pour etre compris, assez utiles pour etre adoptes et assez solides pour tenir quand le marche commence a les juger. Bolo237 existe deja comme preuve de cette intention: un produit public, expose, perfectible, mais reel.",
+            "Le projet n'a donc pas vocation à produire du bruit. Il sert à construire des produits assez clairs pour être compris, assez utiles pour être adoptés et assez solides pour tenir quand le marché commence à les juger. Bolo237 existe déjà comme preuve de cette intention : un produit public, exposé, perfectible, mais réel.",
         },
       ],
       bridgeTitle: "Ce que DTSfuture veut changer",
       bridgeText:
-        "Nous voulons fermer le fosse entre la qualite que les usages africains meritent et la qualite qu'ils recoivent souvent. Cela demande de la sensibilite locale, de la discipline europeenne et une obsession simple: ne pas livrer quelque chose de joli mais fragile.",
+        "Nous voulons fermer le fossé entre la qualité que les usages africains méritent et la qualité qu'ils reçoivent souvent. Cela demande de la sensibilité locale, de la discipline européenne et une obsession simple : ne pas livrer quelque chose de joli mais fragile.",
       pillarsTitle: "Ce que cette histoire produit aujourd'hui",
       pillars: [
-        "Une exigence produit qui commence par la confiance et se termine par l'execution.",
-        "Des experiences pensees pour le mobile, la clarte et les contraintes du terrain.",
-        "Une ambition africaine portee par des standards techniques qui tiennent dans le temps.",
+        "Une exigence produit qui commence par la confiance et se termine par l'exécution.",
+        "Des expériences pensées pour le mobile, la clarté et les contraintes du terrain.",
+        "Une ambition africaine portée par des standards techniques qui tiennent dans le temps.",
       ],
       closingTitle: "DTSfuture n'est pas une posture.",
       closingText:
-        "C'est une promesse de construction serieuse. Si une idee merite d'exister sur le marche, elle merite mieux qu'un prototype flatteur. Elle merite un produit qui tient, qui rassure et qui avance avec ses utilisateurs.",
+        "C'est une promesse de construction sérieuse. Si une idée mérite d'exister sur le marché, elle mérite mieux qu'un prototype flatteur. Elle mérite un produit qui tient, qui rassure et qui avance avec ses utilisateurs.",
       primaryCta: "Parler de votre projet",
       secondaryCta: "Voir nos produits",
     },
@@ -199,7 +199,7 @@ export const messages = {
       featuredTags: ["Mobile-first", "Temps réel", "Profils vérifiés", "10 régions"],
       proofDescription:
         "Des captures réelles de Bolo237 sont intégrées à la vitrine pour montrer une exécution déjà tangible, déjà visible et déjà assez sérieuse pour inspirer confiance.",
-      exploreCta: "Voir l'etude Bolo237",
+      exploreCta: "Voir l'étude Bolo237",
       secondaryTagline: "Le covoiturage réinventé pour le Cameroun",
       secondaryDescription:
         "Carlite prépare une expérience de mobilité pensée pour les réalités du transport local: plus lisible, plus sûre et réellement utile au quotidien.",
@@ -251,9 +251,9 @@ export const messages = {
       press: {
         heading: "Presse",
         blurb:
-          "Media kit, contact journaliste et assets de marque prêts à être exploités dans un contexte éditorial.",
+          "Kit média, contact journaliste et assets de marque prêts à être exploités dans un contexte éditorial.",
         pageLink: "Media kit & presse",
-        contactLink: "Demande media",
+        contactLink: "Demande média",
         assetLabels: {
           kit: "Press kit ZIP",
           wordmark: "Logo wordmark PNG",
@@ -290,30 +290,30 @@ export const messages = {
           languagesValue: "Français, English",
         },
         assetsDescription:
-          "Les logos ci-dessous sont telechargeables en image PNG pour un usage presse, editorial et presentation. Merci de conserver les proportions et les couleurs de marque lors de leur utilisation.",
-        brandPreviewHeading: "Apercu de marque",
+          "Les logos ci-dessous sont téléchargeables en image PNG pour un usage presse, éditorial et de présentation. Merci de conserver les proportions et les couleurs de marque lors de leur utilisation.",
+        brandPreviewHeading: "Aperçu de marque",
         brandPreviewDescription:
-          "Le media kit rassemble une base propre: iconographie, wordmark, boilerplate et point de contact. L'objectif est simple: permettre a un media de reprendre DTSfuture proprement en quelques minutes.",
-        downloadKitCta: "Telecharger le press kit",
+          "Le media kit rassemble une base propre : iconographie, wordmark, boilerplate et point de contact. L'objectif est simple : permettre à un média de reprendre DTSfuture proprement en quelques minutes.",
+        downloadKitCta: "Télécharger le press kit",
         contactCta: "Contacter la presse",
         includedItems: [
           "Wordmark PNG",
-          "Icone couleur PNG",
+          "Icône couleur PNG",
           "Boilerplate FR",
           "Boilerplate EN",
         ],
-        topicsHeading: "Angles editoriaux",
+        topicsHeading: "Angles éditoriaux",
         topics: [
           "Tech produit pour le Cameroun",
-          "Execution entre Allemagne et Afrique",
+          "Exécution entre Allemagne et Afrique",
           "Bolo237 et le futur de l'emploi local",
           "Design de confiance pour les usages terrain",
-          "Studios independants et lancement de produits",
+          "Studios indépendants et lancement de produits",
         ],
         downloads: {
           kit: {
             title: "DTSfuture Press Kit",
-            description: "Archive ZIP complete avec logos, boilerplate et elements de base pour article ou dossier media.",
+            description: "Archive ZIP complète avec logos, boilerplate et éléments de base pour article ou dossier média.",
           },
           wordmark: {
             title: "Wordmark DTSfuture",
@@ -335,12 +335,12 @@ export const messages = {
         intro:
           "Le site dtsfuture.com est un site personnel et non commercial. Cette page présente les informations d'éditeur et de contact actuellement disponibles pour le projet privé DTSfuture.",
         disclaimer:
-          "Les informations d'editeur, de domaine et d'hebergement ci-dessous correspondent a la configuration actuellement utilisee pour le site public.",
+          "Les informations d'éditeur, de domaine et d'hébergement ci-dessous correspondent à la configuration actuellement utilisée pour le site public.",
         headings: {
           editor: "Éditeur du site",
           publication: "Responsable de la publication",
           hosting: "Hébergement",
-          legalScope: "Cadre juridique et portee territoriale",
+          legalScope: "Cadre juridique et portée territoriale",
           intellectualProperty: "Propriété intellectuelle",
           contact: "Contact",
         },
@@ -352,7 +352,7 @@ export const messages = {
           email: "Email de contact",
           phone: "Téléphone",
           website: "Site web",
-          host: "Plateforme d'hebergement",
+          host: "Plateforme d'hébergement",
           hostAddress: "Infrastructure",
           hostContact: "Domaine et DNS",
         },
@@ -362,9 +362,9 @@ export const messages = {
         publicationBetween: "Il peut être contacté via",
         publicationPhoneLead: "ou au",
         hostingText:
-          "Le site est deployee sur Vercel. Le nom de domaine dtsfuture.com a ete achete chez Hostinger et son DNS pointe vers l'infrastructure Vercel.",
+          "Le site est déployé sur Vercel. Le nom de domaine dtsfuture.com a été acheté chez Hostinger et son DNS pointe vers l'infrastructure Vercel.",
         legalScopeText:
-          "Le site est edite depuis l'Allemagne et s'adresse notamment a une audience interessee par le Cameroun. DTSfuture cherche a aligner cette vitrine avec les exigences pertinentes de transparence, d'identification de l'editeur, de confidentialite, de securite et d'information applicables en Allemagne, ainsi qu'avec les exigences imperatives pertinentes pour la communication numerique vers le Cameroun. En cas d'evolution fonctionnelle, commerciale ou reglementaire, ces mentions et la politique de confidentialite devront etre mises a jour.",
+          "Le site est édité depuis l'Allemagne et s'adresse notamment à une audience intéressée par le Cameroun. DTSfuture cherche à aligner cette vitrine avec les exigences pertinentes de transparence, d'identification de l'éditeur, de confidentialité, de sécurité et d'information applicables en Allemagne, ainsi qu'avec les exigences impératives pertinentes pour la communication numérique vers le Cameroun. En cas d'évolution fonctionnelle, commerciale ou réglementaire, ces mentions et la politique de confidentialité devront être mises à jour.",
         intellectualPropertyText:
           "L'ensemble des contenus présents sur ce site, notamment les textes, éléments visuels, logos, interfaces, composants graphiques et éléments de marque, est protégé par les règles relatives à la propriété intellectuelle. Toute reproduction, représentation, adaptation ou exploitation, totale ou partielle, sans autorisation préalable écrite, est interdite.",
         contactLead: "Pour toute question relative au site ou à son exploitation, vous pouvez écrire à",
@@ -377,7 +377,7 @@ export const messages = {
         intro:
           "Cette politique décrit de manière transparente la façon dont les données personnelles peuvent être traitées dans le cadre de l'utilisation du site vitrine DTSfuture.",
         disclaimer:
-          "Cette politique decrit la configuration actuellement publiee pour dtsfuture.com. Elle cherche a couvrir les exigences de transparence, de securite et de confidentialite pertinentes pour une publication depuis l'Allemagne et une disponibilite du site vers le Cameroun. Elle devra etre revue en cas d'evolution fonctionnelle ou commerciale.",
+          "Cette politique décrit la configuration actuellement publiée pour dtsfuture.com. Elle cherche à couvrir les exigences de transparence, de sécurité et de confidentialité pertinentes pour une publication depuis l'Allemagne et une disponibilité du site vers le Cameroun. Elle devra être revue en cas d'évolution fonctionnelle ou commerciale.",
         sections: [
           {
             title: "Données concernées",
@@ -396,12 +396,12 @@ export const messages = {
             text: "Les données sont destinées aux personnes autorisées au sein de DTSfuture et, lorsque nécessaire, à ses prestataires techniques intervenant pour l'hébergement, la maintenance, la sécurité ou l'exploitation du site.",
           },
           {
-            title: "Portee territoriale et cadre juridique",
-            text: "Le site est edite depuis l'Allemagne et s'adresse notamment a des visiteurs interesses par le Cameroun. DTSfuture cherche a respecter les exigences pertinentes de transparence, de protection des donnees, de securite et d'information applicables a la publication du site en Allemagne, ainsi que les obligations imperatives pertinentes lorsqu'un service numerique est accessible depuis le Cameroun.",
+            title: "Portée territoriale et cadre juridique",
+            text: "Le site est édité depuis l'Allemagne et s'adresse notamment à des visiteurs intéressés par le Cameroun. DTSfuture cherche à respecter les exigences pertinentes de transparence, de protection des données, de sécurité et d'information applicables à la publication du site en Allemagne, ainsi que les obligations impératives pertinentes lorsqu'un service numérique est accessible depuis le Cameroun.",
           },
           {
             title: "Transferts et prestataires techniques",
-            text: "L'hebergement via Vercel, la gestion du domaine via Hostinger et certains flux techniques peuvent impliquer des traitements ou des transits de donnees techniques hors du pays depuis lequel vous consultez le site. DTSfuture limite ces flux au necessaire, reduit la quantite de donnees traitees et s'appuie sur les garanties techniques et contractuelles disponibles chez ses prestataires.",
+            text: "L'hébergement via Vercel, la gestion du domaine via Hostinger et certains flux techniques peuvent impliquer des traitements ou des transits de données techniques hors du pays depuis lequel vous consultez le site. DTSfuture limite ces flux au nécessaire, réduit la quantité de données traitées et s'appuie sur les garanties techniques et contractuelles disponibles chez ses prestataires.",
           },
           {
             title: "Durée de conservation",
@@ -417,7 +417,7 @@ export const messages = {
           },
           {
             title: "Sécurité",
-            text: "DTSfuture met en oeuvre des mesures techniques et organisationnelles adaptees afin de proteger les donnees contre l'acces non autorise, la divulgation, l'alteration ou la destruction non souhaitee. Cela inclut notamment l'usage du HTTPS, des en-tetes de securite renforces, une limitation des surfaces exposees et une vigilance particuliere sur les dependances et la configuration de publication.",
+            text: "DTSfuture met en œuvre des mesures techniques et organisationnelles adaptées afin de protéger les données contre l'accès non autorisé, la divulgation, l'altération ou la destruction non souhaitée. Cela inclut notamment l'usage du HTTPS, des en-têtes de sécurité renforcés, une limitation des surfaces exposées et une vigilance particulière sur les dépendances et la configuration de publication.",
           },
         ],
         contactHeading: "Contact relatif aux données personnelles",
@@ -431,13 +431,13 @@ export const messages = {
     meta: {
       homeTitle: "DTSfuture - Technology Studio",
       homeDescription:
-        "DTSfuture builds ambitious digital products for Cameroon with rigorous execution, premium product thinking and an obsession for real usefulness.",
+        "DTSfuture builds ambitious digital products for Cameroon with rigorous execution, premium product judgment, and an obsession with usefulness that holds up in the real world.",
       productsTitle: "Our Products | DTSfuture",
       productsDescription:
-        "DTSfuture products and case studies: Bolo237, delivery process and end-to-end product execution proof.",
+        "DTSfuture product cases: Bolo237, working methods, and visible proof of end-to-end execution.",
       bolo237Title: "Bolo237 | DTSfuture",
       bolo237Description:
-        "Bolo237 product case: initial challenge, delivered solution and the visible technologies behind the platform.",
+        "The Bolo237 case study: the original challenge, the product response, and the technical choices behind a platform already visible in public.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Publisher and contact information for DTSfuture, a private personal non-commercial project.",
@@ -446,7 +446,7 @@ export const messages = {
         "DTSfuture press room: media contact, company boilerplate, key facts and downloadable brand assets.",
       storyTitle: "Our Story | DTSfuture",
       storyDescription:
-        "The DTSfuture story: lived reality in Cameroon, execution discipline learned in Germany, and the decision to build products that truly hold up.",
+        "The DTSfuture story: lived reality in Cameroon, discipline forged in Germany, and the decision to build products that truly hold.",
       privacyTitle: "Privacy Policy | DTSfuture",
       privacyDescription:
         "DTSfuture privacy policy, available in French and English based on the visitor's preference.",
@@ -485,11 +485,11 @@ export const messages = {
       appIcon: "App icon",
     },
     hero: {
-      badge: "A serious idea for Cameroon deserves a serious product.",
+      badge: "Cameroon deserves products built with real discipline.",
       titleLead: "We design the digital products the market is waiting for",
       titleAccent: "in Cameroon.",
       description:
-        "DTSfuture turns local friction into clear, desirable and high-trust products built to perform in the real world.",
+        "DTSfuture turns local friction into clear, desirable products engineered for trust, speed, and real-world use.",
       primaryCta: "See what we are building",
       secondaryCta: "Get in touch",
       stats: [
@@ -503,7 +503,7 @@ export const messages = {
       titleLead: "We do not build from",
       titleAccent: "an ivory tower.",
       description:
-        "We experienced the friction before we learned the method. That combination is exactly why we build products that feel sharper, stronger and more credible.",
+        "We lived the friction before we learned the method. That is exactly why our products feel sharper, steadier, and more credible from day one.",
       items: {
         localInsight: {
           title: "Local insight",
@@ -539,13 +539,13 @@ export const messages = {
     },
     story: {
       eyebrow: "Our Story",
-      titleLead: "We have seen what slows people down.",
-      titleAccent: "We have learned how to build what moves them forward.",
+      titleLead: "We have seen what holds people back.",
+      titleAccent: "We learned to build what moves them forward.",
       description:
-        "DTSfuture was not created to follow a trend. It was created because the gap was obvious: too many real needs, too few reliable products. Cameroon gave the urgency of the problem. Germany gave the discipline required to build serious answers.",
+        "DTSfuture was not born from trend-chasing. It was born from an obvious gap: too many real needs, too few reliable products. Cameroon gave the urgency. Germany gave the discipline required to build serious answers.",
       calloutTitle: "From lived insight to execution",
       calloutText:
-        "The field gives intuition. Rigor gives the right speed. DTSfuture exists where both become a credible product.",
+        "The field shapes intuition. Discipline shapes execution. DTSfuture exists where both become a product people can trust.",
       pageCta: "Read the full story",
       milestones: [
         {
@@ -575,7 +575,7 @@ export const messages = {
       intro:
         "The starting point was not hype, and it was not the abstract desire to launch just another startup. The starting point was the human cost of friction: lost hours, worn-out trust, and services that promise a lot but fail when real life begins.",
       quote:
-        "When a product lacks clarity, reliability or respect for real conditions, it is not just pixels failing. It is opportunity closing.",
+        "When a product lacks clarity, reliability, or respect for real conditions, it is not just pixels failing. It is trust collapsing and opportunity closing.",
       chapters: [
         {
           label: "Origin",
@@ -598,7 +598,7 @@ export const messages = {
       ],
       bridgeTitle: "What DTSfuture wants to change",
       bridgeText:
-        "We want to close the gap between the quality African usage deserves and the quality it often receives. That requires local sensitivity, European discipline, and one simple obsession: never ship something that looks polished but breaks under reality.",
+        "We want to close the gap between the quality African markets deserve and the quality they are too often given. That requires local sensitivity, European discipline, and one simple obsession: never ship something that looks polished but breaks under reality.",
       pillarsTitle: "What this story produces today",
       pillars: [
         "Product discipline that starts with trust and ends with execution.",
@@ -616,13 +616,13 @@ export const messages = {
       titleLead: "Products designed to",
       titleAccent: "earn trust in the real world",
       description:
-        "Every DTSfuture product addresses a real need with an execution level meant to convince users, reassure partners and legitimize the vision.",
+        "Every DTSfuture product begins with a real need and is built to convince users, reassure partners, and make the vision commercially credible.",
       featuredTagline: "The Cameroonian jobs marketplace",
       featuredDescription:
-        "Bolo237 connects talent, skilled workers and companies in an environment that is more structured, more professional and noticeably more trustworthy.",
+        "Bolo237 connects talent, skilled workers, and companies inside a marketplace designed to feel more structured, more professional, and far more trustworthy.",
       featuredTags: ["Mobile-first", "Real time", "Verified profiles", "10 regions"],
       proofDescription:
-        "Real Bolo237 captures are embedded directly in the site to show an execution that is already tangible, already visible, and already serious enough to build confidence.",
+        "Real Bolo237 screens are embedded across the site to show execution that is already tangible, already public, and already strong enough to earn confidence.",
       exploreCta: "See the Bolo237 case",
       secondaryTagline: "Ride sharing reimagined for Cameroon",
       secondaryDescription:
@@ -630,7 +630,7 @@ export const messages = {
       secondaryTags: ["Ride sharing", "Secure", "Built-in GPS", "Mobile payments"],
       labTitle: "The DTSfuture Lab",
       labDescription:
-        "More solutions for Cameroon and Africa are already taking shape. We go wherever real friction deserves a serious product answer.",
+        "More solutions for Cameroon and Africa are already taking shape. We go wherever real friction deserves a product answer that can hold its ground.",
     },
     bolo237Preview: {
       brandAlt: "Bolo237 brand visual",
@@ -640,10 +640,10 @@ export const messages = {
       imageBadges: ["Live home", "Brand visual", "App icon"],
     },
     cta: {
-      titleLead: "Have an idea that deserves a stronger product?",
+      titleLead: "Have an idea that deserves more than polish?",
       titleAccent: "Let's talk.",
       description:
-        "Whether you are a founder, investor or operator, we can turn local intuition into a product that feels sharper, stronger and more credible.",
+        "Whether you are a founder, investor, or operator, we can turn local insight into a product that feels sharper, stronger, and ready to be trusted.",
     },
     pwa: {
       badge: "Install",
@@ -665,7 +665,7 @@ export const messages = {
     },
     footer: {
       brandBlurb:
-        "We design digital products for Cameroon with ambition, usefulness and an execution standard that is not negotiable.",
+        "We build digital products for Cameroon with ambition, usefulness, and standards that do not bend.",
       productsHeading: "Products",
       contactHeading: "Contact",
       pressHeading: "Press",
@@ -705,7 +705,7 @@ export const messages = {
         },
         quickFactsTitle: "Quick facts",
         boilerplate:
-          "DTSfuture is an independent technology studio building ambitious digital products for Cameroon. The project combines direct local insight with execution discipline learned in Germany to launch services that are useful, credible and strong enough from their first versions.",
+          "DTSfuture is an independent technology studio building ambitious digital products for Cameroon. It combines direct field insight with execution discipline learned in Germany to launch services that are useful, credible, and built to hold from their first versions.",
         facts: {
           foundedLabel: "Launch year",
           marketLabel: "Primary focus",

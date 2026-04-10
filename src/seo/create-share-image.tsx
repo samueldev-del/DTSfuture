@@ -14,43 +14,43 @@ const shareCopy = {
   fr: {
     site: {
       badge: "Studio technologique",
-      title: "Des produits numeriques ambitieux pour le Cameroun.",
+      title: "Des produits numériques ambitieux pour le Cameroun.",
       description:
-        "Execution rigoureuse, design premium et obsession pour l'utilite reelle.",
+        "Exécution rigoureuse, design premium et obsession pour l'utilité réelle.",
       tags: ["Bolo237", "Carlite", "Cameroon-first"],
       footer: "www.dtsfuture.com",
-      highlight: "Build trust. Ship clearly. Move with intent.",
-      alt: "Apercu social du site DTSfuture.",
+      highlight: "Inspirer confiance. Livrer clairement. Avancer avec intention.",
+      alt: "Aperçu social du site DTSfuture.",
     },
     press: {
       badge: "Media kit",
       title: "Espace presse DTSfuture",
       description:
-        "Contact media, boilerplate et assets de marque prets pour LinkedIn, X et Facebook.",
+        "Contact média, boilerplate et assets de marque prêts pour LinkedIn, X et Facebook.",
       tags: ["Press kit", "Brand assets", "Interview contact"],
       footer: "Media kit & presse",
-      highlight: "Build trust. Ship clearly. Move with intent.",
-      alt: "Apercu social de l'espace presse DTSfuture.",
+      highlight: "Inspirer confiance. Livrer clairement. Avancer avec intention.",
+      alt: "Aperçu social de l'espace presse DTSfuture.",
     },
     products: {
       badge: "Nos produits",
       title: "Des cas publics qui rassurent avant le premier appel.",
       description:
-        "Bolo237 ouvre une bibliotheque de preuves produit: cadrage, design, developpement et mise en ligne visibles.",
-      tags: ["Bolo237", "Execution produit", "Preuve client"],
+        "Bolo237 ouvre une bibliothèque de preuves produit : cadrage, design, développement et mise en ligne visibles.",
+      tags: ["Bolo237", "Exécution produit", "Preuve client"],
       footer: "/fr/projets",
       highlight: "Des cas montrables pour rassurer un prospect exigeant.",
-      alt: "Apercu social de la page produits DTSfuture.",
+      alt: "Aperçu social de la page produits DTSfuture.",
     },
     bolo237: {
       badge: "Cas produit",
-      title: "Bolo237: une preuve d'execution de bout en bout.",
+      title: "Bolo237 : une preuve d'exécution de bout en bout.",
       description:
-        "Defi initial, solution apportee et architecture visible pour montrer une execution produit deja publique.",
+        "Défi initial, solution apportée et architecture visible pour montrer une exécution produit déjà publique.",
       tags: ["Challenge", "Solution", "Technologies"],
       footer: "/fr/projets/bolo237",
-      highlight: "Du besoin initial a la mise en ligne, execution visible et defendable.",
-      alt: "Apercu social du cas produit Bolo237.",
+      highlight: "Du besoin initial à la mise en ligne, exécution visible et défendable.",
+      alt: "Aperçu social du cas produit Bolo237.",
     },
   },
   en: {
@@ -58,10 +58,10 @@ const shareCopy = {
       badge: "Technology studio",
       title: "Ambitious digital products for Cameroon.",
       description:
-        "Rigorous execution, premium product thinking and an obsession for real usefulness.",
+        "Rigorous execution, premium product judgment, and an obsession with usefulness that holds up in the real world.",
       tags: ["Bolo237", "Carlite", "Cameroon-first"],
       footer: "www.dtsfuture.com",
-      highlight: "Build trust. Ship clearly. Move with intent.",
+      highlight: "Earn trust. Ship with clarity. Move with intent.",
       alt: "DTSfuture social share preview.",
     },
     press: {
@@ -78,7 +78,7 @@ const shareCopy = {
       badge: "Our products",
       title: "Public product cases that reassure before the first call.",
       description:
-        "Bolo237 opens a library of product proof: scoping, design, development and delivery made visible.",
+        "Bolo237 opens a library of product proof: scoping, design, development, and delivery made visible.",
       tags: ["Bolo237", "Product execution", "Client proof"],
       footer: "/en/products",
       highlight: "Visible cases for prospects who want proof, not promises.",
@@ -86,9 +86,9 @@ const shareCopy = {
     },
     bolo237: {
       badge: "Product case",
-      title: "Bolo237: end-to-end execution, publicly visible.",
+      title: "Bolo237: end-to-end execution, made public.",
       description:
-        "Initial challenge, delivered solution and observable architecture showing a product that already ships.",
+        "Original challenge, delivered response, and observable architecture showing a product that is already live.",
       tags: ["Challenge", "Solution", "Technology"],
       footer: "/en/products/bolo237",
       highlight: "From the initial need to public launch, the execution is already visible.",

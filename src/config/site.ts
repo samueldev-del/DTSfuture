@@ -24,12 +24,12 @@ export const siteConfig = {
   infrastructure: {
     hostingProvider: "Vercel",
     hostingUrl: "https://vercel.com",
-    hostingDescriptionFr: "Application web deployee et servie via la plateforme cloud Vercel.",
+    hostingDescriptionFr: "Application web déployée et servie via la plateforme cloud Vercel.",
     hostingDescriptionEn: "Web application deployed and served through the Vercel cloud platform.",
     domainProvider: "Hostinger",
     domainUrl: "https://www.hostinger.com",
     domainDescriptionFr:
-      "Le nom de domaine dtsfuture.com a ete achete chez Hostinger et son DNS pointe vers l'infrastructure Vercel.",
+      "Le nom de domaine dtsfuture.com a été acheté chez Hostinger et son DNS pointe vers l'infrastructure Vercel.",
     domainDescriptionEn:
       "The dtsfuture.com domain name was purchased through Hostinger and its DNS points to the Vercel infrastructure.",
   },

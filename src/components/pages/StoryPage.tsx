@@ -17,12 +17,12 @@ export function StoryPage() {
   const germanyLabel = locale === "fr" ? "Allemagne" : "Germany";
   const cameroonSummary =
     locale === "fr"
-      ? "Realite du terrain, confiance fragile, usages mobiles, friction concrete."
-      : "Field reality, fragile trust, mobile-first usage and concrete friction.";
+      ? "Réalité du terrain, confiance fragile, usages mobiles, friction concrète."
+      : "Field reality, fragile trust, mobile-first behavior, tangible friction.";
   const germanySummary =
     locale === "fr"
-      ? "Discipline produit, execution technique, fiabilite et standard durable."
-      : "Product discipline, technical execution, reliability and durable standards.";
+      ? "Discipline produit, exécution technique, fiabilité et standards durables."
+      : "Product discipline, technical rigor, reliability, and standards built to last.";
 
   return (
     <div className="overflow-x-hidden">
