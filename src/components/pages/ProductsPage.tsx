@@ -185,29 +185,41 @@ export function ProductsPage() {
               {content.roadmapCards.map((card, index) => {
                 const Icon = index === 0 ? Car : FlaskConical;
 
+                const CardContent = (
+                  <article className="group relative flex h-full flex-col overflow-hidden rounded-[2rem] border border-littoral/10 bg-white p-8 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_34px_90px_-54px_rgba(26,23,21,0.3)]">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-foret/10 text-foret shadow-sm shadow-foret/10">
+                        <Icon className="h-7 w-7" />
+                      </div>
+                      <span className="rounded-full bg-littoral/5 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-littoral/50">
+                        {card.status}
+                      </span>
+                    </div>
+
+                    <h3 className="mt-6 font-display text-2xl font-bold tracking-[-0.04em] text-littoral sm:text-3xl">{card.name}</h3>
+                    <p className="mt-4 flex-1 text-base leading-7 text-littoral/64">{card.summary}</p>
+
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      {card.tags.map((tag) => (
+                        <span key={tag} className="rounded-full bg-savane px-3 py-1.5 text-xs font-semibold text-littoral/50 ring-1 ring-littoral/8">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </article>
+                );
+
+                const cardElement = "href" in card && card.href ? (
+                  <Link href={getLocalizedPath(locale, card.href)}>
+                    {CardContent}
+                  </Link>
+                ) : (
+                  CardContent
+                );
+
                 return (
                   <RevealOnScroll key={card.name} delayMs={100 + index * 120}>
-                    <article className="group relative flex h-full flex-col overflow-hidden rounded-[2rem] border border-littoral/10 bg-white p-8 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_34px_90px_-54px_rgba(26,23,21,0.3)]">
-                      <div className="flex items-start justify-between gap-4">
-                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-foret/10 text-foret shadow-sm shadow-foret/10">
-                          <Icon className="h-7 w-7" />
-                        </div>
-                        <span className="rounded-full bg-littoral/5 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-littoral/50">
-                          {card.status}
-                        </span>
-                      </div>
-
-                      <h3 className="mt-6 font-display text-2xl font-bold tracking-[-0.04em] text-littoral sm:text-3xl">{card.name}</h3>
-                      <p className="mt-4 flex-1 text-base leading-7 text-littoral/64">{card.summary}</p>
-
-                      <div className="mt-6 flex flex-wrap gap-2">
-                        {card.tags.map((tag) => (
-                          <span key={tag} className="rounded-full bg-savane px-3 py-1.5 text-xs font-semibold text-littoral/50 ring-1 ring-littoral/8">
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    </article>
+                    {cardElement}
                   </RevealOnScroll>
                 );
               })}
