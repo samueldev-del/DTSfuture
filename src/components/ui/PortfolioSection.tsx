@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight, Briefcase, Car, FlaskConical } from "lucide-react";
+import { ArrowUpRight, Briefcase, Building2, Car, FlaskConical } from "lucide-react";
 
 import { Bolo237Preview } from "@/src/components/ui/Bolo237Preview";
 import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
@@ -14,6 +14,10 @@ const featuredProduct = {
 };
 
 const secondaryProducts = [
+  {
+    name: "Schmidts Zaunbau Nord",
+    icon: Building2,
+  },
   {
     name: "Carlite",
     icon: Car,
