@@ -31,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority,
       alternates: {
         languages: {
-          fr: getAbsoluteLocalizedUrl(siteConfig.url, "fr", route),
+          de: getAbsoluteLocalizedUrl(siteConfig.url, "de", route),
           en: getAbsoluteLocalizedUrl(siteConfig.url, "en", route),
         },
       },

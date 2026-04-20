@@ -1,8 +1,8 @@
 import { ImpressumContent } from "@/src/components/legal/ImpressumContent";
 import { buildLocaleMetadata } from "@/src/i18n/metadata";
 
-export const metadata = buildLocaleMetadata("fr", "impressum");
+export const metadata = buildLocaleMetadata("de", "impressum");
 
-export default function FrenchImpressumPage() {
+export default function GermanImpressumPage() {
   return <ImpressumContent />;
 }

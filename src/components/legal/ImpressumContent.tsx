@@ -30,7 +30,7 @@ export function ImpressumContent() {
     { label: copy.legal.impressum.details.siteEditor, value: siteConfig.editorName },
     {
       label: copy.legal.impressum.details.siteNature,
-      value: locale === "fr" ? siteConfig.projectNature : "Personal non-commercial website",
+      value: locale === "de" ? siteConfig.projectNature : "Personal non-commercial website",
     },
     { label: copy.legal.impressum.details.address, value: localizedAddress },
     {
@@ -81,8 +81,8 @@ export function ImpressumContent() {
     {
       label: copy.legal.impressum.details.hostAddress,
       value:
-        locale === "fr"
-          ? siteConfig.infrastructure.hostingDescriptionFr
+        locale === "de"
+          ? siteConfig.infrastructure.hostingDescriptionDe
           : siteConfig.infrastructure.hostingDescriptionEn,
     },
     {
@@ -98,8 +98,8 @@ export function ImpressumContent() {
             {siteConfig.infrastructure.domainProvider}
           </a>{" "}
           ·{" "}
-          {locale === "fr"
-            ? siteConfig.infrastructure.domainDescriptionFr
+          {locale === "de"
+            ? siteConfig.infrastructure.domainDescriptionDe
             : siteConfig.infrastructure.domainDescriptionEn}
         </span>
       ),

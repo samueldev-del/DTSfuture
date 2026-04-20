@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-type ShareLocale = "fr" | "en";
+type ShareLocale = "de" | "en";
 type ShareVariant = "site" | "press" | "products" | "bolo237";
 
 export const shareImageSize = {
@@ -11,46 +11,46 @@ export const shareImageSize = {
 export const shareImageContentType = "image/png";
 
 const shareCopy = {
-  fr: {
+  de: {
     site: {
-      badge: "Studio technologique",
-      title: "Des produits numériques ambitieux pour le Cameroun.",
+      badge: "Technologie-Studio",
+      title: "Ehrgeizige digitale Produkte für Kamerun.",
       description:
-        "Exécution rigoureuse, design premium et obsession pour l'utilité réelle.",
+        "Rigorose Ausführung, erstklassiges Produkturteil und Obsession für echten Mehrwert.",
       tags: ["Bolo237", "Carlite", "Cameroon-first"],
       footer: "www.dtsfuture.com",
-      highlight: "Inspirer confiance. Livrer clairement. Avancer avec intention.",
-      alt: "Aperçu social du site DTSfuture.",
+      highlight: "Vertrauen schaffen. Klar liefern. Mit Absicht vorankommen.",
+      alt: "DTSfuture Social-Share-Vorschau.",
     },
     press: {
       badge: "Media kit",
-      title: "Espace presse DTSfuture",
+      title: "DTSfuture Pressebereich",
       description:
-        "Contact média, boilerplate et assets de marque prêts pour LinkedIn, X et Facebook.",
+        "Medienkontakt, Boilerplate und Marken-Assets für LinkedIn, X und Facebook.",
       tags: ["Press kit", "Brand assets", "Interview contact"],
-      footer: "Media kit & presse",
-      highlight: "Inspirer confiance. Livrer clairement. Avancer avec intention.",
-      alt: "Aperçu social de l'espace presse DTSfuture.",
+      footer: "Medienpaket & Presse",
+      highlight: "Vertrauen schaffen. Klar liefern. Mit Absicht vorankommen.",
+      alt: "DTSfuture Pressebereich Social-Share-Vorschau.",
     },
     products: {
-      badge: "Nos produits",
-      title: "Des cas publics qui rassurent avant le premier appel.",
+      badge: "Unsere Produkte",
+      title: "Öffentliche Fälle, die vor dem ersten Anruf überzeugen.",
       description:
-        "Bolo237 ouvre une bibliothèque de preuves produit : cadrage, design, développement et mise en ligne visibles.",
-      tags: ["Bolo237", "Exécution produit", "Preuve client"],
-      footer: "/fr/projets",
-      highlight: "Des cas montrables pour rassurer un prospect exigeant.",
-      alt: "Aperçu social de la page produits DTSfuture.",
+        "Bolo237 öffnet eine Bibliothek mit Produktnachweisen: Konzeption, Design, Entwicklung und Auslieferung – sichtbar.",
+      tags: ["Bolo237", "Produktausführung", "Kundennachweis"],
+      footer: "/de/produkte",
+      highlight: "Sichtbare Fälle für anspruchsvolle Partner.",
+      alt: "DTSfuture Produkte Social-Share-Vorschau.",
     },
     bolo237: {
-      badge: "Cas produit",
-      title: "Bolo237 : une preuve d'exécution de bout en bout.",
+      badge: "Produktfall",
+      title: "Bolo237: End-to-End-Ausführung, öffentlich gemacht.",
       description:
-        "Défi initial, solution apportée et architecture visible pour montrer une exécution produit déjà publique.",
-      tags: ["Challenge", "Solution", "Technologies"],
-      footer: "/fr/projets/bolo237",
-      highlight: "Du besoin initial à la mise en ligne, exécution visible et défendable.",
-      alt: "Aperçu social du cas produit Bolo237.",
+        "Ursprüngliche Herausforderung, gelieferte Antwort und sichtbare Architektur eines bereits live Produkts.",
+      tags: ["Challenge", "Solution", "Technologie"],
+      footer: "/de/produkte/bolo237",
+      highlight: "Vom Ausgangsbedürfnis bis zum Launch – Ausführung sichtbar und vertretbar.",
+      alt: "Bolo237 Fallstudie Social-Share-Vorschau.",
     },
   },
   en: {

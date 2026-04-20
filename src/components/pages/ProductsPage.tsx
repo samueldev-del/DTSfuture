@@ -10,7 +10,7 @@ import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
 import { productLinks, getProductShowcaseContent } from "@/src/content/products";
 import { siteContactLinks } from "@/src/config/site";
 import { useLocale } from "@/src/i18n/locale-provider";
-import { getLocalizedPath } from "@/src/i18n/routing";
+import { getLocalizedPath, type RouteKey } from "@/src/i18n/routing";
 
 export function ProductsPage() {
   const { locale } = useLocale();
@@ -210,7 +210,7 @@ export function ProductsPage() {
                 );
 
                 const cardElement = "href" in card && card.href ? (
-                  <Link href={getLocalizedPath(locale, card.href)}>
+                  <Link href={getLocalizedPath(locale, card.href as RouteKey)}>
                     {CardContent}
                   </Link>
                 ) : (

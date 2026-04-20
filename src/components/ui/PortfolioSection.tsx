@@ -1,7 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Briefcase, Building2, Car, FlaskConical } from "lucide-react";
+import { ArrowUpRight, Briefcase, Car, FlaskConical } from "lucide-react";
 
 import { Bolo237Preview } from "@/src/components/ui/Bolo237Preview";
 import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
@@ -12,17 +13,6 @@ const featuredProduct = {
   name: "Bolo237",
   route: "bolo237" as const,
 };
-
-const secondaryProducts = [
-  {
-    name: "Schmidts Zaunbau Nord",
-    icon: Building2,
-  },
-  {
-    name: "Carlite",
-    icon: Car,
-  },
-];
 
 export function PortfolioSection() {
   const { copy, locale } = useLocale();
@@ -115,51 +105,45 @@ export function PortfolioSection() {
         </RevealOnScroll>
 
         <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
-          {secondaryProducts.map((product, index) => {
-            const Icon = product.icon;
+          <RevealOnScroll delayMs={180} className="h-full">
+            <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foret/15 bg-white p-8 shadow-lg shadow-foret/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-foret/15 sm:p-10">
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(35,75,44,0.06),transparent_50%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+              />
 
-            return (
-              <RevealOnScroll key={product.name} delayMs={180 + index * 120} className="h-full">
-                <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foret/15 bg-white p-8 shadow-lg shadow-foret/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-foret/15 sm:p-10">
-                  <div
-                    aria-hidden="true"
-                    className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(35,75,44,0.06),transparent_50%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                  />
-
-                  <div className="relative flex flex-1 flex-col">
-                    <div className="flex items-start justify-between">
-                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-foret/10 text-foret shadow-sm shadow-foret/10">
-                        <Icon className="h-7 w-7" />
-                      </div>
-
-                      <span className="rounded-full bg-littoral/5 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-littoral/50">
-                        {copy.common.comingSoon}
-                      </span>
-                    </div>
-
-                    <h3 className="mt-6 font-display text-2xl font-bold tracking-[-0.04em] text-littoral sm:text-3xl">
-                      {product.name}
-                    </h3>
-                    <p className="mt-1 text-sm font-semibold text-foret/70">{copy.portfolio.secondaryTagline}</p>
-                    <p className="mt-4 flex-1 text-base leading-7 text-littoral/65">
-                      {copy.portfolio.secondaryDescription}
-                    </p>
-
-                    <div className="mt-6 flex flex-wrap gap-2">
-                      {copy.portfolio.secondaryTags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="rounded-full bg-savane px-3 py-1.5 text-xs font-semibold text-littoral/50 ring-1 ring-littoral/8"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
+              <div className="relative flex flex-1 flex-col">
+                <div className="flex items-start justify-between">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-foret/10 text-foret shadow-sm shadow-foret/10">
+                    <Car className="h-7 w-7" />
                   </div>
-                </article>
-              </RevealOnScroll>
-            );
-          })}
+
+                  <span className="rounded-full bg-littoral/5 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-littoral/50">
+                    {copy.common.comingSoon}
+                  </span>
+                </div>
+
+                <h3 className="mt-6 font-display text-2xl font-bold tracking-[-0.04em] text-littoral sm:text-3xl">
+                  Carlite
+                </h3>
+                <p className="mt-1 text-sm font-semibold text-foret/70">{copy.portfolio.carliteTagline}</p>
+                <p className="mt-4 flex-1 text-base leading-7 text-littoral/65">
+                  {copy.portfolio.carliteDescription}
+                </p>
+
+                <div className="mt-6 flex flex-wrap gap-2">
+                  {copy.portfolio.carliteTags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full bg-savane px-3 py-1.5 text-xs font-semibold text-littoral/50 ring-1 ring-littoral/8"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          </RevealOnScroll>
 
           <RevealOnScroll delayMs={320}>
             <div className="h-full rounded-3xl border border-dashed border-littoral/15 bg-white/50 p-8 text-center backdrop-blur-sm sm:p-12">

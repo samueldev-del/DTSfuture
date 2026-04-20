@@ -8,7 +8,7 @@ import {
 } from "@/src/i18n/routing";
 
 const openGraphLocales = {
-  fr: "fr_FR",
+  de: "de_DE",
   en: "en_US",
 } as const;
 
@@ -64,7 +64,7 @@ export function buildLocaleMetadata(locale: Locale, route: RouteKey): Metadata {
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        fr: getAbsoluteLocalizedUrl(siteConfig.url, "fr", route),
+        de: getAbsoluteLocalizedUrl(siteConfig.url, "de", route),
         en: getAbsoluteLocalizedUrl(siteConfig.url, "en", route),
       },
     },
@@ -75,9 +75,9 @@ export function buildLocaleMetadata(locale: Locale, route: RouteKey): Metadata {
       siteName: siteConfig.name,
       locale: openGraphLocales[locale],
       alternateLocale:
-        locale === "fr"
+        locale === "de"
           ? [openGraphLocales.en]
-          : [openGraphLocales.fr],
+          : [openGraphLocales.de],
       type: "website",
     },
     twitter: {

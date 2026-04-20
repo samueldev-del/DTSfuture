@@ -1,8 +1,8 @@
 import { StoryPage } from "@/src/components/pages/StoryPage";
 import { buildLocaleMetadata } from "@/src/i18n/metadata";
 
-export const metadata = buildLocaleMetadata("fr", "storyPage");
+export const metadata = buildLocaleMetadata("de", "storyPage");
 
-export default function FrenchStoryPage() {
+export default function GermanStoryPage() {
   return <StoryPage />;
 }

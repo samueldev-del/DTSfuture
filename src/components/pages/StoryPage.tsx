@@ -13,15 +13,15 @@ import { getLocalizedPath } from "@/src/i18n/routing";
 export function StoryPage() {
   const { copy, locale } = useLocale();
   const story = copy.storyPage;
-  const cameroonLabel = locale === "fr" ? "Cameroun" : "Cameroon";
-  const germanyLabel = locale === "fr" ? "Allemagne" : "Germany";
+  const cameroonLabel = locale === "de" ? "Kamerun" : "Cameroon";
+  const germanyLabel = locale === "de" ? "Deutschland" : "Germany";
   const cameroonSummary =
-    locale === "fr"
-      ? "Réalité du terrain, confiance fragile, usages mobiles, friction concrète."
+    locale === "de"
+      ? "Feldrealität, fragiles Vertrauen, Mobile-first-Verhalten, konkrete Reibung."
       : "Field reality, fragile trust, mobile-first behavior, tangible friction.";
   const germanySummary =
-    locale === "fr"
-      ? "Discipline produit, exécution technique, fiabilité et standards durables."
+    locale === "de"
+      ? "Produktdisziplin, technische Strenge, Zuverlässigkeit und dauerhafte Standards."
       : "Product discipline, technical rigor, reliability, and standards built to last.";
 
   return (

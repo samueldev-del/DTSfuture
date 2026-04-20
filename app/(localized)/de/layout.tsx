@@ -45,14 +45,14 @@ export const viewport: Viewport = {
   themeColor: "#F8F6F0",
 };
 
-export default function FrenchLocaleLayout({
+export default function GermanLocaleLayout({
   children,
 }: {
   children: ReactNode;
 }) {
   return (
-    <DocumentShell lang="fr">
-      <LocaleProvider locale="fr">
+    <DocumentShell lang="de">
+      <LocaleProvider locale="de">
         {children}
         <PwaInstallPrompt />
       </LocaleProvider>
