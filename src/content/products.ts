@@ -41,6 +41,14 @@ const productShowcaseContent = {
         "Bolo237 eröffnet die Bibliothek. Carlite und die nächsten Kreationen werden hier mit demselben Maß an Klarheit dokumentiert, um zu zeigen, was konzipiert, gebaut und geliefert wurde.",
       roadmapCards: [
         {
+          name: "Schmidts Zaunbau Nord",
+          status: "Live (Kunde)",
+          summary:
+            "Digitale Transformation eines etablierten Handwerksbetriebs: neue Markenidentität, Website, Lead-Generierung und Positionierung als Qualitätsführer in Norddeutschland. Komplett umgesetzt von DTSfuture (Branding, UX, Web, SEO, Beratung).",
+          tags: ["Handwerk", "Lead-Generierung", "Branding", "Webentwicklung"],
+          href: "https://schmidtszaunbaunord.com/",
+        },
+        {
           name: "Carlite",
           status: "In Vorbereitung",
           summary:
