@@ -147,43 +147,43 @@ export const messages = {
     storyPage: {
       eyebrow: "Unsere Geschichte",
       titleLead: "Vor DTSfuture gab es eine einfache Frustration.",
-      titleAccent: "Zu viele echte Bedürfnisse blieben ohne ernsthafte Antwort.",
+      titleAccent: "Zu sehen, wie echte Bedürfnisse hinter leeren Versprechungen verschwinden.",
       intro:
-        "Der Ausgangspunkt war kein Hype und kein abstrakter Wunsch, einfach ein weiteres Startup zu gründen. Der Ausgangspunkt war der menschliche Preis der Reibung: verlorene Stunden, verbrauchtes Vertrauen und Dienste, die viel versprechen, aber scheitern, wenn das echte Leben beginnt.",
+        "Der Ausgangspunkt war keine abstrakte Idee, um ein weiteres Startup zu gründen. Es war die menschliche Realität: verlorene Stunden, erschöpftes Vertrauen und digitale Produkte, die in der Theorie glänzen, aber in der Praxis versagen.",
       quote:
-        "Wenn einem Produkt Klarheit, Zuverlässigkeit oder Respekt für reale Bedingungen fehlt, scheitern nicht nur Pixel. Vertrauen bricht zusammen und Chancen schließen sich.",
+        "Die Messlatte ist nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit.",
       chapters: [
         {
-          label: "Ursprung",
-          title: "Kamerun gab die Dringlichkeit",
+          label: "Die Wurzeln",
+          title: "Kameruns Dringlichkeit",
           text:
-            "Mit den Realitäten Kameruns aufzuwachsen bedeutet, früh zu lernen, dass es einen großen Unterschied gibt zwischen einer beeindruckenden Idee auf dem Papier und einem Dienst, der jemandem wirklich hilft, voranzukommen. Wenn Vertrauen fragil ist, wenn Mobiltelefone der wichtigste Zugangspunkt sind und jede Reibung Zeit oder Geld kostet, kann der Maßstab nicht kosmetisch sein. Er muss praktisch, menschlich und wirtschaftlich sein.",
+            "Wer mit den Realitäten Kameruns aufwächst, lernt früh den Unterschied zwischen einer netten Idee und einem Service, der Menschen wirklich voranbringt. Wenn das Vertrauen fragil ist und jede digitale Hürde echtes Geld und Zeit kostet, ist die Messlatte nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit. Diese Dringlichkeit hat uns gelehrt, Reibung zu hassen und Lösungen zu lieben.",
         },
         {
-          label: "Wandel",
-          title: "Deutschland setzte die Disziplin durch",
+          label: "Die Formung",
+          title: "Deutsche Disziplin",
           text:
-            "Die Erfahrung in Deutschland hat diese Realität nicht ausgelöscht. Sie hat ihr Struktur gegeben. Technische Strenge, Produktdisziplin, Sorgfalt, Zuverlässigkeitskultur, eine Kultur des Beweises: Das alles gab einer bereits vorhandenen Intuition einen stärkeren Rahmen. DTSfuture wurde genau dort aufgebaut, zwischen gelebter Realität und Methode.",
+            "Die Ankunft in Deutschland hat diese Realität nicht ausgelöscht, sondern geschmiedet. Die Erfahrung echter, harter Arbeit an der Basis lehrte uns, was unerschütterliche Zuverlässigkeit im wahren Leben bedeutet. Genau diese Prinzipien fließen heute in unseren Code: deutsche Ingenieurskunst, kompromisslose technische Strenge und eine absolute Kultur des Beweises. DTSfuture entstand genau hier – an der Schnittstelle zwischen gelebter Resilienz und methodischer Perfektion.",
         },
         {
-          label: "Entscheidung",
-          title: "Nur bauen, was es verdient zu existieren",
+          label: "Die Entscheidung",
+          title: "Nur bauen, was Bestand hat",
           text:
-            "Das Projekt ist also nicht hier, um Lärm zu erzeugen. Es existiert, um Produkte zu bauen, die klar genug sind, um verstanden zu werden, nützlich genug, um angenommen zu werden, und stark genug, um zu bestehen, sobald der Markt sie bewertet. Bolo237 steht bereits als Beweis für diese Absicht: ein öffentliches Produkt, sichtbar, verbesserungsfähig, aber real.",
+            "Wir wollen den Graben schließen zwischen dem, was Nutzer verdienen, und dem, was sie oft bekommen. Das erfordert ein tiefes Verständnis für den echten Alltag und die technische Obsession, nichts zu liefern, was zwar schön, aber zerbrechlich ist. Bolo237 steht bereits als Beweis: ein öffentliches Produkt, sichtbar, verbesserungsfähig, aber real.",
         },
       ],
-      bridgeTitle: "Was DTSfuture verändern will",
+      bridgeTitle: "Zwei Welten, eine Vision",
       bridgeText:
-        "Wir wollen die Lücke schließen zwischen der Qualität, die afrikanische Märkte verdienen, und der Qualität, die sie zu oft bekommen. Das erfordert lokale Sensibilität, europäische Disziplin und eine einfache Obsession: nie etwas liefern, das poliert aussieht, aber unter der Realität bricht.",
-      pillarsTitle: "Was diese Geschichte heute produziert",
+        "Kameruns Dringlichkeit und deutsche Disziplin sind keine Gegensätze – sie sind die beiden Hälften einer einzigen Überzeugung: Produkte, die wirklich halten, entstehen nur dort, wo Feldresilienz auf methodische Perfektion trifft.",
+      pillarsTitle: "Was diese Geschichte heute hervorbringt",
       pillars: [
-        "Produktdisziplin, die mit Vertrauen beginnt und mit Ausführung endet.",
-        "Erlebnisse, die für Mobilgeräte, Klarheit und reale Einschränkungen gestaltet sind.",
-        "Afrikanischer Ehrgeiz, getragen von technischen Standards, die für die Zukunft gebaut sind.",
+        "Produkte, die mit Vertrauen beginnen und mit fehlerfreier Ausführung enden.",
+        "Eine Entwicklungsphilosophie, die auf Klarheit und den echten Bedingungen des Marktes basiert.",
+        "Eine kompromisslose Architektur, getragen von technischen Standards, die der Zeit standhalten.",
       ],
-      closingTitle: "DTSfuture ist keine Haltung.",
+      closingTitle: "DTSfuture ist keine bloße Haltung.",
       closingText:
-        "Es ist ein Bekenntnis zu ernsthafter Konstruktion. Wenn eine Idee es verdient, auf dem Markt zu existieren, verdient sie mehr als einen schmeichelhaften Prototyp. Sie verdient ein Produkt, das standhält, Vertrauen schafft und mit seinen Nutzern wächst.",
+        "Es ist ein Versprechen ernsthafter Konstruktion. Wenn eine Idee es verdient, auf dem Markt zu existieren, verdient sie mehr als einen schmeichelhaften Prototyp. Sie verdient ein Produkt, das hält, das Sicherheit gibt und das gemeinsam mit seinen Nutzern wächst.",
       primaryCta: "Über Ihr Projekt sprechen",
       secondaryCta: "Unsere Produkte sehen",
     },

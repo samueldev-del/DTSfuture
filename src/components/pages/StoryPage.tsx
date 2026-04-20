@@ -17,11 +17,11 @@ export function StoryPage() {
   const germanyLabel = locale === "de" ? "Deutschland" : "Germany";
   const cameroonSummary =
     locale === "de"
-      ? "Feldrealität, fragiles Vertrauen, Mobile-first-Verhalten, konkrete Reibung."
+      ? "Radikale Nützlichkeit als Maßstab. Fragiles Vertrauen. Echte Reibung."
       : "Field reality, fragile trust, mobile-first behavior, tangible friction.";
   const germanySummary =
     locale === "de"
-      ? "Produktdisziplin, technische Strenge, Zuverlässigkeit und dauerhafte Standards."
+      ? "Unerschütterliche Zuverlässigkeit. Ingenieurskultur. Kompromisslose Strenge."
       : "Product discipline, technical rigor, reliability, and standards built to last.";
 
   return (
