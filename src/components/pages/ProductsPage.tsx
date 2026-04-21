@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, Car, FlaskConical, Layers3 } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Building2, Car, FlaskConical, Layers3 } from "lucide-react";
 
 import { Footer } from "@/src/components/layout/Footer";
 import { Navbar } from "@/src/components/layout/Navbar";
@@ -183,7 +183,8 @@ export function ProductsPage() {
 
             <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-2">
               {content.roadmapCards.map((card, index) => {
-                const Icon = index === 0 ? Car : FlaskConical;
+                const roadmapIcons = [Building2, Car, FlaskConical] as const;
+                const Icon = roadmapIcons[index] ?? FlaskConical;
 
                 const CardContent = (
                   <article className="group relative flex h-full flex-col overflow-hidden rounded-[2rem] border border-littoral/10 bg-white p-8 shadow-[0_24px_70px_-48px_rgba(26,23,21,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_34px_90px_-54px_rgba(26,23,21,0.3)]">

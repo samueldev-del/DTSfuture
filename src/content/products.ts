@@ -2,6 +2,7 @@ import type { Locale } from "@/src/i18n/messages";
 
 export const productLinks = {
   bolo237Live: "https://www.bolo237.com",
+  schmidtszaunbauNordLive: "https://schmidtszaunbaunord.com",
 } as const;
 
 const productShowcaseContent = {
@@ -41,6 +42,14 @@ const productShowcaseContent = {
         "Bolo237 eröffnet die Bibliothek. Die nächsten Produkte für den deutschen und internationalen Markt werden hier mit demselben Maß an Klarheit dokumentiert – mit deutscher Ingenieurskultur und kompromissloser Ausführung.",
       roadmapCards: [
         {
+          name: "Schmidts Zaunbau Nord",
+          status: "Live · Kunde",
+          summary:
+            "Digitale Transformation eines etablierten Hamburger Zaunbau-Betriebs: neue Website, professionelles Auftreten und gezielte Lead-Generierung für über 20 Jahre Erfahrung in Norddeutschland.",
+          tags: ["Webentwicklung", "Branding", "Lead-Generierung", "SEO"],
+          href: "schmidtszaunbaunord",
+        },
+        {
           name: "Carlite",
           status: "In Vorbereitung",
           summary:
@@ -55,6 +64,146 @@ const productShowcaseContent = {
           tags: ["Erkundung", "Produkt-F&E", "Pipeline"],
         },
       ],
+    },
+    schmidtszaunbaunord: {
+      eyebrow: "Kundenreferenz · Handwerk",
+      title: "Schmidts Zaunbau Nord",
+      tagline: "Digitale Sichtbarkeit für Hamburgs Zaunbau-Spezialisten",
+      intro:
+        "Schmidts Zaunbau Nord ist ein etablierter Hamburger Fachbetrieb mit über 20 Jahren Erfahrung im Zaunbau – bekannt für Meisterqualität, persönliche Beratung und saubere Ausführung. DTSfuture hat die digitale Präsenz des Unternehmens von Grund auf neu konzipiert: mit einer Website, die den Ruf des Betriebs widerspiegelt, Vertrauen aufbaut und konkrete Anfragen generiert.",
+      note:
+        "Diese Seite dokumentiert, was DTSfuture für einen etablierten deutschen Handwerksbetrieb leisten kann: von der Positionierung über das Design bis hin zur technischen Umsetzung und regionalen Auffindbarkeit.",
+      quickFacts: [
+        { label: "Branche", value: "Zaun · Tor · Gabionen" },
+        { label: "Erfahrung", value: "20+ Jahre in Norddeutschland" },
+        { label: "Google-Bewertung", value: "4,8 / 5 ★" },
+      ],
+      ctas: {
+        live: "Website besuchen",
+        back: "Zurück zu unseren Produkten",
+        contact: "Ihr Projekt besprechen",
+      },
+      challenge: {
+        title: "Die ursprüngliche Herausforderung",
+        description:
+          "Schmidts Zaunbau Nord stand vor einem Problem, das viele etablierte Handwerksbetriebe kennen: hervorragende Arbeit, aber kaum digitale Sichtbarkeit. Interessenten konnten die Qualität des Betriebs online nicht erkennen – und Anfragen kamen zu selten über das Netz.",
+        items: [
+          {
+            title: "Schwache Online-Sichtbarkeit",
+            description:
+              "Ein Betrieb mit über 2.000 abgeschlossenen Projekten war im Netz kaum auffindbar. Die bestehende digitale Präsenz entsprach nicht dem tatsächlichen Niveau des Unternehmens.",
+          },
+          {
+            title: "Kein klares Profil",
+            description:
+              "Die echten Stärken – Meisterqualität, persönliche Beratung, Festpreise, namhafte Referenzkunden – waren online nicht sichtbar. Interessenten konnten den Unterschied zu günstigeren Wettbewerbern nicht erkennen.",
+          },
+          {
+            title: "Fehlende Lead-Generierung",
+            description:
+              "Anfragen kamen fast ausschließlich über Empfehlungen. Ein strukturiertes System, das regelmäßig Neukunden über das Internet generiert, fehlte vollständig.",
+          },
+        ],
+      },
+      solution: {
+        title: "Die gelieferte Lösung",
+        description:
+          "DTSfuture hat eine Website konzipiert und umgesetzt, die das echte Niveau des Betriebs widerspiegelt: klar strukturiert, vertrauensbildend und auf Anfragen ausgelegt – mit einer Positionierung, die Schmidts Zaunbau Nord als Qualitätsführer in Norddeutschland etabliert.",
+        items: [
+          {
+            title: "Klare Positionierung",
+            description:
+              "Die Website kommuniziert unmittelbar, was den Betrieb auszeichnet: Meisterqualität, über 20 Jahre Erfahrung, 2.000+ abgeschlossene Projekte und eine 4,8-Sterne-Bewertung auf Google.",
+          },
+          {
+            title: "Vertrauensbildendes Design",
+            description:
+              "Referenzen, Kundenstimmen, ein klarer Leistungsüberblick und eine professionelle Optik geben Interessenten sofort das Gefühl, beim richtigen Betrieb zu sein.",
+          },
+          {
+            title: "Gezielte Lead-Generierung",
+            description:
+              "Klare Handlungsaufforderungen, ein strukturiertes Kontaktformular und regionale Auffindbarkeit wandeln Besucher direkt in konkrete Anfragen um.",
+          },
+        ],
+      },
+      process: {
+        title: "Was DTSfuture übernimmt",
+        description:
+          "Von der Strategie bis zum Launch – DTSfuture begleitet Handwerksbetriebe durch den gesamten Prozess der digitalen Transformation: Positionierung, Design, Entwicklung und Auffindbarkeit im Netz.",
+        items: [
+          {
+            title: "Analyse & Positionierung",
+            description:
+              "Marktanalyse, Identifikation der echten Stärken und Entwicklung einer klaren Botschaft, die den Betrieb von der Konkurrenz abhebt.",
+          },
+          {
+            title: "Design & UX",
+            description:
+              "Gestaltung einer Website, die das Niveau des Betriebs widerspiegelt, Vertrauen aufbaut und auf allen Geräten – besonders mobil – überzeugt.",
+          },
+          {
+            title: "Entwicklung & Inhalte",
+            description:
+              "Technische Umsetzung, Texterstellung, Bildauswahl und vollständige Einrichtung aller Seiten, Formulare und Kontaktwege.",
+          },
+          {
+            title: "SEO & Launch",
+            description:
+              "Regionale Suchmaschinenoptimierung, Performance-Konfiguration und vollständige Auslieferung – bereit für echte Nutzer und lokale Suchanfragen.",
+          },
+        ],
+      },
+      stack: {
+        title: "Technologie & Umsetzung",
+        description:
+          "Für Schmidts Zaunbau Nord hat DTSfuture eine moderne, leistungsstarke Website gebaut – ohne unnötige Komplexität, aber mit allem, was ein professioneller Auftritt im Netz heute braucht.",
+        note:
+          "Die technische Basis ist bewusst solide und wartungsfreundlich gewählt, damit der Betrieb langfristig von einer stabilen digitalen Grundlage profitiert.",
+        items: [
+          {
+            title: "Next.js-Frontend",
+            description:
+              "Die Website basiert auf Next.js – schnell, SEO-freundlich und mobiloptimiert für Nutzer in Hamburg, Schleswig-Holstein und Niedersachsen.",
+          },
+          {
+            title: "Responsives Design",
+            description:
+              "Vollständig für mobile Endgeräte optimiert, da der Großteil der Suchanfragen im Handwerksbereich vom Smartphone kommt.",
+          },
+          {
+            title: "Regionale SEO",
+            description:
+              "Lokale Suchmaschinenoptimierung für das Einzugsgebiet des Betriebs – damit Schmidts Zaunbau Nord gefunden wird, wenn es darauf ankommt.",
+          },
+          {
+            title: "Lead-Capture & Kontakt",
+            description:
+              "Strukturiertes Kontaktformular und klare Handlungsaufforderungen auf jeder Seite leiten Interessenten direkt zur Anfrage.",
+          },
+          {
+            title: "Performance & Sicherheit",
+            description:
+              "Optimierte Ladezeiten, sichere Infrastruktur und korrekte Meta-Tags – für eine Website, die im modernen Netz konkurrenzfähig ist.",
+          },
+          {
+            title: "Deployment & Hosting",
+            description:
+              "Produktionsdeployment auf Vercel mit stabiler Verfügbarkeit, HTTPS-Absicherung und automatischen Updates.",
+          },
+        ],
+      },
+      proof: {
+        title: "Was dieser Auftrag einem potenziellen Kunden beweist",
+        description:
+          "Schmidts Zaunbau Nord zeigt, dass DTSfuture nicht nur digitale Produkte für internationale Märkte entwickelt, sondern auch etablierten deutschen Handwerksbetrieben zu echter digitaler Sichtbarkeit verhilft.",
+        items: [
+          "Wir können die echten Stärken eines Handwerksbetriebs in eine klare, glaubwürdige Online-Positionierung übersetzen.",
+          "Wir gestalten Websites, die Vertrauen aufbauen, Qualität ausstrahlen und konkrete Anfragen generieren.",
+          "Wir liefern vollständige Lösungen – von der Strategie über das Design bis zur technischen Umsetzung und regionalen Auffindbarkeit.",
+          "Wir bringen deutschen Qualitätsstandard in die digitale Präsenz von Betrieben, die für ihre handwerkliche Exzellenz bekannt sind.",
+        ],
+      },
     },
     bolo237: {
       eyebrow: "Internationales Flaggschiff",
@@ -233,6 +382,14 @@ const productShowcaseContent = {
         "Bolo237 opens the library. The next products for the German and international market will be documented here with the same clarity — carried by German engineering culture and uncompromising execution.",
       roadmapCards: [
         {
+          name: "Schmidts Zaunbau Nord",
+          status: "Live · Client",
+          summary:
+            "Digital transformation of an established Hamburg fencing company: new website, professional online presence, and targeted lead generation for over 20 years of expertise across northern Germany.",
+          tags: ["Web development", "Branding", "Lead generation", "SEO"],
+          href: "schmidtszaunbaunord",
+        },
+        {
           name: "Carlite",
           status: "In progress",
           summary:
@@ -247,6 +404,146 @@ const productShowcaseContent = {
           tags: ["Exploration", "Product R&D", "Pipeline"],
         },
       ],
+    },
+    schmidtszaunbaunord: {
+      eyebrow: "Client project · Craftsmanship",
+      title: "Schmidts Zaunbau Nord",
+      tagline: "Digital visibility for Hamburg's fencing specialists",
+      intro:
+        "Schmidts Zaunbau Nord is an established Hamburg fencing company with over 20 years of experience — known for master craftsmanship, direct personal consultation, and clean job sites. DTSfuture redesigned the company's digital presence from the ground up: building a website that reflects the company's reputation, builds trust with visitors, and converts them into concrete inquiries.",
+      note:
+        "This page documents what DTSfuture can deliver for an established German trade business: from positioning and design through to technical implementation and regional discoverability.",
+      quickFacts: [
+        { label: "Services", value: "Fences · Gates · Gabions" },
+        { label: "Experience", value: "20+ years across northern Germany" },
+        { label: "Google rating", value: "4.8 / 5 ★" },
+      ],
+      ctas: {
+        live: "Visit the website",
+        back: "Back to our products",
+        contact: "Discuss your project",
+      },
+      challenge: {
+        title: "The initial challenge",
+        description:
+          "Schmidts Zaunbau Nord faced a problem common to many established trade businesses: excellent work, but almost no digital visibility. Prospective clients could not gauge the company's quality online — and inquiries through the web were too rare.",
+        items: [
+          {
+            title: "Weak online visibility",
+            description:
+              "A company with over 2,000 completed projects was barely findable on the web. The existing digital presence did not reflect the actual level of the business.",
+          },
+          {
+            title: "No clear profile",
+            description:
+              "The company's real strengths — master craftsmanship, personal consultation, fixed-price quotes, and notable reference clients — were invisible online. Prospects could not see the difference from cheaper competitors.",
+          },
+          {
+            title: "No lead generation system",
+            description:
+              "Inquiries came almost exclusively through word of mouth. A structured system to regularly generate new clients through the web was entirely absent.",
+          },
+        ],
+      },
+      solution: {
+        title: "The solution delivered",
+        description:
+          "DTSfuture designed and built a website that reflects the company's real quality: clearly structured, trust-building, and optimised for inquiries — with a positioning that establishes Schmidts Zaunbau Nord as the quality leader in northern Germany.",
+        items: [
+          {
+            title: "Clear positioning",
+            description:
+              "The website immediately communicates what sets the company apart: master craftsmanship, 20+ years of experience, 2,000+ completed projects, and a 4.8-star Google rating.",
+          },
+          {
+            title: "Trust-building design",
+            description:
+              "References, client testimonials, a clear service overview, and a professional visual identity give visitors immediate confidence they are dealing with the right company.",
+          },
+          {
+            title: "Targeted lead generation",
+            description:
+              "Clear calls to action, a structured contact form, and regional discoverability convert visitors directly into concrete inquiries.",
+          },
+        ],
+      },
+      process: {
+        title: "What DTSfuture takes care of",
+        description:
+          "From strategy to launch — DTSfuture guides trade businesses through the full digital transformation process: positioning, design, development, and discoverability.",
+        items: [
+          {
+            title: "Analysis & positioning",
+            description:
+              "Market analysis, identification of genuine strengths, and development of a clear message that sets the business apart from the competition.",
+          },
+          {
+            title: "Design & UX",
+            description:
+              "Designing a website that reflects the business's quality, builds trust, and works well on all devices — especially mobile.",
+          },
+          {
+            title: "Development & content",
+            description:
+              "Technical implementation, copywriting, image selection, and complete setup of all pages, forms, and contact channels.",
+          },
+          {
+            title: "SEO & launch",
+            description:
+              "Regional search engine optimisation, performance configuration, and full delivery — ready for real users and local search queries.",
+          },
+        ],
+      },
+      stack: {
+        title: "Technology & implementation",
+        description:
+          "For Schmidts Zaunbau Nord, DTSfuture built a modern, performant website — without unnecessary complexity, but with everything a professional web presence requires today.",
+        note:
+          "The technical foundation is deliberately solid and maintainable, so the business benefits from a stable digital base over the long term.",
+        items: [
+          {
+            title: "Next.js frontend",
+            description:
+              "The website is built on Next.js — fast, SEO-friendly, and mobile-optimised for users across Hamburg, Schleswig-Holstein, and Lower Saxony.",
+          },
+          {
+            title: "Responsive design",
+            description:
+              "Fully optimised for mobile devices, since the majority of search queries in the trades sector come from smartphones.",
+          },
+          {
+            title: "Regional SEO",
+            description:
+              "Local search engine optimisation for the company's service area — so Schmidts Zaunbau Nord is found when it matters most.",
+          },
+          {
+            title: "Lead capture & contact",
+            description:
+              "A structured contact form and clear calls to action on every page guide prospective clients directly towards an inquiry.",
+          },
+          {
+            title: "Performance & security",
+            description:
+              "Optimised load times, secure infrastructure, and correct meta tags — for a website that is competitive in today's web.",
+          },
+          {
+            title: "Deployment & hosting",
+            description:
+              "Production deployment on Vercel with stable availability, HTTPS security, and automatic updates.",
+          },
+        ],
+      },
+      proof: {
+        title: "What this project proves to a potential client",
+        description:
+          "Schmidts Zaunbau Nord shows that DTSfuture does not only build digital products for international markets — it also gives established German trade businesses real digital visibility.",
+        items: [
+          "We can translate the genuine strengths of a trade business into a clear, credible online positioning.",
+          "We design websites that build trust, convey quality, and generate concrete inquiries.",
+          "We deliver complete solutions — from strategy and design through to technical implementation and regional discoverability.",
+          "We bring German quality standards to the digital presence of businesses known for their craftsmanship.",
+        ],
+      },
     },
     bolo237: {
       eyebrow: "International flagship",

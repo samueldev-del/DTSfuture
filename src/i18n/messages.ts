@@ -14,6 +14,9 @@ export const messages = {
       bolo237Title: "Bolo237 | DTSfuture",
       bolo237Description:
         "Die Bolo237-Fallstudie: unser internationales Flaggschiff, in Deutschland mit deutscher Ingenieursdisziplin entwickelt, konzipiert für den kamerunischen Markt.",
+      schmidtszaunbaunordTitle: "Schmidts Zaunbau Nord | DTSfuture",
+      schmidtszaunbaunordDescription:
+        "Wie DTSfuture einem etablierten Hamburger Zaunbau-Betrieb zu professioneller digitaler Sichtbarkeit verholfen hat – Website, Positionierung und Lead-Generierung.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Angaben zum Herausgeber und Kontaktinformationen für DTSfuture, ein privates, nicht-kommerzielles Projekt aus Deutschland.",
@@ -438,6 +441,9 @@ export const messages = {
       bolo237Title: "Bolo237 | DTSfuture",
       bolo237Description:
         "The Bolo237 case study: our international flagship, built in Germany with German engineering discipline, designed for the Cameroonian market.",
+      schmidtszaunbaunordTitle: "Schmidts Zaunbau Nord | DTSfuture",
+      schmidtszaunbaunordDescription:
+        "How DTSfuture gave an established Hamburg fencing company a professional digital presence — website, positioning, and lead generation.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
         "Publisher and contact information for DTSfuture, a private non-commercial project based in Germany.",

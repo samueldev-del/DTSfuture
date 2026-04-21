@@ -3,12 +3,13 @@ import { isLocale, type Locale, supportedLocales } from "@/src/i18n/messages";
 export const defaultLocale: Locale = "de";
 export const localeCookieName = "dtsfuture-locale";
 
-export type RouteKey = "home" | "products" | "bolo237" | "storyPage" | "impressum" | "privacy" | "press";
+export type RouteKey = "home" | "products" | "bolo237" | "schmidtszaunbaunord" | "storyPage" | "impressum" | "privacy" | "press";
 
 const routeSegments: Record<RouteKey, Record<Locale, string>> = {
   home: { de: "", en: "" },
   products: { de: "produkte", en: "products" },
   bolo237: { de: "produkte/bolo237", en: "products/bolo237" },
+  schmidtszaunbaunord: { de: "produkte/schmidtszaunbaunord", en: "products/schmidtszaunbaunord" },
   storyPage: { de: "unsere-geschichte", en: "our-story" },
   impressum: { de: "impressum", en: "impressum" },
   privacy: {
