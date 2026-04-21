@@ -104,8 +104,61 @@ export function PortfolioSection() {
           </article>
         </RevealOnScroll>
 
-        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3">
           <RevealOnScroll delayMs={180} className="h-full">
+            <Link href={getLocalizedPath(locale, "schmidtszaunbaunord")} className="block h-full">
+              <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-littoral/12 bg-white p-8 shadow-lg shadow-littoral/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-littoral/15 sm:p-10">
+                <div
+                  aria-hidden="true"
+                  className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(26,23,21,0.04),transparent_50%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                />
+
+                <div className="relative flex flex-1 flex-col">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex h-12 w-36 items-center overflow-hidden rounded-xl bg-savane/60 px-3 ring-1 ring-littoral/8">
+                      <Image
+                        src="/portfolio/schmidtszaunbau/logo-wide.png"
+                        alt="Schmidts Zaunbau Nord logo"
+                        width={1440}
+                        height={304}
+                        className="h-auto w-full object-contain"
+                        sizes="144px"
+                      />
+                    </div>
+                    <span className="shrink-0 rounded-full bg-foret/10 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-foret">
+                      {copy.common.live}
+                    </span>
+                  </div>
+
+                  <h3 className="mt-6 font-display text-2xl font-bold tracking-[-0.04em] text-littoral sm:text-3xl">
+                    Schmidts Zaunbau Nord
+                  </h3>
+                  <p className="mt-1 text-sm font-semibold text-ouest/70">{copy.portfolio.schmidtsTagline}</p>
+                  <p className="mt-4 flex-1 text-base leading-7 text-littoral/65">
+                    {copy.portfolio.schmidtsDescription}
+                  </p>
+
+                  <div className="mt-6 flex flex-wrap gap-2">
+                    {copy.portfolio.schmidtsTags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="rounded-full bg-savane px-3 py-1.5 text-xs font-semibold text-littoral/50 ring-1 ring-littoral/8"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-ouest transition-all duration-300 group-hover:gap-3">
+                    {copy.portfolio.schmidtsExploreCta}
+                    <ArrowUpRight className="h-4 w-4" />
+                  </span>
+                </div>
+              </article>
+            </Link>
+          </RevealOnScroll>
+
+          <RevealOnScroll delayMs={260} className="h-full">
             <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foret/15 bg-white p-8 shadow-lg shadow-foret/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-foret/15 sm:p-10">
               <div
                 aria-hidden="true"
@@ -145,7 +198,7 @@ export function PortfolioSection() {
             </article>
           </RevealOnScroll>
 
-          <RevealOnScroll delayMs={320}>
+          <RevealOnScroll delayMs={340}>
             <div className="h-full rounded-3xl border border-dashed border-littoral/15 bg-white/50 p-8 text-center backdrop-blur-sm sm:p-12">
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-littoral/5">
                 <FlaskConical className="h-7 w-7 text-littoral/40" />

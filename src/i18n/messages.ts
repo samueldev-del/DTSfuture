@@ -203,6 +203,11 @@ export const messages = {
       proofDescription:
         "Echte Bolo237-Screens sind in die Seite eingebettet, um eine Ausführung zu zeigen, die bereits greifbar, öffentlich und stark genug ist, um Vertrauen zu gewinnen.",
       exploreCta: "Den Bolo237-Fall ansehen",
+      schmidtsTagline: "Digitale Sichtbarkeit für Hamburgs Zaunbau-Spezialisten",
+      schmidtsDescription:
+        "Schmidts Zaunbau Nord – über 20 Jahre Erfahrung, 2.000+ abgeschlossene Projekte, 4,8 Sterne auf Google. DTSfuture hat den Betrieb mit einer neuen Website, klarer Positionierung und gezielter Lead-Generierung digital neu aufgestellt.",
+      schmidtsTags: ["Webentwicklung", "Branding", "Lead-Generierung", "SEO"],
+      schmidtsExploreCta: "Den Schmidts-Fall ansehen",
       carliteTagline: "Mobilität, neu gedacht",
       carliteDescription:
         "Carlite bereitet ein Mobilitätserlebnis vor: klarer, sicherer und täglich wirklich nützlich – gebaut mit den gleichen Ingenieursstandards aus Deutschland.",
@@ -630,6 +635,11 @@ export const messages = {
       proofDescription:
         "Real Bolo237 screens are embedded across the site to show execution that is already tangible, already public, and already strong enough to earn confidence.",
       exploreCta: "See the Bolo237 case",
+      schmidtsTagline: "Digital visibility for Hamburg's fencing specialists",
+      schmidtsDescription:
+        "Schmidts Zaunbau Nord — 20+ years of experience, 2,000+ completed projects, 4.8 stars on Google. DTSfuture repositioned the business with a new website, clear positioning, and targeted lead generation.",
+      schmidtsTags: ["Web development", "Branding", "Lead generation", "SEO"],
+      schmidtsExploreCta: "See the Schmidts case",
       carliteTagline: "Mobility, rethought",
       carliteDescription:
         "Carlite is preparing a mobility experience: clearer, safer and genuinely useful every day — built with the same German engineering standards.",
