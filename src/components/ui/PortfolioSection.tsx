@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Briefcase, Car, FlaskConical } from "lucide-react";
+import { ArrowUpRight, Car, FlaskConical } from "lucide-react";
 
 import { Bolo237Preview } from "@/src/components/ui/Bolo237Preview";
 import { RevealOnScroll } from "@/src/components/ui/RevealOnScroll";
@@ -53,13 +53,25 @@ export function PortfolioSection() {
                 </div>
 
                 <div className="mt-6 flex items-center gap-4">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-ouest/10 text-ouest shadow-sm shadow-ouest/10">
-                    <Briefcase className="h-7 w-7" />
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[1.2rem] border border-ouest/12 bg-ouest/8 p-1.5 shadow-sm shadow-ouest/10">
+                    <Image
+                      src="/bolo237/icon-512.png"
+                      alt="Bolo237 app icon"
+                      width={64}
+                      height={64}
+                      className="h-full w-full rounded-[0.8rem]"
+                      sizes="56px"
+                    />
                   </div>
                   <div>
-                    <h3 className="font-display text-3xl font-bold tracking-[-0.04em] text-littoral sm:text-4xl">
-                      {featuredProduct.name}
-                    </h3>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className="font-display text-3xl font-bold tracking-[-0.04em] text-littoral sm:text-4xl">
+                        {featuredProduct.name}
+                      </h3>
+                      <span className="rounded-full bg-savane px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-littoral/48 ring-1 ring-littoral/10">
+                        www.bolo237.com
+                      </span>
+                    </div>
                     <p className="text-sm font-semibold text-ouest/75 sm:text-base">
                       {copy.portfolio.featuredTagline}
                     </p>
