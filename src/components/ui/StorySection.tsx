@@ -67,14 +67,14 @@ export function StorySection() {
                   </div>
 
                   {/* Card */}
-                  <div className="flex-1 rounded-2xl border border-littoral/8 bg-white p-6 shadow-sm transition-all duration-500 hover:border-littoral/15 hover:shadow-md sm:p-8">
-                    <span className="text-xs font-bold uppercase tracking-[0.2em] text-ouest">
+                  <div className="flex-1 overflow-hidden rounded-3xl border border-littoral/8 bg-white p-6 shadow-[0_2px_20px_-8px_rgba(26,23,21,0.1)] transition-all duration-500 hover:-translate-y-0.5 hover:border-littoral/14 hover:shadow-[0_12px_40px_-16px_rgba(26,23,21,0.14)] sm:p-8">
+                    <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-ouest">
                       {milestone.label}
                     </span>
-                    <h3 className="mt-3 font-display text-xl font-semibold text-littoral">
+                    <h3 className="mt-3 font-display text-xl font-semibold tracking-[-0.02em] text-littoral">
                       {milestone.title}
                     </h3>
-                    <p className="mt-3 text-base leading-7 text-littoral/60">
+                    <p className="mt-3 text-sm leading-7 text-littoral/58">
                       {milestone.description}
                     </p>
                   </div>

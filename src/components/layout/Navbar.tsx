@@ -78,9 +78,9 @@ export function Navbar() {
   return (
     <header
       className={[
-        "sticky top-0 z-50 transition-all duration-300",
+        "sticky top-0 z-50 transition-all duration-500",
         scrolled
-          ? "border-b border-littoral/10 bg-savane/85 shadow-sm shadow-littoral/5 backdrop-blur-xl"
+          ? "border-b border-littoral/8 bg-white/88 shadow-[0_1px_24px_-8px_rgba(26,23,21,0.1)] backdrop-blur-xl"
           : "bg-transparent",
       ].join(" ")}
     >
@@ -146,7 +146,7 @@ export function Navbar() {
 
           <a
             href={siteContactLinks.email}
-            className="ml-4 inline-flex items-center rounded-full bg-littoral px-5 py-2.5 text-sm font-semibold text-savane transition-all duration-300 hover:bg-littoral/85"
+            className="ml-4 inline-flex items-center rounded-full bg-littoral px-5 py-2.5 text-sm font-semibold text-savane shadow-[0_2px_12px_-4px_rgba(26,23,21,0.35)] transition-all duration-300 hover:-translate-y-px hover:bg-littoral/88 hover:shadow-[0_4px_16px_-4px_rgba(26,23,21,0.4)]"
           >
             {copy.common.contact}
           </a>

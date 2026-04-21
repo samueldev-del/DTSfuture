@@ -36,7 +36,7 @@ export function PortfolioSection() {
         </RevealOnScroll>
 
         <RevealOnScroll delayMs={80}>
-          <article className="group relative overflow-hidden rounded-4xl border border-ouest/15 bg-white p-8 shadow-lg shadow-ouest/5 transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_38px_110px_-52px_rgba(192,57,43,0.62)] sm:p-10 lg:p-12">
+          <article className="group relative overflow-hidden rounded-[2.5rem] border border-ouest/12 bg-white p-8 shadow-[0_4px_32px_-12px_rgba(26,23,21,0.1)] transition-all duration-700 ease-out hover:-translate-y-1 hover:shadow-[0_40px_120px_-48px_rgba(192,57,43,0.55)] sm:p-10 lg:p-12">
             <div
               aria-hidden="true"
               className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(192,57,43,0.08),transparent_46%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
