@@ -13,11 +13,11 @@ export const shareImageContentType = "image/png";
 const shareCopy = {
   de: {
     site: {
-      badge: "Technologie-Studio",
-      title: "Ehrgeizige digitale Produkte für Kamerun.",
+      badge: "Studio aus Deutschland",
+      title: "Digitale Produkte mit deutscher Ingenieurskultur.",
       description:
-        "Rigorose Ausführung, erstklassiges Produkturteil und Obsession für echten Mehrwert.",
-      tags: ["Bolo237", "Carlite", "Cameroon-first"],
+        "Unabhängiges Technologie-Studio aus Deutschland. Für den deutschen und internationalen Markt – mit Substanz statt Politur.",
+      tags: ["Made in Germany", "International", "Engineering-first"],
       footer: "www.dtsfuture.com",
       highlight: "Vertrauen schaffen. Klar liefern. Mit Absicht vorankommen.",
       alt: "DTSfuture Social-Share-Vorschau.",
@@ -36,18 +36,18 @@ const shareCopy = {
       badge: "Unsere Produkte",
       title: "Öffentliche Fälle, die vor dem ersten Anruf überzeugen.",
       description:
-        "Bolo237 öffnet eine Bibliothek mit Produktnachweisen: Konzeption, Design, Entwicklung und Auslieferung – sichtbar.",
-      tags: ["Bolo237", "Produktausführung", "Kundennachweis"],
+        "Bolo237, unser internationales Flaggschiff aus Deutschland, öffnet eine Bibliothek mit Produktnachweisen: Konzeption, Design, Entwicklung, Launch.",
+      tags: ["Made in Germany", "International", "Engineering-first"],
       footer: "/de/produkte",
       highlight: "Sichtbare Fälle für anspruchsvolle Partner.",
       alt: "DTSfuture Produkte Social-Share-Vorschau.",
     },
     bolo237: {
-      badge: "Produktfall",
-      title: "Bolo237: End-to-End-Ausführung, öffentlich gemacht.",
+      badge: "Internationales Flaggschiff",
+      title: "Bolo237: in Deutschland gebaut, für Kamerun konzipiert.",
       description:
-        "Ursprüngliche Herausforderung, gelieferte Antwort und sichtbare Architektur eines bereits live Produkts.",
-      tags: ["Challenge", "Solution", "Technologie"],
+        "Unser erstes internationales Produkt. Deutsche Ingenieursstrenge trifft auf Feldperspektive – als öffentlicher Beweis unserer Ausführung.",
+      tags: ["Made in Germany", "International", "Live"],
       footer: "/de/produkte/bolo237",
       highlight: "Vom Ausgangsbedürfnis bis zum Launch – Ausführung sichtbar und vertretbar.",
       alt: "Bolo237 Fallstudie Social-Share-Vorschau.",
@@ -55,11 +55,11 @@ const shareCopy = {
   },
   en: {
     site: {
-      badge: "Technology studio",
-      title: "Ambitious digital products for Cameroon.",
+      badge: "Studio from Germany",
+      title: "Digital products built with German engineering.",
       description:
-        "Rigorous execution, premium product judgment, and an obsession with usefulness that holds up in the real world.",
-      tags: ["Bolo237", "Carlite", "Cameroon-first"],
+        "An independent technology studio based in Germany. For the German and international market — substance over polish.",
+      tags: ["Made in Germany", "International", "Engineering-first"],
       footer: "www.dtsfuture.com",
       highlight: "Earn trust. Ship with clarity. Move with intent.",
       alt: "DTSfuture social share preview.",
@@ -78,18 +78,18 @@ const shareCopy = {
       badge: "Our products",
       title: "Public product cases that reassure before the first call.",
       description:
-        "Bolo237 opens a library of product proof: scoping, design, development, and delivery made visible.",
-      tags: ["Bolo237", "Product execution", "Client proof"],
+        "Bolo237, our international flagship built in Germany, opens a library of product proof: scoping, design, development, launch.",
+      tags: ["Made in Germany", "International", "Engineering-first"],
       footer: "/en/products",
       highlight: "Visible cases for prospects who want proof, not promises.",
       alt: "DTSfuture products page social share preview.",
     },
     bolo237: {
-      badge: "Product case",
-      title: "Bolo237: end-to-end execution, made public.",
+      badge: "International flagship",
+      title: "Bolo237: built in Germany, designed for Cameroon.",
       description:
-        "Original challenge, delivered response, and observable architecture showing a product that is already live.",
-      tags: ["Challenge", "Solution", "Technology"],
+        "Our first international product. German engineering rigor meets field perspective — as public proof of our execution.",
+      tags: ["Made in Germany", "International", "Live"],
       footer: "/en/products/bolo237",
       highlight: "From the initial need to public launch, the execution is already visible.",
       alt: "Bolo237 case-study social share preview.",
@@ -303,7 +303,7 @@ export function createShareImage(locale: ShareLocale, variant: ShareVariant) {
                   color: "rgba(248,246,240,0.54)",
                 }}
               >
-                Cameroon-first
+                Made in Germany
               </div>
               <div style={{ fontSize: 28, lineHeight: 1.28, fontWeight: 600 }}>
                 {copy.highlight}

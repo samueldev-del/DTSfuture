@@ -13,16 +13,16 @@ import { getLocalizedPath } from "@/src/i18n/routing";
 export function StoryPage() {
   const { copy, locale } = useLocale();
   const story = copy.storyPage;
-  const cameroonLabel = locale === "de" ? "Kamerun" : "Cameroon";
-  const germanyLabel = locale === "de" ? "Deutschland" : "Germany";
+  const cameroonLabel = locale === "de" ? "Feldperspektive" : "Field perspective";
+  const germanyLabel = locale === "de" ? "Studio-Standort" : "Studio location";
   const cameroonSummary =
     locale === "de"
-      ? "Radikale Nützlichkeit als Maßstab. Fragiles Vertrauen. Echte Reibung."
-      : "Field reality, fragile trust, mobile-first behavior, tangible friction.";
+      ? "Eine seltene Sensibilität für echte Reibung, fragiles Vertrauen und reale Nutzungsbedingungen – getragen aus Kamerun."
+      : "A rare sensitivity to real friction, fragile trust, and real-world usage conditions — carried from Cameroon.";
   const germanySummary =
     locale === "de"
-      ? "Unerschütterliche Zuverlässigkeit. Ingenieurskultur. Kompromisslose Strenge."
-      : "Product discipline, technical rigor, reliability, and standards built to last.";
+      ? "Deutsche Ingenieurskultur. Kompromisslose Strenge. Produkte, die Bestand haben – aus Deutschland für die Welt."
+      : "German engineering culture. Uncompromising rigor. Products built to last — from Germany to the world.";
 
   return (
     <div className="overflow-x-hidden">

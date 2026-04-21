@@ -6,7 +6,7 @@ export const siteConfig = {
   projectNature: "Persönliche, nicht-kommerzielle Website",
   title: "DTSfuture - Technology Studio",
   description:
-    "DTSfuture builds ambitious digital products for Cameroon with rigorous execution and an obsession with real-world usefulness.",
+    "DTSfuture is an independent technology studio based in Germany, building ambitious digital products for the German and international market with uncompromising engineering discipline.",
   url: "https://www.dtsfuture.com",
   domain: "dtsfuture.com",
   email: "contact@dtsfuture.com",
@@ -35,7 +35,7 @@ export const siteConfig = {
   },
   pressFacts: {
     foundingYear: "2026",
-    focusMarkets: "Cameroon and cross-border African digital products",
+    focusMarkets: "Germany, Europe and international digital products",
     flagshipProducts: ["Bolo237", "Carlite"],
   },
 } as const;

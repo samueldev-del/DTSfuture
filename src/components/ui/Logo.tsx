@@ -13,7 +13,7 @@ type LogoProps = {
  * – a bold vertical pillar (stability, engineering rigour)
  * – a forward-leaning arc that opens to the right (future, momentum)
  * The negative space between them forms an arrow / pathway,
- * symbolising the bridge between Germany and Cameroon.
+ * symbolising the studio's trajectory from Germany to the international market.
  *
  * Colour mapping:
  *   Pillar  → littoral (#1A1715)

@@ -15,7 +15,7 @@ export function PressContent() {
   const pressCopy = copy.legal.press;
   const focusMarket =
     locale === "de"
-      ? "Kamerun und grenzüberschreitende digitale Produkte in Afrika"
+      ? "Deutschland, Europa und internationale digitale Produkte"
       : siteConfig.pressFacts.focusMarkets;
   const quickFacts = [
     { label: pressCopy.facts.foundedLabel, value: siteConfig.pressFacts.foundingYear },

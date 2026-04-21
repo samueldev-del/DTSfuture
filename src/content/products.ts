@@ -11,7 +11,7 @@ const productShowcaseContent = {
       titleLead: "Produktfälle, die zeigen,",
       titleAccent: "wie End-to-End-Ausführung aussieht.",
       description:
-        "Wir wollen nicht nur behaupten, dass wir Produkte konzipieren, gestalten, entwickeln und launchen können. Wir wollen es durch öffentliche Fälle beweisen, die schon vor dem ersten Gespräch Vertrauen schaffen. Dieser Bereich dokumentiert die Produkte, die DTSfuture bereits trägt, und die nächsten Releases, die die Vitrine bereichern werden.",
+        "Wir behaupten nicht, wir beweisen. DTSfuture ist ein Studio aus Deutschland – und Bolo237, unser erstes internationales Flaggschiff, ist der öffentliche Beweis, dass wir Produkte aus Deutschland für anspruchsvolle internationale Märkte liefern können. Dieser Bereich dokumentiert, was wir tragen und was als Nächstes kommt.",
       primaryCta: "Den Bolo237-Fall ansehen",
       secondaryCta: "Kontakt aufnehmen",
       proofTitle: "Was dieser Bereich belegen soll",
@@ -23,10 +23,10 @@ const productShowcaseContent = {
       ],
       featured: {
         name: "Bolo237",
-        status: "Live",
-        tagline: "Jobs- und Handwerker-Marktplatz für Kamerun",
+        status: "Live · International",
+        tagline: "Internationales Flaggschiff – in Deutschland gebaut, für Kamerun konzipiert",
         summary:
-          "Bolo237 zeigt, dass wir ein komplexes lokales Bedürfnis in ein klares, glaubwürdiges und betreibbares Produkt verwandeln können – von der ursprünglichen Idee bis zu einem Live-Dienst, den echte Nutzer navigieren, verstehen und nutzen können.",
+          "Bolo237 ist unser erstes internationales Produkt: ein Jobs- und Handwerker-Marktplatz, in Deutschland mit deutscher Ingenieurskultur entwickelt und für den kamerunischen Markt konzipiert. Der öffentliche Beweis, dass wir Produkte liefern, die in anspruchsvollen Märkten bestehen.",
         detailCta: "Fallstudie ansehen",
         liveCta: "Live-Produkt sehen",
         tags: [
@@ -38,7 +38,7 @@ const productShowcaseContent = {
       },
       pipelineTitle: "Aktuelle und kommende Produkte",
       pipelineDescription:
-        "Bolo237 eröffnet die Bibliothek. Carlite und die nächsten Kreationen werden hier mit demselben Maß an Klarheit dokumentiert, um zu zeigen, was konzipiert, gebaut und geliefert wurde.",
+        "Bolo237 eröffnet die Bibliothek. Die nächsten Produkte für den deutschen und internationalen Markt werden hier mit demselben Maß an Klarheit dokumentiert – mit deutscher Ingenieurskultur und kompromissloser Ausführung.",
       roadmapCards: [
         {
           name: "Carlite",
@@ -51,17 +51,17 @@ const productShowcaseContent = {
           name: "Das DTSfuture Lab",
           status: "Kommt als Nächstes",
           summary:
-            "Der Ort, an dem die nächsten Produktantworten für Kamerun und darüber hinaus formalisiert werden, mit demselben Ausführungsstandard und derselben öffentlichen Klarheit.",
+            "Der Ort, an dem die nächsten Produktantworten für den deutschen und internationalen Markt formalisiert werden – mit demselben Ausführungsstandard und derselben öffentlichen Klarheit.",
           tags: ["Erkundung", "Produkt-F&E", "Pipeline"],
         },
       ],
     },
     bolo237: {
-      eyebrow: "Produktfall",
+      eyebrow: "Internationales Flaggschiff",
       title: "Bolo237",
-      tagline: "Jobs- und Handwerker-Marktplatz für Kamerun",
+      tagline: "Internationales Flaggschiff – in Deutschland gebaut, für Kamerun konzipiert",
       intro:
-        "Bolo237 brauchte keine einfache Präsentationswebseite. Es brauchte eine Plattform, die den Markt lesbarer, zuverlässiger und handlungsfähiger macht – für Kandidaten, Arbeitgeber und Handwerker mit unterschiedlichen Bedürfnissen, meist auf dem Handy und oft unter unvollkommener Konnektivität.",
+        "Bolo237 ist unser erstes internationales Produkt – in Deutschland mit deutscher Ingenieurskultur entwickelt und für den kamerunischen Markt konzipiert. Es brauchte keine einfache Präsentationswebseite, sondern eine Plattform, die den Markt lesbarer, zuverlässiger und handlungsfähiger macht – für Kandidaten, Arbeitgeber und Handwerker mit unterschiedlichen Bedürfnissen, meist auf dem Handy und oft unter unvollkommener Konnektivität.",
       note:
         "Diese Seite zeigt, was das Produkt bereits öffentlich sichtbar macht und was das für einen zukünftigen Kunden beweist: disziplinierte Konzeption, glaubwürdige Produktentscheidungen, starke Ausführung und eine Lieferung, die bereits live und nutzbar ist.",
       quickFacts: [
@@ -203,7 +203,7 @@ const productShowcaseContent = {
       titleLead: "Product cases that show",
       titleAccent: "end-to-end execution.",
       description:
-        "We are not here to merely claim that we can scope, design, build, and launch products. We want to prove it through public cases that build confidence before the first call. This section documents the products DTSfuture has already carried and the next releases that will broaden the showcase.",
+        "We do not claim, we prove. DTSfuture is a studio based in Germany — and Bolo237, our first international flagship, is the public evidence that we can ship products from Germany to demanding international markets. This section documents what we carry today and what comes next.",
       primaryCta: "See the Bolo237 case",
       secondaryCta: "Get in touch",
       proofTitle: "What this section is here to prove",
@@ -215,10 +215,10 @@ const productShowcaseContent = {
       ],
       featured: {
         name: "Bolo237",
-        status: "Live",
-        tagline: "Jobs and artisans marketplace for Cameroon",
+        status: "Live · International",
+        tagline: "International flagship — built in Germany, designed for Cameroon",
         summary:
-          "Bolo237 shows that we can turn a complex local need into a product that is clear, credible, and operational, from the original promise to a live service real users can navigate, understand, and act on.",
+          "Bolo237 is our first international product: a jobs and artisans marketplace, developed in Germany with German engineering culture and designed for the Cameroonian market. Public proof that we ship products able to hold up in demanding markets.",
         detailCta: "View case study",
         liveCta: "See the live product",
         tags: [
@@ -230,7 +230,7 @@ const productShowcaseContent = {
       },
       pipelineTitle: "Current and upcoming products",
       pipelineDescription:
-        "Bolo237 opens the library. Carlite and the next creations will be documented here with the same level of clarity to show what was shaped, built, and shipped.",
+        "Bolo237 opens the library. The next products for the German and international market will be documented here with the same clarity — carried by German engineering culture and uncompromising execution.",
       roadmapCards: [
         {
           name: "Carlite",
@@ -243,17 +243,17 @@ const productShowcaseContent = {
           name: "The DTSfuture Lab",
           status: "Coming next",
           summary:
-            "The place where the next product answers for Cameroon and beyond will be formalized, with the same execution standard and the same public clarity.",
+            "The place where the next product answers for the German and international market are formalized, with the same execution standard and the same public clarity.",
           tags: ["Exploration", "Product R&D", "Pipeline"],
         },
       ],
     },
     bolo237: {
-      eyebrow: "Product case",
+      eyebrow: "International flagship",
       title: "Bolo237",
-      tagline: "Jobs and artisans marketplace for Cameroon",
+      tagline: "International flagship — built in Germany, designed for Cameroon",
       intro:
-        "Bolo237 did not need a simple marketing site. It needed a platform that makes the market more legible, more trustworthy, and more actionable for candidates, employers, and artisans with different needs, mostly on mobile and often under imperfect connectivity.",
+        "Bolo237 is our first international product — developed in Germany with German engineering culture and designed for the Cameroonian market. It did not need a simple marketing site. It needed a platform that makes the market more legible, more trustworthy, and more actionable for candidates, employers, and artisans with different needs, mostly on mobile and often under imperfect connectivity.",
       note:
         "This page shows what the product already makes visible in public and what that proves to a future client: disciplined scoping, credible product decisions, strong execution, and a delivery that is already live and usable.",
       quickFacts: [

@@ -5,24 +5,24 @@ export type Locale = (typeof supportedLocales)[number];
 export const messages = {
   de: {
     meta: {
-      homeTitle: "DTSfuture - Technologie-Studio",
+      homeTitle: "DTSfuture - Technologie-Studio aus Deutschland",
       homeDescription:
-        "DTSfuture entwickelt ehrgeizige digitale Produkte für Kamerun – mit rigoroser Ausführung, erstklassigem Produkturteil und dem Fokus auf echten Mehrwert.",
+        "DTSfuture ist ein unabhängiges Technologie-Studio aus Deutschland. Wir entwickeln digitale Produkte für den deutschen und internationalen Markt – mit kompromissloser Ingenieursdisziplin und einer seltenen Sensibilität für reale Nutzung.",
       productsTitle: "Unsere Produkte | DTSfuture",
       productsDescription:
-        "DTSfuture Produktfälle: Bolo237, Arbeitsmethoden und sichtbare Belege für End-to-End-Ausführung.",
+        "DTSfuture Produktfälle: Bolo237 als internationales Flaggschiff, Arbeitsmethoden und sichtbare Belege unserer Ausführung aus Deutschland.",
       bolo237Title: "Bolo237 | DTSfuture",
       bolo237Description:
-        "Die Bolo237-Fallstudie: die ursprüngliche Herausforderung, die Produktantwort und die technischen Entscheidungen hinter einer bereits öffentlichen Plattform.",
+        "Die Bolo237-Fallstudie: unser internationales Flaggschiff, in Deutschland mit deutscher Ingenieursdisziplin entwickelt, konzipiert für den kamerunischen Markt.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
-        "Angaben zum Herausgeber und Kontaktinformationen für DTSfuture, ein privates, nicht-kommerzielles Projekt.",
+        "Angaben zum Herausgeber und Kontaktinformationen für DTSfuture, ein privates, nicht-kommerzielles Projekt aus Deutschland.",
       pressTitle: "Presse | DTSfuture",
       pressDescription:
         "DTSfuture Pressebereich: Medienkontakt, Unternehmenstext, Kennzahlen und herunterladbare Marken-Assets.",
       storyTitle: "Unsere Geschichte | DTSfuture",
       storyDescription:
-        "Die DTSfuture-Geschichte: gelebte Realität in Kamerun, Disziplin in Deutschland und die Entscheidung, Produkte zu bauen, die wirklich halten.",
+        "Die DTSfuture-Geschichte: von Kameruns Feldrealität zur deutschen Ingenieursstrenge – und warum beide Welten heute jedes unserer Produkte für den deutschen und internationalen Markt stärker machen.",
       privacyTitle: "Datenschutzerklärung | DTSfuture",
       privacyDescription:
         "Datenschutzerklärung von DTSfuture, verfügbar auf Deutsch und Englisch.",
@@ -61,35 +61,35 @@ export const messages = {
       appIcon: "App-Symbol",
     },
     hero: {
-      badge: "Kamerun verdient Produkte mit echter Disziplin.",
-      titleLead: "Wir entwickeln die digitalen Produkte, auf die der Markt wartet",
-      titleAccent: "in Kamerun.",
+      badge: "Technologie-Studio aus Deutschland. Produkte, die Bestand haben.",
+      titleLead: "Wir entwickeln digitale Produkte mit",
+      titleAccent: "kompromissloser Ingenieurskultur.",
       description:
-        "DTSfuture wandelt lokale Reibungspunkte in klare, begehrenswerte Produkte um – gebaut für Vertrauen, Schnelligkeit und reale Nutzung.",
+        "DTSfuture ist ein unabhängiges Studio aus Deutschland. Wir bauen digitale Produkte für deutsche und internationale Kunden – mit Ingenieursdisziplin, Produktklarheit und einer seltenen Sensibilität für reale Nutzung.",
       primaryCta: "Sehen, was wir bauen",
       secondaryCta: "Kontakt aufnehmen",
       stats: [
-        { value: "2", label: "Produkte in Entwicklung" },
-        { value: "10", label: "Abgedeckte Regionen" },
-        { value: "237", label: "Ländervorwahl Kamerun" },
+        { value: "DE", label: "Studio-Standort" },
+        { value: "2", label: "Kontinente bedient" },
+        { value: "100%", label: "Eigenbetrieb" },
       ],
     },
     adn: {
       eyebrow: "Unsere DNA",
       titleLead: "Wir bauen nicht aus",
-      titleAccent: "einem Elfenbeinturm heraus.",
+      titleAccent: "dem Elfenbeinturm.",
       description:
-        "Wir haben die Reibung erlebt, bevor wir die Methode lernten. Genau deshalb fühlen sich unsere Produkte von Anfang an schärfer, stabiler und glaubwürdiger an.",
+        "Wir haben Reibung erlebt, bevor wir die Methode lernten. Deutsche Ingenieursstrenge trifft auf eine seltene Feldperspektive – genau deshalb fühlen sich unsere Produkte von Anfang an schärfer, stabiler und glaubwürdiger an.",
       items: {
         localInsight: {
-          title: "Lokales Verständnis",
+          title: "Seltene Perspektive",
           description:
-            "Interfaces, die auf reales Verhalten in Kamerun ausgerichtet sind. Kein distanziertes Produktdenken, kein schlichtes Kopieren aus anderen Märkten.",
+            "Wir kombinieren deutsche Ingenieurskultur mit einer Sensibilität für Märkte mit echter Reibung – eine Perspektive, die den Unterschied zwischen Politur und Substanz macht.",
         },
         europeanStandards: {
-          title: "Europäische Standards",
+          title: "Deutsche Standards",
           description:
-            "Sicherheit, Compliance, Stabilität und Produktdisziplin, die beim ersten Kontakt Vertrauen schaffen.",
+            "Sicherheit, Compliance, Stabilität und Produktdisziplin nach deutschen Maßstäben. Vertrauen entsteht ab dem ersten Kontakt.",
         },
         modernEngineering: {
           title: "Modernes Engineering",
@@ -99,12 +99,12 @@ export const messages = {
         performanceFirst: {
           title: "Performance zuerst",
           description:
-            "Optimiert für reale mobile Verbindungen, denn ein langsames Produkt verliert das Vertrauen, bevor es Akzeptanz gewinnt.",
+            "Optimiert für reale Bedingungen – vom deutschen Glasfaseranschluss bis zum mobilen Netz weltweit. Ein langsames Produkt verliert das Vertrauen, bevor es Akzeptanz gewinnt.",
         },
         socialImpact: {
           title: "Konkreter Mehrwert",
           description:
-            "Jedes Produkt muss etwas Messbares verbessern: Arbeit finden, mobiler sein, schneller auf zuverlässige Dienste zugreifen.",
+            "Jedes Produkt muss etwas Messbares verbessern. Keine Features um ihrer selbst willen – nur Ergebnisse, die Nutzer spüren.",
         },
         solidInfrastructure: {
           title: "Solide Infrastruktur",
@@ -116,31 +116,31 @@ export const messages = {
     story: {
       eyebrow: "Unsere Geschichte",
       titleLead: "Wir haben gesehen, was Menschen aufhält.",
-      titleAccent: "Wir haben gelernt, was sie voranbringt.",
+      titleAccent: "Wir haben gelernt, Produkte zu bauen, die tragen.",
       description:
-        "DTSfuture entstand nicht aus Trendverfolgung. Es entstand aus einer offensichtlichen Lücke: zu viele echte Bedürfnisse, zu wenige zuverlässige Produkte. Kamerun gab die Dringlichkeit. Deutschland gab die Disziplin für ernsthafte Antworten.",
-      calloutTitle: "Vom gelebten Einblick zur Ausführung",
+        "DTSfuture ist ein Studio aus Deutschland mit internationaler DNA. Unsere Gründungsgeschichte führt von Kameruns Feldrealität zur deutschen Ingenieursstrenge – eine seltene Kombination, die heute in jede Zeile Code fließt, die wir für deutsche und internationale Kunden schreiben.",
+      calloutTitle: "Vom gelebten Einblick zur deutschen Ausführung",
       calloutText:
-        "Das Feld formt die Intuition. Disziplin formt die Ausführung. DTSfuture existiert dort, wo beides zu einem Produkt wird, dem Menschen vertrauen können.",
+        "Das Feld formt die Intuition. Deutsche Disziplin formt die Ausführung. DTSfuture existiert dort, wo beides zu einem Produkt wird, dem Kunden weltweit vertrauen können.",
       pageCta: "Die ganze Geschichte lesen",
       milestones: [
         {
-          label: "Realität",
-          title: "Realität vor den Folien",
+          label: "Wurzeln",
+          title: "Feldrealität vor den Folien",
           description:
-            "In Kamerun aufzuwachsen bedeutet zu verstehen, was Menschen wirklich aufhält: Mangel an Vertrauen, fragiler Zugang, unnötige Reibung und verschwendete Zeit.",
+            "Die Erfahrung Kameruns lehrte früh, was Nutzer wirklich aufhält: fragiles Vertrauen, unnötige Reibung, verschwendete Zeit. Eine seltene Perspektive, die heute jeder deutschen Produktdiskussion Tiefe gibt.",
         },
         {
-          label: "Disziplin",
-          title: "Strenge, gelernt in Deutschland",
+          label: "Schmiede",
+          title: "Strenge, geschmiedet in Deutschland",
           description:
-            "Deutschland brachte die Methode: saubere Architektur, Produktdisziplin, Sorgfalt und eine Kultur der Zuverlässigkeit.",
+            "Deutschland lieferte die Methode: saubere Architektur, Produktdisziplin, Sorgfalt und eine Kultur der Zuverlässigkeit. Hier wurde die Intuition in ein Ingenieurshandwerk verwandelt.",
         },
         {
-          label: "Ausführung",
-          title: "Bauen, was es verdient zu existieren",
+          label: "Studio",
+          title: "Für den deutschen und internationalen Markt",
           description:
-            "DTSfuture verbindet diese beiden Kräfte, um Produkte zu launchen, die nützlich, begehrenswert und stark genug sind, um auf afrikanischen Märkten zu bestehen.",
+            "DTSfuture ist heute ein Studio aus Deutschland. Wir bauen für Kunden, die Substanz wollen – und liefern Produkte wie Bolo237 als öffentlichen Beweis unserer Ausführungsfähigkeit.",
         },
       ],
     },
@@ -149,7 +149,7 @@ export const messages = {
       titleLead: "Vor DTSfuture gab es eine einfache Frustration.",
       titleAccent: "Zu sehen, wie echte Bedürfnisse hinter leeren Versprechungen verschwinden.",
       intro:
-        "Der Ausgangspunkt war keine abstrakte Idee, um ein weiteres Startup zu gründen. Es war die menschliche Realität: verlorene Stunden, erschöpftes Vertrauen und digitale Produkte, die in der Theorie glänzen, aber in der Praxis versagen.",
+        "Der Ausgangspunkt war keine abstrakte Idee, um ein weiteres Startup zu gründen. Es war die menschliche Realität: verlorene Stunden, erschöpftes Vertrauen und digitale Produkte, die in der Theorie glänzen, aber in der Praxis versagen. Heute ist DTSfuture ein Studio aus Deutschland – mit einer Gründungsgeschichte, die unseren Blick auf Qualität für immer geprägt hat.",
       quote:
         "Die Messlatte ist nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit.",
       chapters: [
@@ -157,56 +157,56 @@ export const messages = {
           label: "Die Wurzeln",
           title: "Kameruns Dringlichkeit",
           text:
-            "Wer mit den Realitäten Kameruns aufwächst, lernt früh den Unterschied zwischen einer netten Idee und einem Service, der Menschen wirklich voranbringt. Wenn das Vertrauen fragil ist und jede digitale Hürde echtes Geld und Zeit kostet, ist die Messlatte nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit. Diese Dringlichkeit hat uns gelehrt, Reibung zu hassen und Lösungen zu lieben.",
+            "Wer mit den Realitäten Kameruns aufwächst, lernt früh den Unterschied zwischen einer netten Idee und einem Service, der Menschen wirklich voranbringt. Wenn das Vertrauen fragil ist und jede digitale Hürde echtes Geld und Zeit kostet, ist die Messlatte nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit. Diese Dringlichkeit hat uns gelehrt, Reibung zu hassen und Lösungen zu lieben – eine Perspektive, die kein deutsches Ingenieursstudio einfach nachbilden kann.",
         },
         {
           label: "Die Formung",
           title: "Deutsche Disziplin",
           text:
-            "Die Ankunft in Deutschland hat diese Realität nicht ausgelöscht, sondern geschmiedet. Die Erfahrung echter, harter Arbeit an der Basis lehrte uns, was unerschütterliche Zuverlässigkeit im wahren Leben bedeutet. Genau diese Prinzipien fließen heute in unseren Code: deutsche Ingenieurskunst, kompromisslose technische Strenge und eine absolute Kultur des Beweises. DTSfuture entstand genau hier – an der Schnittstelle zwischen gelebter Resilienz und methodischer Perfektion.",
+            "Die Ankunft in Deutschland hat diese Realität nicht ausgelöscht, sondern geschmiedet. Deutsche Ingenieurskultur, kompromisslose technische Strenge und eine absolute Kultur des Beweises haben die Intuition in ein Handwerk verwandelt. DTSfuture entstand genau hier – an der Schnittstelle zwischen gelebter Resilienz und methodischer Perfektion. Heute ist Deutschland unser Standort, unsere Ingenieursheimat und unser Qualitätsmaßstab.",
         },
         {
-          label: "Die Entscheidung",
-          title: "Nur bauen, was Bestand hat",
+          label: "Die Positionierung",
+          title: "Ein Studio aus Deutschland, für die Welt",
           text:
-            "Wir wollen den Graben schließen zwischen dem, was Nutzer verdienen, und dem, was sie oft bekommen. Das erfordert ein tiefes Verständnis für den echten Alltag und die technische Obsession, nichts zu liefern, was zwar schön, aber zerbrechlich ist. Bolo237 steht bereits als Beweis: ein öffentliches Produkt, sichtbar, verbesserungsfähig, aber real.",
+            "DTSfuture ist heute ein unabhängiges Studio aus Deutschland. Wir dienen deutschen und internationalen Kunden mit deutscher Ingenieursstrenge – und tragen die Feldperspektive als seltenen Vorteil in jedes Projekt. Bolo237, unser erstes internationales Flaggschiff, ist der öffentliche Beweis: in Deutschland gebaut, für Kamerun konzipiert, real im Markt.",
         },
       ],
       bridgeTitle: "Zwei Welten, eine Vision",
       bridgeText:
-        "Kameruns Dringlichkeit und deutsche Disziplin sind keine Gegensätze – sie sind die beiden Hälften einer einzigen Überzeugung: Produkte, die wirklich halten, entstehen nur dort, wo Feldresilienz auf methodische Perfektion trifft.",
+        "Kameruns Dringlichkeit und deutsche Disziplin sind keine Gegensätze – sie sind die beiden Hälften einer einzigen Überzeugung: Produkte, die wirklich halten, entstehen nur dort, wo Feldresilienz auf deutsche Ingenieursperfektion trifft. Genau diese Kombination bieten wir heute deutschen und internationalen Kunden.",
       pillarsTitle: "Was diese Geschichte heute hervorbringt",
       pillars: [
-        "Produkte, die mit Vertrauen beginnen und mit fehlerfreier Ausführung enden.",
-        "Eine Entwicklungsphilosophie, die auf Klarheit und den echten Bedingungen des Marktes basiert.",
-        "Eine kompromisslose Architektur, getragen von technischen Standards, die der Zeit standhalten.",
+        "Ein Studio aus Deutschland, das deutsche Ingenieursstrenge mit seltener internationaler Perspektive verbindet.",
+        "Eine Produktphilosophie, die auf Klarheit, Substanz und echten Marktbedingungen basiert.",
+        "Kompromisslose Architektur, getragen von technischen Standards, die der Zeit standhalten.",
       ],
       closingTitle: "DTSfuture ist keine bloße Haltung.",
       closingText:
-        "Es ist ein Versprechen ernsthafter Konstruktion. Wenn eine Idee es verdient, auf dem Markt zu existieren, verdient sie mehr als einen schmeichelhaften Prototyp. Sie verdient ein Produkt, das hält, das Sicherheit gibt und das gemeinsam mit seinen Nutzern wächst.",
+        "Es ist ein Versprechen ernsthafter Konstruktion – aus Deutschland für die Welt. Wenn eine Idee es verdient, auf dem Markt zu existieren, verdient sie mehr als einen schmeichelhaften Prototyp. Sie verdient ein Produkt, das hält, das Sicherheit gibt und das gemeinsam mit seinen Nutzern wächst.",
       primaryCta: "Über Ihr Projekt sprechen",
       secondaryCta: "Unsere Produkte sehen",
     },
     portfolio: {
       eyebrow: "Portfolio",
-      titleLead: "Produkte, die darauf ausgelegt sind,",
-      titleAccent: "Vertrauen in der realen Welt zu gewinnen",
+      titleLead: "Produkte, die gebaut wurden,",
+      titleAccent: "um Vertrauen in der realen Welt zu gewinnen",
       description:
-        "Jedes DTSfuture-Produkt beginnt mit einem echten Bedürfnis und ist so gebaut, dass es Nutzer überzeugt, Partner beruhigt und die Vision kommerziell glaubwürdig macht.",
-      featuredTagline: "Der kamerunische Jobmarktplatz",
+        "Jedes DTSfuture-Produkt ist der öffentliche Beweis unserer Arbeit. Bolo237 ist unser erstes internationales Flaggschiff – in Deutschland mit deutscher Ingenieurskultur gebaut, für den kamerunischen Markt konzipiert.",
+      featuredTagline: "Internationales Flaggschiff, in Deutschland gebaut",
       featuredDescription:
-        "Bolo237 verbindet Talente, Fachkräfte und Unternehmen in einem Marktplatz, der strukturierter, professioneller und deutlich vertrauenswürdiger wirkt.",
-      featuredTags: ["Mobile-first", "Echtzeit", "Verifizierte Profile", "10 Regionen"],
+        "Bolo237 ist unser erstes internationales Produkt: ein Jobmarktplatz, in Deutschland entwickelt und für Kamerun konzipiert. Der öffentliche Beweis, dass wir Produkte bauen, die in anspruchsvollen Märkten bestehen.",
+      featuredTags: ["Mobile-first", "Echtzeit", "Verifizierte Profile", "International"],
       proofDescription:
         "Echte Bolo237-Screens sind in die Seite eingebettet, um eine Ausführung zu zeigen, die bereits greifbar, öffentlich und stark genug ist, um Vertrauen zu gewinnen.",
       exploreCta: "Den Bolo237-Fall ansehen",
-      carliteTagline: "Mitfahren, neu gedacht für Kamerun",
+      carliteTagline: "Mobilität, neu gedacht",
       carliteDescription:
-        "Carlite bereitet ein Mobilitätserlebnis vor, das für lokale Transportrealitäten gebaut ist: klarer, sicherer und täglich wirklich nützlich.",
-      carliteTags: ["Mitfahrgemeinschaft", "Sicher", "Integriertes GPS", "Mobile Bezahlung"],
+        "Carlite bereitet ein Mobilitätserlebnis vor: klarer, sicherer und täglich wirklich nützlich – gebaut mit den gleichen Ingenieursstandards aus Deutschland.",
+      carliteTags: ["Mitfahren", "Sicher", "GPS", "Mobile Bezahlung"],
       labTitle: "Das DTSfuture Lab",
       labDescription:
-        "Weitere Lösungen für Kamerun und Afrika nehmen bereits Form an. Wir gehen dorthin, wo echte Reibung eine Produktantwort verdient, die standhält.",
+        "Weitere Produkte für den deutschen und internationalen Markt entstehen bereits. Wir gehen dorthin, wo echte Reibung eine substanzielle Produktantwort verdient.",
     },
     bolo237Preview: {
       brandAlt: "Bolo237 Markenvisual",
@@ -217,9 +217,9 @@ export const messages = {
     },
     cta: {
       titleLead: "Eine Idee, die mehr als Politur verdient?",
-      titleAccent: "Lassen Sie uns reden.",
+      titleAccent: "Sprechen wir.",
       description:
-        "Ob Gründer, Investor oder Unternehmer – wir können lokalen Einblick in ein Produkt verwandeln, das schärfer, stärker und vertrauenswürdig ist.",
+        "Ob Gründer aus Berlin, Investor aus München oder Unternehmer aus dem Ausland – wir verwandeln Ambition in Produkte mit Substanz, die dem Markt standhalten.",
     },
     pwa: {
       badge: "Installieren",
@@ -241,7 +241,7 @@ export const messages = {
     },
     footer: {
       brandBlurb:
-        "Wir bauen digitale Produkte für Kamerun mit Ehrgeiz, Nützlichkeit und Standards, die nicht nachgeben.",
+        "Wir bauen digitale Produkte aus Deutschland – mit Ingenieursdisziplin, Produktklarheit und Standards, die nicht nachgeben.",
       productsHeading: "Produkte",
       contactHeading: "Kontakt",
       pressHeading: "Presse",
@@ -281,7 +281,7 @@ export const messages = {
         },
         quickFactsTitle: "Schnellfakten",
         boilerplate:
-          "DTSfuture ist ein unabhängiges Technologie-Studio, das ehrgeizige digitale Produkte für Kamerun entwickelt. Es kombiniert direkten Feldeinblick mit Ausführungsdisziplin, die in Deutschland erlernt wurde, um Dienste zu launchen, die nützlich, glaubwürdig und von Anfang an solide gebaut sind.",
+          "DTSfuture ist ein unabhängiges Technologie-Studio aus Deutschland. Wir entwickeln ehrgeizige digitale Produkte für den deutschen und internationalen Markt – mit kompromissloser Ingenieursdisziplin und einer seltenen Sensibilität für reale Nutzung. Unser erstes öffentliches Flaggschiff, Bolo237, ist ein in Deutschland gebautes, international konzipiertes Produkt und der sichtbare Beweis unserer Ausführungsfähigkeit.",
         facts: {
           foundedLabel: "Gründungsjahr",
           marketLabel: "Primärer Fokus",
@@ -304,11 +304,11 @@ export const messages = {
         ],
         topicsHeading: "Redaktionelle Themen",
         topics: [
-          "Produkttechnologie für Kamerun",
-          "Ausführung zwischen Deutschland und Afrika",
-          "Bolo237 und die Zukunft des lokalen Arbeitsmarkts",
-          "Vertrauenszentriertes Design für reale Nutzung",
-          "Unabhängige Studios, die digitale Produkte launchen",
+          "Unabhängige Tech-Studios aus Deutschland",
+          "Deutsche Ingenieurskultur im internationalen Produktbau",
+          "Bolo237: ein internationales Flaggschiff aus Deutschland",
+          "Vertrauenszentriertes Design für anspruchsvolle Märkte",
+          "Produktdisziplin zwischen Europa und internationalen Märkten",
         ],
         downloads: {
           kit: {
@@ -364,7 +364,7 @@ export const messages = {
         hostingText:
           "Die Website wird auf Vercel bereitgestellt. Der Domainname dtsfuture.com wurde über Hostinger erworben und sein DNS zeigt auf die Vercel-Infrastruktur.",
         legalScopeText:
-          "Die Webseite wird aus Deutschland veröffentlicht und richtet sich insbesondere an ein Publikum mit Interesse an Kamerun. DTSfuture strebt danach, diese öffentliche Webseite mit den relevanten Anforderungen hinsichtlich Herausgeberidentifikation, Transparenz, Datenschutz, Sicherheit und Nutzerinformation in Einklang zu bringen, wie sie in Deutschland gelten sowie den zwingenden Anforderungen, die für digitale Kommunikation in Richtung Kamerun relevant sind. Bei Änderungen der Funktionalität, des kommerziellen Umfangs oder des regulatorischen Kontexts sollten diese Seite und die Datenschutzerklärung entsprechend aktualisiert werden.",
+          "Die Webseite wird aus Deutschland veröffentlicht und richtet sich an ein deutsches und internationales Publikum. DTSfuture strebt danach, diese öffentliche Webseite mit den relevanten Anforderungen hinsichtlich Herausgeberidentifikation, Transparenz, Datenschutz, Sicherheit und Nutzerinformation in Einklang zu bringen, wie sie in Deutschland und auf europäischer Ebene gelten sowie mit den zwingenden Anforderungen, die für digitale Kommunikation in die Märkte relevant sind, die DTSfuture öffentlich bedient. Bei Änderungen der Funktionalität, des kommerziellen Umfangs oder des regulatorischen Kontexts sollten diese Seite und die Datenschutzerklärung entsprechend aktualisiert werden.",
         intellectualPropertyText:
           "Alle Inhalte dieser Webseite, einschließlich Texte, visuelle Assets, Logos, Interfaces, Grafikkomponenten und Markenelemente, sind durch das Recht des geistigen Eigentums geschützt. Jede Reproduktion, Darstellung, Anpassung oder Nutzung, ganz oder teilweise, ohne vorherige schriftliche Genehmigung ist untersagt.",
         contactLead: "Bei Fragen zur Webseite oder ihrem Betrieb können Sie schreiben an",
@@ -377,7 +377,7 @@ export const messages = {
         intro:
           "Diese Erklärung beschreibt transparent, wie personenbezogene Daten bei der Nutzung der DTSfuture-Präsentationswebseite verarbeitet werden können.",
         disclaimer:
-          "Diese Erklärung beschreibt die aktuell für dtsfuture.com veröffentlichte Konfiguration. Sie ist darauf ausgelegt, die Transparenz-, Sicherheits- und Datenschutzanforderungen zu erfüllen, die für eine aus Deutschland veröffentlichte und aus Kamerun zugängliche Webseite relevant sind. Sie sollte überprüft werden, wenn sich die Funktionen oder der kommerzielle Umfang der Website ändern.",
+          "Diese Erklärung beschreibt die aktuell für dtsfuture.com veröffentlichte Konfiguration. Sie ist darauf ausgelegt, die Transparenz-, Sicherheits- und Datenschutzanforderungen zu erfüllen, die für eine aus Deutschland veröffentlichte und international zugängliche Webseite relevant sind. Sie sollte überprüft werden, wenn sich die Funktionen oder der kommerzielle Umfang der Website ändern.",
         sections: [
           {
             title: "Betroffene Daten",
@@ -389,7 +389,7 @@ export const messages = {
           },
           {
             title: "Rechtsgrundlage",
-            text: "Die Verarbeitung basiert je nach Fall auf dem berechtigten Interesse von DTSfuture am Betrieb seiner Website, auf vorvertraglichen Maßnahmen bei Kontaktaufnahme oder auf der Erfüllung gesetzlicher Verpflichtungen.",
+            text: "Die Verarbeitung basiert je nach Fall auf dem berechtigten Interesse von DTSfuture am Betrieb seiner Website, auf vorvertraglichen Maßnahmen bei Kontaktaufnahme oder auf der Erfüllung gesetzlicher Verpflichtungen nach DSGVO und BDSG.",
           },
           {
             title: "Empfänger",
@@ -397,7 +397,7 @@ export const messages = {
           },
           {
             title: "Territorialer Rahmen und Rechtsgrundlage",
-            text: "Die Website wird aus Deutschland veröffentlicht und ist insbesondere für Besucher mit Interesse an Kamerun zugänglich. DTSfuture strebt danach, die relevanten Transparenz-, Datenschutz-, Sicherheits- und Informationspflichten zu erfüllen, die für die Veröffentlichung der Website in Deutschland gelten sowie die relevanten Pflichten, wenn ein digitaler Dienst aus Kamerun zugänglich ist.",
+            text: "Die Website wird aus Deutschland veröffentlicht und ist international zugänglich. DTSfuture strebt danach, die relevanten Transparenz-, Datenschutz-, Sicherheits- und Informationspflichten zu erfüllen, die für die Veröffentlichung der Website in Deutschland und im europäischen Raum gelten sowie die relevanten Pflichten in den Märkten, die öffentlich bedient werden.",
           },
           {
             title: "Übermittlungen und technische Dienstleister",
@@ -409,7 +409,7 @@ export const messages = {
           },
           {
             title: "Ihre Rechte",
-            text: "Sie können Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch oder Übertragbarkeit Ihrer Daten beantragen, sofern diese Rechte anwendbar sind. Sie können auch eine Beschwerde bei der zuständigen Behörde einreichen.",
+            text: "Sie können Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch oder Übertragbarkeit Ihrer Daten nach DSGVO beantragen, sofern diese Rechte anwendbar sind. Sie können auch eine Beschwerde bei der zuständigen Aufsichtsbehörde einreichen.",
           },
           {
             title: "Cookies und Analyse",
@@ -429,24 +429,24 @@ export const messages = {
   },
   en: {
     meta: {
-      homeTitle: "DTSfuture - Technology Studio",
+      homeTitle: "DTSfuture - Technology Studio from Germany",
       homeDescription:
-        "DTSfuture builds ambitious digital products for Cameroon with rigorous execution, premium product judgment, and an obsession with usefulness that holds up in the real world.",
+        "DTSfuture is an independent technology studio based in Germany. We design digital products for the German and international market — with uncompromising engineering discipline and a rare sensitivity to real-world usage.",
       productsTitle: "Our Products | DTSfuture",
       productsDescription:
-        "DTSfuture product cases: Bolo237, working methods, and visible proof of end-to-end execution.",
+        "DTSfuture product cases: Bolo237 as our international flagship, working methods, and visible proof of end-to-end execution from Germany.",
       bolo237Title: "Bolo237 | DTSfuture",
       bolo237Description:
-        "The Bolo237 case study: the original challenge, the product response, and the technical choices behind a platform already visible in public.",
+        "The Bolo237 case study: our international flagship, built in Germany with German engineering discipline, designed for the Cameroonian market.",
       impressumTitle: "Impressum | DTSfuture",
       impressumDescription:
-        "Publisher and contact information for DTSfuture, a private personal non-commercial project.",
+        "Publisher and contact information for DTSfuture, a private non-commercial project based in Germany.",
       pressTitle: "Press | DTSfuture",
       pressDescription:
         "DTSfuture press room: media contact, company boilerplate, key facts and downloadable brand assets.",
       storyTitle: "Our Story | DTSfuture",
       storyDescription:
-        "The DTSfuture story: lived reality in Cameroon, discipline forged in Germany, and the decision to build products that truly hold.",
+        "The DTSfuture story: from Cameroon's field reality to German engineering rigor — and why both worlds now make every product we ship to German and international clients stronger.",
       privacyTitle: "Privacy Policy | DTSfuture",
       privacyDescription:
         "DTSfuture privacy policy, available in German and English based on the visitor's preference.",
@@ -485,17 +485,17 @@ export const messages = {
       appIcon: "App icon",
     },
     hero: {
-      badge: "Cameroon deserves products built with real discipline.",
-      titleLead: "We design the digital products the market is waiting for",
-      titleAccent: "in Cameroon.",
+      badge: "Technology studio from Germany. Products built to last.",
+      titleLead: "We design digital products with",
+      titleAccent: "uncompromising engineering rigor.",
       description:
-        "DTSfuture turns local friction into clear, desirable products engineered for trust, speed, and real-world use.",
+        "DTSfuture is an independent studio based in Germany. We build digital products for German and international clients — with engineering discipline, product clarity, and a rare sensitivity to real-world usage.",
       primaryCta: "See what we are building",
       secondaryCta: "Get in touch",
       stats: [
-        { value: "2", label: "Products underway" },
-        { value: "10", label: "Regions covered" },
-        { value: "237", label: "Cameroon country code" },
+        { value: "DE", label: "Studio location" },
+        { value: "2", label: "Continents served" },
+        { value: "100%", label: "Independent" },
       ],
     },
     adn: {
@@ -503,17 +503,17 @@ export const messages = {
       titleLead: "We do not build from",
       titleAccent: "an ivory tower.",
       description:
-        "We lived the friction before we learned the method. That is exactly why our products feel sharper, steadier, and more credible from day one.",
+        "We lived the friction before we learned the method. German engineering rigor meets a rare field perspective — that is exactly why our products feel sharper, steadier, and more credible from day one.",
       items: {
         localInsight: {
-          title: "Local insight",
+          title: "Rare perspective",
           description:
-            "Interfaces shaped for real behavior in Cameroon. No detached product thinking, no lazy copy-paste from other markets.",
+            "We combine German engineering culture with a sensitivity to markets where friction is real — a perspective that makes the difference between polish and substance.",
         },
         europeanStandards: {
-          title: "European standards",
+          title: "German standards",
           description:
-            "Security, compliance, stability and product discipline that create trust from the very first interaction.",
+            "Security, compliance, stability and product discipline shaped by German standards. Trust begins at the first interaction.",
         },
         modernEngineering: {
           title: "Modern engineering",
@@ -523,12 +523,12 @@ export const messages = {
         performanceFirst: {
           title: "Performance first",
           description:
-            "Optimized for real mobile connectivity, because a slow product loses trust before it earns adoption.",
+            "Optimized for real conditions — from a German fiber connection to mobile networks worldwide. A slow product loses trust before it earns adoption.",
         },
         socialImpact: {
           title: "Concrete impact",
           description:
-            "Every product must improve something measurable: finding work, moving better, accessing reliable services faster.",
+            "Every product must improve something measurable. No features for their own sake — only outcomes users actually feel.",
         },
         solidInfrastructure: {
           title: "Solid infrastructure",
@@ -540,31 +540,31 @@ export const messages = {
     story: {
       eyebrow: "Our Story",
       titleLead: "We have seen what holds people back.",
-      titleAccent: "We learned to build what moves them forward.",
+      titleAccent: "We learned to build products that carry weight.",
       description:
-        "DTSfuture was not born from trend-chasing. It was born from an obvious gap: too many real needs, too few reliable products. Cameroon gave the urgency. Germany gave the discipline required to build serious answers.",
-      calloutTitle: "From lived insight to execution",
+        "DTSfuture is a studio based in Germany with international DNA. Our founding story runs from Cameroon's field reality to German engineering rigor — a rare combination that flows into every line of code we write for German and international clients.",
+      calloutTitle: "From lived insight to German execution",
       calloutText:
-        "The field shapes intuition. Discipline shapes execution. DTSfuture exists where both become a product people can trust.",
+        "The field shapes intuition. German discipline shapes execution. DTSfuture exists where both become a product clients worldwide can trust.",
       pageCta: "Read the full story",
       milestones: [
         {
-          label: "Reality",
-          title: "Reality before slides",
+          label: "Roots",
+          title: "Field reality before slides",
           description:
-            "Growing up in Cameroon means understanding what truly slows people down: lack of trust, fragile access, unnecessary friction and wasted time.",
+            "Growing up with Cameroon's realities taught us early what truly slows people down: fragile trust, unnecessary friction and wasted time. A rare perspective that now gives depth to every German product conversation.",
         },
         {
-          label: "Discipline",
-          title: "Rigor learned in Germany",
+          label: "Forge",
+          title: "Rigor forged in Germany",
           description:
-            "Germany added method: clean architecture, product discipline, attention to detail and a culture of reliability.",
+            "Germany delivered the method: clean architecture, product discipline, attention to detail and a culture of reliability. Here intuition was turned into an engineering craft.",
         },
         {
-          label: "Execution",
-          title: "Build what deserves to exist",
+          label: "Studio",
+          title: "For the German and international market",
           description:
-            "DTSfuture connects those two forces to launch products that are useful, desirable and strong enough to last in African markets.",
+            "DTSfuture is now a studio based in Germany. We build for clients who want substance — and ship products like Bolo237 as public proof of our execution capability.",
         },
       ],
     },
@@ -573,64 +573,64 @@ export const messages = {
       titleLead: "Before DTSfuture, there was one simple frustration.",
       titleAccent: "Too many real needs were left without a serious answer.",
       intro:
-        "The starting point was not hype, and it was not the abstract desire to launch just another startup. The starting point was the human cost of friction: lost hours, worn-out trust, and services that promise a lot but fail when real life begins.",
+        "The starting point was not hype, nor the abstract desire to launch just another startup. The starting point was the human cost of friction: lost hours, worn-out trust, and services that promise a lot but fail when real life begins. Today, DTSfuture is a studio based in Germany — with a founding story that shapes our standard of quality forever.",
       quote:
-        "When a product lacks clarity, reliability, or respect for real conditions, it is not just pixels failing. It is trust collapsing and opportunity closing.",
+        "The bar is not the design. The bar is radical usefulness and humanity.",
       chapters: [
         {
-          label: "Origin",
-          title: "Cameroon gave the urgency",
+          label: "Roots",
+          title: "Cameroon's urgency",
           text:
-            "Growing up with Cameroon's realities means learning early that there is a big difference between an impressive idea on paper and a service that genuinely helps someone move forward. When trust is fragile, when mobile is the main entry point, and when each friction costs time or money, the standard cannot be cosmetic. It has to be practical, human and economic.",
+            "Growing up with Cameroon's realities means learning early the difference between an impressive idea and a service that actually moves people forward. When trust is fragile and every digital hurdle costs real money and time, the bar cannot be cosmetic. It has to be radically useful and human. That urgency taught us to hate friction and love substance — a perspective no German engineering studio can simply replicate.",
         },
         {
           label: "Transformation",
-          title: "Germany imposed the discipline",
+          title: "German discipline",
           text:
-            "The German experience did not erase that reality. It gave it structure. Technical rigor, product discipline, attention to detail, respect for reliability, a culture of proof: all of that gave a stronger frame to an intuition that already existed. DTSfuture was built exactly there, between lived reality and method.",
+            "Arriving in Germany did not erase that reality. It forged it. German engineering culture, uncompromising technical rigor, and an absolute culture of proof turned intuition into craft. DTSfuture was built exactly there, between lived resilience and methodical perfection. Germany is now our location, our engineering home and our quality standard.",
         },
         {
-          label: "Decision",
-          title: "Build only what deserves to exist",
+          label: "Positioning",
+          title: "A studio from Germany, for the world",
           text:
-            "The project therefore is not here to create noise. It exists to build products clear enough to be understood, useful enough to be adopted, and strong enough to hold once the market starts judging them. Bolo237 already stands as proof of that intent: a public product, exposed, improvable, but real.",
+            "DTSfuture today is an independent studio based in Germany. We serve German and international clients with German engineering rigor — and carry our field perspective as a rare advantage into every project. Bolo237, our first international flagship, is the public proof: built in Germany, designed for Cameroon, real in the market.",
         },
       ],
-      bridgeTitle: "What DTSfuture wants to change",
+      bridgeTitle: "Two worlds, one vision",
       bridgeText:
-        "We want to close the gap between the quality African markets deserve and the quality they are too often given. That requires local sensitivity, European discipline, and one simple obsession: never ship something that looks polished but breaks under reality.",
+        "Cameroon's urgency and German discipline are not opposites — they are the two halves of one conviction: products that truly hold are only built where field resilience meets German engineering perfection. That is exactly the combination we offer German and international clients today.",
       pillarsTitle: "What this story produces today",
       pillars: [
-        "Product discipline that starts with trust and ends with execution.",
-        "Experiences designed for mobile, clarity and real-world constraints.",
-        "African ambition carried by technical standards built to last.",
+        "A studio based in Germany that combines German engineering rigor with a rare international perspective.",
+        "A product philosophy built on clarity, substance and real market conditions.",
+        "Uncompromising architecture, carried by technical standards built to last.",
       ],
       closingTitle: "DTSfuture is not a posture.",
       closingText:
-        "It is a commitment to serious construction. If an idea deserves to exist in the market, it deserves better than a flattering prototype. It deserves a product that holds up, reassures people and grows with its users.",
+        "It is a commitment to serious construction — from Germany to the world. If an idea deserves to exist in the market, it deserves more than a flattering prototype. It deserves a product that holds up, reassures its users, and grows alongside them.",
       primaryCta: "Talk about your project",
       secondaryCta: "See our products",
     },
     portfolio: {
       eyebrow: "Portfolio",
-      titleLead: "Products designed to",
+      titleLead: "Products built to",
       titleAccent: "earn trust in the real world",
       description:
-        "Every DTSfuture product begins with a real need and is built to convince users, reassure partners, and make the vision commercially credible.",
-      featuredTagline: "The Cameroonian jobs marketplace",
+        "Every DTSfuture product is public proof of our work. Bolo237 is our first international flagship — built in Germany with German engineering culture, designed for the Cameroonian market.",
+      featuredTagline: "International flagship, built in Germany",
       featuredDescription:
-        "Bolo237 connects talent, skilled workers, and companies inside a marketplace designed to feel more structured, more professional, and far more trustworthy.",
-      featuredTags: ["Mobile-first", "Real time", "Verified profiles", "10 regions"],
+        "Bolo237 is our first international product: a jobs marketplace, developed in Germany and designed for Cameroon. The public proof that we build products able to hold up in demanding markets.",
+      featuredTags: ["Mobile-first", "Real time", "Verified profiles", "International"],
       proofDescription:
         "Real Bolo237 screens are embedded across the site to show execution that is already tangible, already public, and already strong enough to earn confidence.",
       exploreCta: "See the Bolo237 case",
-      carliteTagline: "Ride sharing reimagined for Cameroon",
+      carliteTagline: "Mobility, rethought",
       carliteDescription:
-        "Carlite is preparing a mobility experience built for local transport realities: clearer, safer and genuinely useful every day.",
-      carliteTags: ["Ride sharing", "Secure", "Built-in GPS", "Mobile payments"],
+        "Carlite is preparing a mobility experience: clearer, safer and genuinely useful every day — built with the same German engineering standards.",
+      carliteTags: ["Ride sharing", "Secure", "GPS", "Mobile payments"],
       labTitle: "The DTSfuture Lab",
       labDescription:
-        "More solutions for Cameroon and Africa are already taking shape. We go wherever real friction deserves a product answer that can hold its ground.",
+        "More products for the German and international market are already taking shape. We go wherever real friction deserves a substantial product answer.",
     },
     bolo237Preview: {
       brandAlt: "Bolo237 brand visual",
@@ -643,7 +643,7 @@ export const messages = {
       titleLead: "Have an idea that deserves more than polish?",
       titleAccent: "Let's talk.",
       description:
-        "Whether you are a founder, investor, or operator, we can turn local insight into a product that feels sharper, stronger, and ready to be trusted.",
+        "Whether you are a founder in Berlin, an investor in Munich, or an operator abroad — we turn ambition into products with substance that hold up under real market pressure.",
     },
     pwa: {
       badge: "Install",
@@ -665,7 +665,7 @@ export const messages = {
     },
     footer: {
       brandBlurb:
-        "We build digital products for Cameroon with ambition, usefulness, and standards that do not bend.",
+        "We build digital products from Germany — with engineering discipline, product clarity, and standards that do not bend.",
       productsHeading: "Products",
       contactHeading: "Contact",
       pressHeading: "Press",
@@ -705,7 +705,7 @@ export const messages = {
         },
         quickFactsTitle: "Quick facts",
         boilerplate:
-          "DTSfuture is an independent technology studio building ambitious digital products for Cameroon. It combines direct field insight with execution discipline learned in Germany to launch services that are useful, credible, and built to hold from their first versions.",
+          "DTSfuture is an independent technology studio based in Germany. We build ambitious digital products for the German and international market — with uncompromising engineering discipline and a rare sensitivity to real-world usage. Our first public flagship, Bolo237, is a product built in Germany and designed for an international market, serving as the visible proof of our execution capability.",
         facts: {
           foundedLabel: "Launch year",
           marketLabel: "Primary focus",
@@ -728,11 +728,11 @@ export const messages = {
         ],
         topicsHeading: "Editorial angles",
         topics: [
-          "Product technology for Cameroon",
-          "Execution between Germany and Africa",
-          "Bolo237 and the future of local jobs",
-          "Trust-centered design for real-world usage",
-          "Independent studios launching digital products",
+          "Independent tech studios based in Germany",
+          "German engineering culture in international product building",
+          "Bolo237: an international flagship built in Germany",
+          "Trust-centered design for demanding markets",
+          "Product discipline between Europe and international markets",
         ],
         downloads: {
           kit: {
@@ -788,7 +788,7 @@ export const messages = {
         hostingText:
           "The site is deployed on Vercel. The dtsfuture.com domain name was purchased through Hostinger and its DNS points to the Vercel infrastructure.",
         legalScopeText:
-          "The website is published from Germany and notably addresses an audience interested in Cameroon. DTSfuture seeks to align this public-facing website with the relevant requirements around publisher identification, transparency, privacy, security and user information applicable in Germany, as well as the mandatory requirements relevant to digital communication toward Cameroon. If the site's functionality, commercial scope or regulatory context changes, this page and the privacy policy should be updated accordingly.",
+          "The website is published from Germany and addresses a German and international audience. DTSfuture seeks to align this public-facing website with the relevant requirements around publisher identification, transparency, privacy, security and user information applicable in Germany and at the European level, as well as the mandatory requirements relevant to digital communication toward the markets DTSfuture publicly serves. If the site's functionality, commercial scope or regulatory context changes, this page and the privacy policy should be updated accordingly.",
         intellectualPropertyText:
           "All content on this website, including text, visual assets, logos, interfaces, graphic components and brand elements, is protected by intellectual property rules. Any reproduction, representation, adaptation or exploitation, in whole or in part, without prior written authorization is prohibited.",
         contactLead: "For any question regarding the website or its operation, you can write to",
@@ -801,7 +801,7 @@ export const messages = {
         intro:
           "This policy transparently describes how personal data may be processed when using the DTSfuture showcase website.",
         disclaimer:
-          "This policy describes the configuration currently published for dtsfuture.com. It is drafted to cover the transparency, security and privacy expectations relevant to a website published from Germany and accessible from Cameroon. It should be reviewed again if the site's features or commercial scope evolve.",
+          "This policy describes the configuration currently published for dtsfuture.com. It is drafted to cover the transparency, security and privacy expectations relevant to a website published from Germany and accessible internationally. It should be reviewed again if the site's features or commercial scope evolve.",
         sections: [
           {
             title: "Data concerned",
@@ -813,7 +813,7 @@ export const messages = {
           },
           {
             title: "Legal basis",
-            text: "Processing is based, depending on the case, on DTSfuture's legitimate interest in operating its site, on pre-contractual steps when contact is initiated, or on compliance with applicable legal obligations.",
+            text: "Processing is based, depending on the case, on DTSfuture's legitimate interest in operating its site, on pre-contractual steps when contact is initiated, or on compliance with applicable legal obligations under GDPR and BDSG.",
           },
           {
             title: "Recipients",
@@ -821,7 +821,7 @@ export const messages = {
           },
           {
             title: "Territorial scope and legal framework",
-            text: "The site is published from Germany and is notably accessible to visitors interested in Cameroon. DTSfuture seeks to respect the relevant transparency, privacy, security and information obligations applicable to the publication of the site in Germany, as well as the relevant mandatory obligations when a digital service is accessible from Cameroon.",
+            text: "The site is published from Germany and is internationally accessible. DTSfuture seeks to respect the relevant transparency, privacy, security and information obligations applicable to the publication of the site in Germany and across the European area, as well as the relevant mandatory obligations in the markets it publicly serves.",
           },
           {
             title: "Transfers and technical providers",
@@ -833,7 +833,7 @@ export const messages = {
           },
           {
             title: "Your rights",
-            text: "You may request access, rectification, erasure, restriction of processing, objection or portability of your data where those rights apply. You may also lodge a complaint with the competent authority.",
+            text: "You may request access, rectification, erasure, restriction of processing, objection or portability of your data under GDPR where those rights apply. You may also lodge a complaint with the competent supervisory authority.",
           },
           {
             title: "Cookies and analytics",
