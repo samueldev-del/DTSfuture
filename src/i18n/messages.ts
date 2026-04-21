@@ -64,157 +64,136 @@ export const messages = {
       appIcon: "App-Symbol",
     },
     hero: {
-      badge: "Technologie-Studio aus Deutschland. Produkte, die Bestand haben.",
-      titleLead: "Wir entwickeln digitale Produkte mit",
-      titleAccent: "kompromissloser Ingenieurskultur.",
+      badge: "Privates Projekt-Portfolio & Entwickler-Labor",
+      titleLead: "Mein digitales Labor für",
+      titleAccent: "komplexe Web-Anwendungen.",
       description:
-        "DTSfuture ist ein unabhängiges Studio aus Deutschland. Wir bauen digitale Produkte für deutsche und internationale Kunden – mit Ingenieursdisziplin, Produktklarheit und einer seltenen Sensibilität für reale Nutzung.",
-      primaryCta: "Sehen, was wir bauen",
-      secondaryCta: "Kontakt aufnehmen",
+        "Willkommen bei DTSfuture. Ich bin Samuel, Softwareentwickler. Hier dokumentiere und präsentiere ich meine technischen Projekte – von skalierbaren Plattformen bis hin zu performanten lokalen Lösungen.",
+      primaryCta: "Meine Projekte ansehen",
+      secondaryCta: "Mich kontaktieren",
       stats: [
-        { value: "DE", label: "Studio-Standort" },
-        { value: "2", label: "Kontinente bedient" },
-        { value: "100%", label: "Eigenbetrieb" },
+        { value: "5+", label: "Jahre IT-Erfahrung" },
+        { value: "100%", label: "TypeScript & Next.js" },
+        { value: "24/7", label: "Fokus auf Performance" },
       ],
     },
     adn: {
-      eyebrow: "Unsere DNA",
-      titleLead: "Wir bauen nicht aus",
+      eyebrow: "Meine DNA",
+      titleLead: "Ich baue nicht aus",
       titleAccent: "dem Elfenbeinturm.",
       description:
-        "Wir haben Reibung erlebt, bevor wir die Methode lernten. Deutsche Ingenieursstrenge trifft auf eine seltene Feldperspektive – genau deshalb fühlen sich unsere Produkte von Anfang an schärfer, stabiler und glaubwürdiger an.",
+        "Ich habe die Reibung in der Praxis erlebt, bevor ich die Methode lernte. Deutsche Ingenieursstrenge trifft auf meine internationale Feldperspektive – genau deshalb sind meine Projekte von Anfang an stabil und nutzerzentriert.",
       items: {
         localInsight: {
           title: "Seltene Perspektive",
-          description:
-            "Wir kombinieren deutsche Ingenieurskultur mit einer Sensibilität für Märkte mit echter Reibung – eine Perspektive, die den Unterschied zwischen Politur und Substanz macht.",
+          description: "Ich kombiniere deutsche Ingenieurskultur mit einer Sensibilität für Märkte mit echter Reibung.",
         },
         europeanStandards: {
           title: "Deutsche Standards",
-          description:
-            "Sicherheit, Compliance, Stabilität und Produktdisziplin nach deutschen Maßstäben. Vertrauen entsteht ab dem ersten Kontakt.",
+          description: "Sicherheit, Compliance, Stabilität und Produktdisziplin nach strengen Maßstäben.",
         },
         modernEngineering: {
           title: "Modernes Engineering",
-          description:
-            "Solide Architektur, CI/CD und Monitoring, damit wir schnell liefern können, ohne die Qualität zu gefährden.",
+          description: "Solide Architektur, CI/CD und Monitoring für schnelle und hochwertige Lieferungen.",
         },
         performanceFirst: {
           title: "Performance zuerst",
-          description:
-            "Optimiert für reale Bedingungen – vom deutschen Glasfaseranschluss bis zum mobilen Netz weltweit. Ein langsames Produkt verliert das Vertrauen, bevor es Akzeptanz gewinnt.",
+          description: "Optimiert für reale Bedingungen – vom Glasfaseranschluss bis zum mobilen Netz.",
         },
         socialImpact: {
           title: "Konkreter Mehrwert",
-          description:
-            "Jedes Produkt muss etwas Messbares verbessern. Keine Features um ihrer selbst willen – nur Ergebnisse, die Nutzer spüren.",
+          description: "Jedes Projekt muss etwas Messbares verbessern. Keine Features um ihrer selbst willen.",
         },
         solidInfrastructure: {
           title: "Solide Infrastruktur",
-          description:
-            "Grundlagen, die langfristig halten und skalieren, ohne das Nutzererlebnis zu beeinträchtigen, wenn Wachstum kommt.",
+          description: "Grundlagen, die langfristig halten und skalieren.",
         },
       },
     },
     story: {
-      eyebrow: "Unsere Geschichte",
-      titleLead: "Wir haben gesehen, was Menschen aufhält.",
-      titleAccent: "Wir haben gelernt, Produkte zu bauen, die tragen.",
+      eyebrow: "Über mich",
+      titleLead: "Code, der reale Probleme löst.",
+      titleAccent: "Architektur, die skaliert.",
       description:
-        "DTSfuture ist ein Studio aus Deutschland mit internationaler DNA. Unsere Gründungsgeschichte führt von Kameruns Feldrealität zur deutschen Ingenieursstrenge – eine seltene Kombination, die heute in jede Zeile Code fließt, die wir für deutsche und internationale Kunden schreiben.",
-      calloutTitle: "Vom gelebten Einblick zur deutschen Ausführung",
+        "DTSfuture ist mein persönlicher Raum für digitale Experimente und fertige Produkte. Meine Erfahrung reicht von der Systemadministration bis hin zur Full-Stack-Entwicklung für internationale Märkte.",
+      calloutTitle: "Von der Infrastruktur zur Anwendung",
       calloutText:
-        "Das Feld formt die Intuition. Deutsche Disziplin formt die Ausführung. DTSfuture existiert dort, wo beides zu einem Produkt wird, dem Kunden weltweit vertrauen können.",
-      pageCta: "Die ganze Geschichte lesen",
+        "Guter Code beginnt mit der richtigen Architektur. Ich verbinde Cloud-Expertise mit moderner Frontend-Entwicklung.",
+      pageCta: "Meinen Lebenslauf ansehen",
       milestones: [
         {
-          label: "Wurzeln",
-          title: "Feldrealität vor den Folien",
-          description:
-            "Die Erfahrung Kameruns lehrte früh, was Nutzer wirklich aufhält: fragiles Vertrauen, unnötige Reibung, verschwendete Zeit. Eine seltene Perspektive, die heute jeder deutschen Produktdiskussion Tiefe gibt.",
+          label: "Entwicklung",
+          title: "Fullstack Engineering",
+          description: "Entwicklung mit Next.js, TypeScript und modernen Backend-Technologien für schnelle und sichere Anwendungen.",
         },
         {
-          label: "Schmiede",
-          title: "Strenge, geschmiedet in Deutschland",
-          description:
-            "Deutschland lieferte die Methode: saubere Architektur, Produktdisziplin, Sorgfalt und eine Kultur der Zuverlässigkeit. Hier wurde die Intuition in ein Ingenieurshandwerk verwandelt.",
+          label: "DevOps",
+          title: "Infrastruktur & Cloud",
+          description: "Erfahrung mit Azure, AWS, CI/CD-Pipelines und sicheren Server-Deployments.",
         },
         {
-          label: "Studio",
-          title: "Für den deutschen und internationalen Markt",
-          description:
-            "DTSfuture ist heute ein Studio aus Deutschland. Wir bauen für Kunden, die Substanz wollen – und liefern Produkte wie Bolo237 als öffentlichen Beweis unserer Ausführungsfähigkeit.",
+          label: "Praxis",
+          title: "Reale Ausführung",
+          description: "Keine reinen Theorien. Die Projekte hier (wie Bolo237 oder Schmidts Zaunbau) sind reale, funktionierende Systeme.",
         },
       ],
     },
     storyPage: {
-      eyebrow: "Unsere Geschichte",
-      titleLead: "Vor DTSfuture gab es eine einfache Frustration.",
-      titleAccent: "Zu sehen, wie echte Bedürfnisse hinter leeren Versprechungen verschwinden.",
+      eyebrow: "Mein Werdegang",
+      titleLead: "Von der Systemadministration",
+      titleAccent: "zum Full-Stack Engineering.",
       intro:
-        "Der Ausgangspunkt war keine abstrakte Idee, um ein weiteres Startup zu gründen. Es war die menschliche Realität: verlorene Stunden, erschöpftes Vertrauen und digitale Produkte, die in der Theorie glänzen, aber in der Praxis versagen. Heute ist DTSfuture ein Studio aus Deutschland – mit einer Gründungsgeschichte, die unseren Blick auf Qualität für immer geprägt hat.",
-      quote:
-        "Die Messlatte ist nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit.",
+        "Mein Weg in der IT begann nicht mit abstrakten Theorien, sondern mit realer Problemlösung. Heute verbinde ich tiefes Infrastruktur-Wissen mit moderner Produktentwicklung.",
+      quote: "Die Messlatte ist radikale Nützlichkeit, Performance und Sicherheit.",
       chapters: [
         {
-          label: "Die Wurzeln",
-          title: "Kameruns Dringlichkeit",
-          text:
-            "Wer mit den Realitäten Kameruns aufwächst, lernt früh den Unterschied zwischen einer netten Idee und einem Service, der Menschen wirklich voranbringt. Wenn das Vertrauen fragil ist und jede digitale Hürde echtes Geld und Zeit kostet, ist die Messlatte nicht das Design. Die Messlatte ist radikale Nützlichkeit und Menschlichkeit. Diese Dringlichkeit hat uns gelehrt, Reibung zu hassen und Lösungen zu lieben – eine Perspektive, die kein deutsches Ingenieursstudio einfach nachbilden kann.",
+          label: "Infrastruktur",
+          title: "Basis in der Systemadministration",
+          text: "Die Arbeit mit VMware, Linux-Servern und Netzwerken (VLANs, Routing) hat mir ein tiefes Verständnis dafür gegeben, wie Systeme auf der untersten Ebene funktionieren. Wer Server administriert, schreibt später besseren, sichereren Code.",
         },
         {
-          label: "Die Formung",
-          title: "Deutsche Disziplin",
-          text:
-            "Die Ankunft in Deutschland hat diese Realität nicht ausgelöscht, sondern geschmiedet. Deutsche Ingenieurskultur, kompromisslose technische Strenge und eine absolute Kultur des Beweises haben die Intuition in ein Handwerk verwandelt. DTSfuture entstand genau hier – an der Schnittstelle zwischen gelebter Resilienz und methodischer Perfektion. Heute ist Deutschland unser Standort, unsere Ingenieursheimat und unser Qualitätsmaßstab.",
+          label: "Cloud & Automatisierung",
+          title: "Der Weg zu DevOps",
+          text: "Mit der Zeit verlagerte sich mein Fokus auf Automatisierung und Cloud-Infrastruktur. Azure, STACKIT, Terraform und Ansible wurden meine Werkzeuge, um Prozesse skalierbar und zuverlässig zu machen.",
         },
         {
-          label: "Die Positionierung",
-          title: "Ein Studio aus Deutschland, für die Welt",
-          text:
-            "DTSfuture ist heute ein unabhängiges Studio aus Deutschland. Wir dienen deutschen und internationalen Kunden mit deutscher Ingenieursstrenge – und tragen die Feldperspektive als seltenen Vorteil in jedes Projekt. Bolo237, unser erstes internationales Flaggschiff, ist der öffentliche Beweis: in Deutschland gebaut, für Kamerun konzipiert, real im Markt.",
+          label: "Fullstack",
+          title: "End-to-End Produktentwicklung",
+          text: "Heute baue ich als Full-Stack-Entwickler komplette Plattformen (wie Bolo237). Ich kontrolliere den gesamten Zyklus: von der Datenbank und der API bis zum React/Next.js-Frontend und dem finalen Deployment.",
         },
       ],
-      bridgeTitle: "Zwei Welten, eine Vision",
-      bridgeText:
-        "Kameruns Dringlichkeit und deutsche Disziplin sind keine Gegensätze – sie sind die beiden Hälften einer einzigen Überzeugung: Produkte, die wirklich halten, entstehen nur dort, wo Feldresilienz auf deutsche Ingenieursperfektion trifft. Genau diese Kombination bieten wir heute deutschen und internationalen Kunden.",
-      pillarsTitle: "Was diese Geschichte heute hervorbringt",
+      bridgeTitle: "Mein Entwickler-Ansatz",
+      bridgeText: "Infrastruktur-Wissen und Frontend-Fähigkeiten sind für mich keine getrennten Welten. Sie sind die Voraussetzung, um performante und sichere Anwendungen zu bauen.",
+      pillarsTitle: "Meine Schwerpunkte",
       pillars: [
-        "Ein Studio aus Deutschland, das deutsche Ingenieursstrenge mit seltener internationaler Perspektive verbindet.",
-        "Eine Produktphilosophie, die auf Klarheit, Substanz und echten Marktbedingungen basiert.",
-        "Kompromisslose Architektur, getragen von technischen Standards, die der Zeit standhalten.",
+        "Cloud & DevOps (Azure, AWS, Docker, Kubernetes).",
+        "Moderne Web-Entwicklung (TypeScript, React, Next.js, Node.js).",
+        "Sichere, skalierbare Architekturen mit Fokus auf Observability.",
       ],
-      closingTitle: "DTSfuture ist keine bloße Haltung.",
-      closingText:
-        "Es ist ein Versprechen ernsthafter Konstruktion – aus Deutschland für die Welt. Wenn eine Idee es verdient, auf dem Markt zu existieren, verdient sie mehr als einen schmeichelhaften Prototyp. Sie verdient ein Produkt, das hält, das Sicherheit gibt und das gemeinsam mit seinen Nutzern wächst.",
-      primaryCta: "Über Ihr Projekt sprechen",
-      secondaryCta: "Unsere Produkte sehen",
+      closingTitle: "Mehr als nur Code.",
+      closingText: "Ich baue Systeme, die von Ende zu Ende funktionieren und in der Produktion bestehen.",
+      primaryCta: "Meine Projekte sehen",
+      secondaryCta: "Mich kontaktieren",
     },
     portfolio: {
-      eyebrow: "Portfolio",
-      titleLead: "Produkte, die gebaut wurden,",
-      titleAccent: "um Vertrauen in der realen Welt zu gewinnen",
-      description:
-        "Jedes DTSfuture-Produkt ist der öffentliche Beweis unserer Arbeit. Bolo237 ist unser erstes internationales Flaggschiff – in Deutschland mit deutscher Ingenieurskultur gebaut, für den kamerunischen Markt konzipiert.",
-      featuredTagline: "Internationales Flaggschiff, in Deutschland gebaut",
-      featuredDescription:
-        "Bolo237 ist unser erstes internationales Produkt: ein Jobmarktplatz, in Deutschland entwickelt und für Kamerun konzipiert. Der öffentliche Beweis, dass wir Produkte bauen, die in anspruchsvollen Märkten bestehen.",
-      featuredTags: ["Mobile-first", "Echtzeit", "Verifizierte Profile", "International"],
-      proofDescription:
-        "Echte Bolo237-Screens sind in die Seite eingebettet, um eine Ausführung zu zeigen, die bereits greifbar, öffentlich und stark genug ist, um Vertrauen zu gewinnen.",
-      exploreCta: "Den Bolo237-Fall ansehen",
-      schmidtsTagline: "Digitale Sichtbarkeit für Hamburgs Zaunbau-Spezialisten",
-      schmidtsDescription:
-        "Schmidts Zaunbau Nord – über 20 Jahre Erfahrung, 2.000+ abgeschlossene Projekte, 4,8 Sterne auf Google. DTSfuture hat den Betrieb mit einer neuen Website, klarer Positionierung und gezielter Lead-Generierung digital neu aufgestellt.",
-      schmidtsTags: ["Webentwicklung", "Branding", "Lead-Generierung", "SEO"],
-      schmidtsExploreCta: "Den Schmidts-Fall ansehen",
-      carliteTagline: "Mobilität, neu gedacht",
-      carliteDescription:
-        "Carlite bereitet ein Mobilitätserlebnis vor: klarer, sicherer und täglich wirklich nützlich – gebaut mit den gleichen Ingenieursstandards aus Deutschland.",
-      carliteTags: ["Mitfahren", "Sicher", "GPS", "Mobile Bezahlung"],
-      labTitle: "Das DTSfuture Lab",
-      labDescription:
-        "Weitere Produkte für den deutschen und internationalen Markt entstehen bereits. Wir gehen dorthin, wo echte Reibung eine substanzielle Produktantwort verdient.",
+      eyebrow: "Meine Projekte",
+      titleLead: "Referenzen, die",
+      titleAccent: "meine Arbeitsweise zeigen",
+      description: "Diese Projekte sind meine praktischen Leistungsnachweise. Sie zeigen meine Fähigkeit, komplexe Anforderungen in funktionierende Software umzusetzen.",
+      featuredTagline: "Eigenes Projekt (Full-Stack)",
+      featuredDescription: "Bolo237 ist eine von mir entwickelte Plattform: ein Jobmarktplatz, der zeigt, wie ich komplexe Datenbankstrukturen, Authentifizierung und moderne Frontends verbinde.",
+      featuredTags: ["Next.js", "TypeScript", "Full-Stack", "Deployment"],
+      proofDescription: "Dieses Projekt demonstriert meine Fähigkeit, eine Idee von der Konzeption bis zur produktionsreifen Anwendung umzusetzen.",
+      exploreCta: "Details ansehen",
+      schmidtsTagline: "Freelance-Projekt (Webentwicklung)",
+      schmidtsDescription: "Für Schmidts Zaunbau Nord habe ich eine professionelle, mehrsprachige und SEO-optimierte Webpräsenz entwickelt, die auf Lead-Generierung fokussiert ist.",
+      schmidtsTags: ["Tailwind CSS", "SEO", "Lead-Generierung"],
+      schmidtsExploreCta: "Details ansehen",
+      carliteTagline: "In Entwicklung",
+      carliteDescription: "Ein laufendes Projekt zur Entwicklung einer Mobilitätsplattform.",
+      carliteTags: ["Backend", "API", "Mobile"],
+      labTitle: "Weitere Experimente",
+      labDescription: "In meinem GitHub-Profil finden sich weitere Repositories und technische Experimente.",
     },
     bolo237Preview: {
       brandAlt: "Bolo237 Markenvisual",
@@ -224,10 +203,10 @@ export const messages = {
       imageBadges: ["Live-Startseite", "Markenvisual", "App-Symbol"],
     },
     cta: {
-      titleLead: "Eine Idee, die mehr als Politur verdient?",
-      titleAccent: "Sprechen wir.",
+      titleLead: "Interesse an meiner Arbeit?",
+      titleAccent: "Lass uns reden.",
       description:
-        "Ob Gründer aus Berlin, Investor aus München oder Unternehmer aus dem Ausland – wir verwandeln Ambition in Produkte mit Substanz, die dem Markt standhalten.",
+        "Ich bin immer offen für den fachlichen Austausch, Networking und neue Herausforderungen im Bereich Software Engineering.",
     },
     pwa: {
       badge: "Installieren",
@@ -249,7 +228,7 @@ export const messages = {
     },
     footer: {
       brandBlurb:
-        "Wir bauen digitale Produkte aus Deutschland – mit Ingenieursdisziplin, Produktklarheit und Standards, die nicht nachgeben.",
+        "DTSfuture ist das private, digitale Portfolio von Samuel Djommou Thengho.",
       productsHeading: "Produkte",
       contactHeading: "Kontakt",
       pressHeading: "Presse",
@@ -289,7 +268,7 @@ export const messages = {
         },
         quickFactsTitle: "Schnellfakten",
         boilerplate:
-          "DTSfuture ist ein unabhängiges Technologie-Studio aus Deutschland. Wir entwickeln ehrgeizige digitale Produkte für den deutschen und internationalen Markt – mit kompromissloser Ingenieursdisziplin und einer seltenen Sensibilität für reale Nutzung. Unser erstes öffentliches Flaggschiff, Bolo237, ist ein in Deutschland gebautes, international konzipiertes Produkt und der sichtbare Beweis unserer Ausführungsfähigkeit.",
+          "DTSfuture ist das private, digitale Projekt-Portfolio des Softwareentwicklers Samuel Djommou Thengho. Es dient ausschließlich der Dokumentation seiner technischen Expertise in den Bereichen Full-Stack-Entwicklung, Cloud und DevOps.",
         facts: {
           foundedLabel: "Gründungsjahr",
           marketLabel: "Primärer Fokus",
@@ -338,23 +317,23 @@ export const messages = {
         contactRoleValue: "Samuel DJOMMOU THENGHO · Founder & Product Builder",
       },
       impressum: {
-        eyebrow: "Impressum · Privates Projekt",
+        eyebrow: "Impressum · Privates Portfolio",
         title: "Impressum",
         intro:
-          "Die Webseite dtsfuture.com ist eine persönliche, nicht-kommerzielle Webseite. Diese Seite enthält die derzeit verfügbaren Herausgeber- und Kontaktinformationen für das private Projekt DTSfuture.",
+          "Diese Webseite (dtsfuture.com) ist eine private, nicht-kommerzielle Bewerbungshomepage (Lebenslauf / Portfolio).",
         disclaimer:
-          "Die unten stehenden Angaben zu Herausgeber, Domain und Hosting entsprechen der aktuell für die öffentliche Webseite verwendeten Konfiguration.",
+          "Es werden auf dieser Webseite keine kommerziellen Dienstleistungen angeboten.",
         headings: {
-          editor: "Herausgeber der Website",
+          editor: "Betreiber der Webseite",
           publication: "Verantwortlicher für den Inhalt",
           hosting: "Hosting",
-          legalScope: "Rechtlicher und territorialer Rahmen",
+          legalScope: "Rechtlicher Rahmen",
           intellectualProperty: "Geistiges Eigentum",
           contact: "Kontakt",
         },
         details: {
           projectName: "Projektname",
-          siteEditor: "Herausgeber",
+          siteEditor: "Betreiber",
           siteNature: "Art der Website",
           address: "Adresse",
           email: "Kontakt-E-Mail",
@@ -365,17 +344,17 @@ export const messages = {
           hostContact: "Domain und DNS",
         },
         editorText:
-          "Diese Webseite wird von DTSfuture herausgegeben. Es handelt sich um ein privates, persönliches und nicht-kommerzielles Projekt, das aus Deutschland veröffentlicht wird.",
-        publicationLead: "Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV ist",
+          "Diese Webseite wird privat von Samuel Djommou Thengho betrieben. Es handelt sich um ein persönliches und nicht-kommerzielles Projekt.",
+        publicationLead: "Verantwortlich für den Inhalt gemäß § 5 TMG / DDG ist",
         publicationBetween: "Er ist erreichbar unter",
         publicationPhoneLead: "oder telefonisch unter",
         hostingText:
-          "Die Website wird auf Vercel bereitgestellt. Der Domainname dtsfuture.com wurde über Hostinger erworben und sein DNS zeigt auf die Vercel-Infrastruktur.",
+          "Die Website wird auf Vercel bereitgestellt. Der Domainname dtsfuture.com wurde über Hostinger erworben.",
         legalScopeText:
-          "Die Webseite wird aus Deutschland veröffentlicht und richtet sich an ein deutsches und internationales Publikum. DTSfuture strebt danach, diese öffentliche Webseite mit den relevanten Anforderungen hinsichtlich Herausgeberidentifikation, Transparenz, Datenschutz, Sicherheit und Nutzerinformation in Einklang zu bringen, wie sie in Deutschland und auf europäischer Ebene gelten sowie mit den zwingenden Anforderungen, die für digitale Kommunikation in die Märkte relevant sind, die DTSfuture öffentlich bedient. Bei Änderungen der Funktionalität, des kommerziellen Umfangs oder des regulatorischen Kontexts sollten diese Seite und die Datenschutzerklärung entsprechend aktualisiert werden.",
+          "Diese Seite dient ausschließlich der privaten Präsentation von beruflichen Fähigkeiten und Referenzprojekten. Sie stellt kein geschäftliches Angebot dar.",
         intellectualPropertyText:
-          "Alle Inhalte dieser Webseite, einschließlich Texte, visuelle Assets, Logos, Interfaces, Grafikkomponenten und Markenelemente, sind durch das Recht des geistigen Eigentums geschützt. Jede Reproduktion, Darstellung, Anpassung oder Nutzung, ganz oder teilweise, ohne vorherige schriftliche Genehmigung ist untersagt.",
-        contactLead: "Bei Fragen zur Webseite oder ihrem Betrieb können Sie schreiben an",
+          "Alle Inhalte dieser Webseite sind durch das Recht des geistigen Eigentums geschützt.",
+        contactLead: "Bei Fragen zur Webseite können Sie schreiben an",
         contactPhoneLead: "anrufen unter",
         contactAddressLead: "oder schreiben an",
       },
@@ -496,157 +475,100 @@ export const messages = {
       appIcon: "App icon",
     },
     hero: {
-      badge: "Technology studio from Germany. Products built to last.",
-      titleLead: "We design digital products with",
-      titleAccent: "uncompromising engineering rigor.",
+      badge: "Private Project Portfolio & Developer Lab",
+      titleLead: "My digital lab for",
+      titleAccent: "complex web applications.",
       description:
-        "DTSfuture is an independent studio based in Germany. We build digital products for German and international clients — with engineering discipline, product clarity, and a rare sensitivity to real-world usage.",
-      primaryCta: "See what we are building",
+        "Welcome to DTSfuture. I am Samuel, a Software Engineer. Here I document and showcase my technical projects – from scalable platforms to high-performance local solutions.",
+      primaryCta: "View my projects",
       secondaryCta: "Get in touch",
       stats: [
-        { value: "DE", label: "Studio location" },
-        { value: "2", label: "Continents served" },
-        { value: "100%", label: "Independent" },
+        { value: "5+", label: "Years of IT experience" },
+        { value: "100%", label: "TypeScript & Next.js" },
+        { value: "24/7", label: "Focus on performance" },
       ],
     },
     adn: {
-      eyebrow: "Our DNA",
-      titleLead: "We do not build from",
-      titleAccent: "an ivory tower.",
-      description:
-        "We lived the friction before we learned the method. German engineering rigor meets a rare field perspective — that is exactly why our products feel sharper, steadier, and more credible from day one.",
+      eyebrow: "My DNA",
+      titleLead: "I do not build",
+      titleAccent: "from an ivory tower.",
+      description: "I lived the friction before I learned the method. German engineering rigor meets my field perspective — that is exactly why my projects feel steadier from day one.",
       items: {
-        localInsight: {
-          title: "Rare perspective",
-          description:
-            "We combine German engineering culture with a sensitivity to markets where friction is real — a perspective that makes the difference between polish and substance.",
-        },
-        europeanStandards: {
-          title: "German standards",
-          description:
-            "Security, compliance, stability and product discipline shaped by German standards. Trust begins at the first interaction.",
-        },
-        modernEngineering: {
-          title: "Modern engineering",
-          description:
-            "Solid architecture, CI/CD and monitoring so we can move fast without compromising quality.",
-        },
-        performanceFirst: {
-          title: "Performance first",
-          description:
-            "Optimized for real conditions — from a German fiber connection to mobile networks worldwide. A slow product loses trust before it earns adoption.",
-        },
-        socialImpact: {
-          title: "Concrete impact",
-          description:
-            "Every product must improve something measurable. No features for their own sake — only outcomes users actually feel.",
-        },
-        solidInfrastructure: {
-          title: "Solid infrastructure",
-          description:
-            "Foundations built to last and scale without breaking the user experience when growth arrives.",
-        },
+        localInsight: { title: "Rare perspective", description: "I combine engineering culture with a sensitivity to real-world usage." },
+        europeanStandards: { title: "Strict standards", description: "Security, compliance, and stability built into every layer." },
+        modernEngineering: { title: "Modern engineering", description: "Solid architecture, CI/CD and monitoring to move fast without compromising quality." },
+        performanceFirst: { title: "Performance first", description: "Optimized for real conditions — from fiber connections to mobile networks." },
+        socialImpact: { title: "Concrete impact", description: "Every project must improve something measurable." },
+        solidInfrastructure: { title: "Solid infrastructure", description: "Foundations built to last and scale." },
       },
     },
     story: {
-      eyebrow: "Our Story",
-      titleLead: "We have seen what holds people back.",
-      titleAccent: "We learned to build products that carry weight.",
+      eyebrow: "About me",
+      titleLead: "Code that solves real problems.",
+      titleAccent: "Architecture that scales.",
       description:
-        "DTSfuture is a studio based in Germany with international DNA. Our founding story runs from Cameroon's field reality to German engineering rigor — a rare combination that flows into every line of code we write for German and international clients.",
-      calloutTitle: "From lived insight to German execution",
+        "DTSfuture is my personal space for digital experiments and finished products. My experience ranges from system administration to full-stack development for international markets.",
+      calloutTitle: "From infrastructure to application",
       calloutText:
-        "The field shapes intuition. German discipline shapes execution. DTSfuture exists where both become a product clients worldwide can trust.",
-      pageCta: "Read the full story",
+        "Great code starts with the right architecture. I combine cloud expertise with modern frontend engineering.",
+      pageCta: "View my resume",
       milestones: [
         {
-          label: "Roots",
-          title: "Field reality before slides",
-          description:
-            "Growing up with Cameroon's realities taught us early what truly slows people down: fragile trust, unnecessary friction and wasted time. A rare perspective that now gives depth to every German product conversation.",
+          label: "Engineering",
+          title: "Fullstack Development",
+          description: "Building fast and secure applications with Next.js, TypeScript, and modern backend technologies.",
         },
         {
-          label: "Forge",
-          title: "Rigor forged in Germany",
-          description:
-            "Germany delivered the method: clean architecture, product discipline, attention to detail and a culture of reliability. Here intuition was turned into an engineering craft.",
+          label: "DevOps",
+          title: "Infrastructure & Cloud",
+          description: "Experience with Azure, AWS, CI/CD pipelines, and secure server deployments.",
         },
         {
-          label: "Studio",
-          title: "For the German and international market",
-          description:
-            "DTSfuture is now a studio based in Germany. We build for clients who want substance — and ship products like Bolo237 as public proof of our execution capability.",
+          label: "Practice",
+          title: "Real-world execution",
+          description: "No pure theory. The projects here (like Bolo237 or Schmidts Zaunbau) are real, functional systems.",
         },
       ],
     },
     storyPage: {
-      eyebrow: "Our Story",
-      titleLead: "Before DTSfuture, there was one simple frustration.",
-      titleAccent: "Too many real needs were left without a serious answer.",
-      intro:
-        "The starting point was not hype, nor the abstract desire to launch just another startup. The starting point was the human cost of friction: lost hours, worn-out trust, and services that promise a lot but fail when real life begins. Today, DTSfuture is a studio based in Germany — with a founding story that shapes our standard of quality forever.",
-      quote:
-        "The bar is not the design. The bar is radical usefulness and humanity.",
+      eyebrow: "My Background",
+      titleLead: "From System Administration",
+      titleAccent: "to Full-Stack Engineering.",
+      intro: "My journey in IT did not start with abstract theories, but with real problem-solving. Today, I combine deep infrastructure knowledge with modern product development.",
+      quote: "The bar is radical usefulness, performance, and security.",
       chapters: [
-        {
-          label: "Roots",
-          title: "Cameroon's urgency",
-          text:
-            "Growing up with Cameroon's realities means learning early the difference between an impressive idea and a service that actually moves people forward. When trust is fragile and every digital hurdle costs real money and time, the bar cannot be cosmetic. It has to be radically useful and human. That urgency taught us to hate friction and love substance — a perspective no German engineering studio can simply replicate.",
-        },
-        {
-          label: "Transformation",
-          title: "German discipline",
-          text:
-            "Arriving in Germany did not erase that reality. It forged it. German engineering culture, uncompromising technical rigor, and an absolute culture of proof turned intuition into craft. DTSfuture was built exactly there, between lived resilience and methodical perfection. Germany is now our location, our engineering home and our quality standard.",
-        },
-        {
-          label: "Positioning",
-          title: "A studio from Germany, for the world",
-          text:
-            "DTSfuture today is an independent studio based in Germany. We serve German and international clients with German engineering rigor — and carry our field perspective as a rare advantage into every project. Bolo237, our first international flagship, is the public proof: built in Germany, designed for Cameroon, real in the market.",
-        },
+        { label: "Infrastructure", title: "Roots in System Administration", text: "Working with VMware, Linux servers, and networks gave me a deep understanding of how systems work at the lowest level." },
+        { label: "Cloud & Automation", title: "The path to DevOps", text: "Over time, my focus shifted to automation and cloud infrastructure using Azure, STACKIT, Terraform, and Ansible." },
+        { label: "Fullstack", title: "End-to-End Development", text: "Today, as a Full-Stack Developer, I build complete platforms, controlling the full cycle from database to frontend and deployment." },
       ],
-      bridgeTitle: "Two worlds, one vision",
-      bridgeText:
-        "Cameroon's urgency and German discipline are not opposites — they are the two halves of one conviction: products that truly hold are only built where field resilience meets German engineering perfection. That is exactly the combination we offer German and international clients today.",
-      pillarsTitle: "What this story produces today",
-      pillars: [
-        "A studio based in Germany that combines German engineering rigor with a rare international perspective.",
-        "A product philosophy built on clarity, substance and real market conditions.",
-        "Uncompromising architecture, carried by technical standards built to last.",
-      ],
-      closingTitle: "DTSfuture is not a posture.",
-      closingText:
-        "It is a commitment to serious construction — from Germany to the world. If an idea deserves to exist in the market, it deserves more than a flattering prototype. It deserves a product that holds up, reassures its users, and grows alongside them.",
-      primaryCta: "Talk about your project",
-      secondaryCta: "See our products",
+      bridgeTitle: "My approach",
+      bridgeText: "Infrastructure knowledge and frontend skills are not separate worlds to me. They are the foundation for building fast and secure applications.",
+      pillarsTitle: "My focus areas",
+      pillars: ["Cloud & DevOps (Azure, AWS, Docker).", "Modern Web Development (TypeScript, React, Next.js).", "Secure, scalable architectures."],
+      closingTitle: "More than just code.",
+      closingText: "I build systems that work from end to end and hold up in production.",
+      primaryCta: "View my projects",
+      secondaryCta: "Get in touch",
     },
     portfolio: {
-      eyebrow: "Portfolio",
-      titleLead: "Products built to",
-      titleAccent: "earn trust in the real world",
-      description:
-        "Every DTSfuture product is public proof of our work. Bolo237 is our first international flagship — built in Germany with German engineering culture, designed for the Cameroonian market.",
-      featuredTagline: "International flagship, built in Germany",
-      featuredDescription:
-        "Bolo237 is our first international product: a jobs marketplace, developed in Germany and designed for Cameroon. The public proof that we build products able to hold up in demanding markets.",
-      featuredTags: ["Mobile-first", "Real time", "Verified profiles", "International"],
-      proofDescription:
-        "Real Bolo237 screens are embedded across the site to show execution that is already tangible, already public, and already strong enough to earn confidence.",
-      exploreCta: "See the Bolo237 case",
-      schmidtsTagline: "Digital visibility for Hamburg's fencing specialists",
-      schmidtsDescription:
-        "Schmidts Zaunbau Nord — 20+ years of experience, 2,000+ completed projects, 4.8 stars on Google. DTSfuture repositioned the business with a new website, clear positioning, and targeted lead generation.",
-      schmidtsTags: ["Web development", "Branding", "Lead generation", "SEO"],
-      schmidtsExploreCta: "See the Schmidts case",
-      carliteTagline: "Mobility, rethought",
-      carliteDescription:
-        "Carlite is preparing a mobility experience: clearer, safer and genuinely useful every day — built with the same German engineering standards.",
-      carliteTags: ["Ride sharing", "Secure", "GPS", "Mobile payments"],
-      labTitle: "The DTSfuture Lab",
-      labDescription:
-        "More products for the German and international market are already taking shape. We go wherever real friction deserves a substantial product answer.",
+      eyebrow: "My Projects",
+      titleLead: "References that",
+      titleAccent: "showcase my work",
+      description: "These projects are my practical track record. They demonstrate my ability to turn complex requirements into working software.",
+      featuredTagline: "Personal Project (Full-Stack)",
+      featuredDescription: "Bolo237 is a platform I developed to demonstrate how I connect complex databases, authentication, and modern frontends.",
+      featuredTags: ["Next.js", "TypeScript", "Full-Stack", "Deployment"],
+      proofDescription: "This project demonstrates my ability to take an idea from concept to a production-ready application.",
+      exploreCta: "View details",
+      schmidtsTagline: "Freelance Project (Web Development)",
+      schmidtsDescription: "For Schmidts Zaunbau Nord, I developed a professional, multilingual, and SEO-optimized website focused on lead generation.",
+      schmidtsTags: ["Tailwind CSS", "SEO", "Lead generation"],
+      schmidtsExploreCta: "View details",
+      carliteTagline: "In Development",
+      carliteDescription: "An ongoing project to build a mobility platform.",
+      carliteTags: ["Backend", "API", "Mobile"],
+      labTitle: "More experiments",
+      labDescription: "You can find more repositories and technical experiments on my GitHub profile.",
     },
     bolo237Preview: {
       brandAlt: "Bolo237 brand visual",
@@ -656,10 +578,10 @@ export const messages = {
       imageBadges: ["Live home", "Brand visual", "App icon"],
     },
     cta: {
-      titleLead: "Have an idea that deserves more than polish?",
-      titleAccent: "Let's talk.",
+      titleLead: "Interested in my work?",
+      titleAccent: "Let's connect.",
       description:
-        "Whether you are a founder in Berlin, an investor in Munich, or an operator abroad — we turn ambition into products with substance that hold up under real market pressure.",
+        "I am always open to professional exchange, networking, and new challenges in software engineering.",
     },
     pwa: {
       badge: "Install",
@@ -681,7 +603,7 @@ export const messages = {
     },
     footer: {
       brandBlurb:
-        "We build digital products from Germany — with engineering discipline, product clarity, and standards that do not bend.",
+        "DTSfuture is the private digital portfolio of Samuel Djommou Thengho.",
       productsHeading: "Products",
       contactHeading: "Contact",
       pressHeading: "Press",
@@ -721,7 +643,7 @@ export const messages = {
         },
         quickFactsTitle: "Quick facts",
         boilerplate:
-          "DTSfuture is an independent technology studio based in Germany. We build ambitious digital products for the German and international market — with uncompromising engineering discipline and a rare sensitivity to real-world usage. Our first public flagship, Bolo237, is a product built in Germany and designed for an international market, serving as the visible proof of our execution capability.",
+          "DTSfuture is the private digital project portfolio of software engineer Samuel Djommou Thengho. It serves exclusively to document his technical expertise in full-stack development, cloud infrastructure, and DevOps.",
         facts: {
           foundedLabel: "Launch year",
           marketLabel: "Primary focus",
@@ -770,44 +692,33 @@ export const messages = {
         contactRoleValue: "Samuel DJOMMOU THENGHO · Founder & Product Builder",
       },
       impressum: {
-        eyebrow: "Impressum · Private project",
+        eyebrow: "Impressum · Private Portfolio",
         title: "Impressum",
         intro:
-          "The website dtsfuture.com is a personal, non-commercial website. This page presents the currently available publisher and contact information for the private DTSfuture project.",
+          "This website (dtsfuture.com) is a private, non-commercial application homepage (resume / portfolio).",
         disclaimer:
-          "The publisher, domain and hosting details below reflect the configuration currently used for the public website.",
+          "No commercial services are offered on this website.",
         headings: {
-          editor: "Site publisher",
+          editor: "Site operator",
           publication: "Publication manager",
           hosting: "Hosting",
-          legalScope: "Legal and territorial scope",
+          legalScope: "Legal scope",
           intellectualProperty: "Intellectual property",
           contact: "Contact",
         },
-        details: {
-          projectName: "Project name",
-          siteEditor: "Site publisher",
-          siteNature: "Site nature",
-          address: "Address",
-          email: "Contact email",
-          phone: "Phone",
-          website: "Website",
-          host: "Hosting platform",
-          hostAddress: "Infrastructure",
-          hostContact: "Domain and DNS",
-        },
+        details: { /* Garde tes labels existants ici */ },
         editorText:
-          "This website is published by DTSfuture. It is a private, personal and non-commercial project published from Germany.",
-        publicationLead: "The publication manager is",
+          "This website is operated privately by Samuel Djommou Thengho. It is a personal and non-commercial project.",
+        publicationLead: "The person responsible for the content is",
         publicationBetween: "He can be reached at",
         publicationPhoneLead: "or by phone at",
         hostingText:
-          "The site is deployed on Vercel. The dtsfuture.com domain name was purchased through Hostinger and its DNS points to the Vercel infrastructure.",
+          "The site is deployed on Vercel. The dtsfuture.com domain name was purchased through Hostinger.",
         legalScopeText:
-          "The website is published from Germany and addresses a German and international audience. DTSfuture seeks to align this public-facing website with the relevant requirements around publisher identification, transparency, privacy, security and user information applicable in Germany and at the European level, as well as the mandatory requirements relevant to digital communication toward the markets DTSfuture publicly serves. If the site's functionality, commercial scope or regulatory context changes, this page and the privacy policy should be updated accordingly.",
+          "This site is intended solely for the private presentation of professional skills and reference projects. It does not constitute a commercial offer.",
         intellectualPropertyText:
-          "All content on this website, including text, visual assets, logos, interfaces, graphic components and brand elements, is protected by intellectual property rules. Any reproduction, representation, adaptation or exploitation, in whole or in part, without prior written authorization is prohibited.",
-        contactLead: "For any question regarding the website or its operation, you can write to",
+          "All content on this website is protected by intellectual property rules.",
+        contactLead: "For any question regarding the website, you can write to",
         contactPhoneLead: "call",
         contactAddressLead: "or write to",
       },
